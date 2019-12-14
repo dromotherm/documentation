@@ -1,0 +1,48 @@
+# This is your sidebar TOC. The sidebar code loops through sections here and provides the appropriate formatting.
+
+entries:
+- title: Themis
+  product: Themis
+  version: 1.0
+  folders:
+  - title: installation
+    output: web
+    folderitems:
+    
+    - title: scripted manner
+      url: /Themis_install.html
+      output: web
+      type: homepage
+      
+    - title: scripted manner variant
+      url: /Themis_scripted_variant.html
+      output: web
+      
+    - title: OLD - using the OEMSD image 30/10/2018
+      url: /Themis_OEMSDimg_30_10_2018.html
+      output: web
+      
+  - title: hardware
+    output: web
+    folderitems:
+    
+    - title: replacing RPI3 by a new RPI4
+      url: /Themis_with_RPI4.html
+      output: web
+
+    - title: measuring a fluid temperature
+      url: /Themis_fluid_T_mes.html
+      output: web
+    
+    - title: interfacing a window/door domotic sensor
+      url: /Themis_door_sensor.html
+      output: web    
+
+  - title: usecases
+    output: web
+    folderitems:
+
+    - title: full instrumentation of Cerema Clermont boiler room
+      url: /Themis_DLCF_boiler_room.html
+      output: web    
+      
