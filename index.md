@@ -21,3 +21,9 @@ toc: false
              </div>
          </div>
 </div>
+
+BOS
+: {{site.data.glossary.BOS}}
+
+PLC
+: {{site.data.glossary.PLC}}

@@ -5,8 +5,8 @@ search: exclude
 ---
 
 [
-{% for page in site.html_pages %}
-{% unless page.search == "exclude" %}
+{% assign allpages=site.html_pages | where:"search", "true" %}
+{% for page in allpages %}
 {
 "title": "{{ page.title | escape }}",
 "tags": "{{ page.tags }}",
@@ -14,12 +14,11 @@ search: exclude
 "url": "{{ page.url | remove: "/"}}",
 "summary": "{{page.summary | strip }}"
 }
-{% unless forloop.last and site.posts.size < 1 %},{% endunless %}
-{% endunless %}
+{% unless forloop.last %},{% endunless %}
 {% endfor %}
 
+{% if site.posts.size >= 1 %}
 {% for post in site.posts %}
-
 {
 "title": "{{ post.title | escape }}",
 "tags": "{{ post.tags }}",
@@ -29,5 +28,5 @@ search: exclude
 }
 {% unless forloop.last %},{% endunless %}
 {% endfor %}
-
+{% endif %}
 ]
