@@ -57,6 +57,7 @@ cd install
 ```
 
 ### option 1
+{% include important.html content="This is the preferred solution." %}
 ```
 rm emonsd.config.ini
 wget https://raw.githubusercontent.com/dromotherm/documentation/master/pages/themis/emonsd.config.ini
