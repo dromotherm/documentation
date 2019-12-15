@@ -11,7 +11,7 @@ Measuring indoor air quality without knowing whether windows are open or closed 
 A first test was done with the Sonoff DW1, a door intrusion sensor that can detect the opening status.
 The DW1 sensor is designed to send its radio payloads to a [Sonoff RF Bridge 433](https://www.itead.cc/wiki/Sonoff_RF_Bridge_433), which works as a Wifi/radio hub, embedding a lowcost ESP8285 microchip that can be easily reprogrammed. The 433 Mhz radio communication is managed by an 8 bit microcontroller EFM8BB10F8G from siliconlabs (associated to a SYN470R [superheterodyne receiver](https://en.wikipedia.org/wiki/Superheterodyne_receiver) from Synoxo). The interesting part is that the ESP8285 can communicate with the EFM8BB10 with a protocol described by Itead and called [RF universal transceiver module serial protocol](https://www.itead.cc/wiki/images/5/5e/RF_Universal_Transeceive_Module_Serial_Protocol_v1.0.pdf)
 
-![dw1](assets/dw1.png)
+![dw1](dw1.png)
 
 Some github projects focused on developping opensource firmwares for the Sonoff RF Bridge 533, such as [openMQTTgateway](https://github.com/1technophile/OpenMQTTGateway) and [espurna](https://github.com/xoseperez/espurna)
 
@@ -21,11 +21,11 @@ With minimal effort, it is possible to use the sonoff DW1 in Themis or Emoncms
 
 ## soldering pin header to connect a UART2USB programming cable
 before soldering<br> 
-![before soldering](assets/before_soldering_small.png)
+![before soldering](before_soldering_small.png)
 <br>after soldering<br>
-![after soldering](assets/after_soldering.jpg)
+![after soldering](after_soldering.jpg)
 <br>bottom view after soldering<br>
-![after soldering bottom view](assets/after_soldering_bottom_view_small.png)
+![after soldering bottom view](after_soldering_bottom_view_small.png)
 
 ## backup the stock/factory firmware on the Sonoff RF bridge
 This part will use the esptool which you can install easily
@@ -44,7 +44,7 @@ Before using esptool in cli you will need to connect the bridge to your computer
 
 4) And power the device either via the microUSB port or via the 3V3 pin on the same programming header
 
-![connection to a UART2USB cable](assets/flashing.png)
+![connection to a UART2USB cable](flashing.png)
 <br>wire color codes are red : 3V, black : ground, yellow : RX, orange : TX from the bridge
 
 You can get the firmware size with the command `esptool flash_id`  
@@ -151,13 +151,13 @@ sudo apt-get install mosquitto-clients
 
 You should now see the sensor in emoncms :
 
-![input_controller](assets/emoncms_input_controller.png)
+![input_controller](emoncms_input_controller.png)
 
 And be able to start a log to feed process in a variable interval timeseries (PHPimeSeries) :
 
-![log_to_feed](assets/log_to_feed_as_PHPtimeseries.png)
+![log_to_feed](log_to_feed_as_PHPtimeseries.png)
 
-![graph](assets/monitoring_example.png)
+![graph](monitoring_example.png)
 
 Window openings appear in green, interior temperature measurements in red/orange and exterior temperature in blue
 

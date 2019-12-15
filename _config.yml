@@ -1,9 +1,9 @@
-repository: alexandrecuer/documentation
+repository: dromotherm/documentation
 
 output: web
 # this property is useful for conditional filtering of content that is separate from the PDF.
 
-topnav_title: Dromotherm SAS / technical documentation 
+topnav_title: Dromotherm SAS technical platform 
 # this appears on the top navigation bar next to the home button
 
 site_title: technical documentation for Dromotherm SAS products
@@ -12,7 +12,7 @@ site_title: technical documentation for Dromotherm SAS products
 company_name: Dromotherm
 # this appears in the footer
 
-github_editme_path: alexandrecuer/documentation/
+github_editme_path: dromotherm/documentation/tree/master/
 # if you're using Github, provide the basepath to the branch you've created for reviews, following the sample here. if not, leave this value blank.
 
 # gitlab_editme_path: tomjoht/documentation-theme-jekyll/blob/gh-pages/
@@ -102,12 +102,7 @@ defaults:
 # these are defaults used for the frontmatter for these file types
 
 sidebars:
-- home_sidebar
-- mydoc_sidebar
-- product1_sidebar
-- product2_sidebar
 - themis_sidebar
-- other
 
 description: "Intended as a documentation theme based on Jekyll for technical writers documenting software and other technical products, this theme has all the elements you would need to handle multiple products with both multi-level sidebar navigation, tags, and other documentation features."
 # the description is used in the feed.xml file
