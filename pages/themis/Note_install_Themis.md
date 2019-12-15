@@ -59,7 +59,7 @@ cd install
 ### option 1
 ```
 rm emonsd.config.ini
-wget https://raw.githubusercontent.com/alexandrecuer/smartgrid/master/Themis/emonsd.config.ini
+wget https://raw.githubusercontent.com/dromotherm/documentation/master/pages/themis/emonsd.config.ini
 ```
 
 ### option 2
