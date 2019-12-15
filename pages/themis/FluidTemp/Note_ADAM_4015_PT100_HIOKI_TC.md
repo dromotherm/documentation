@@ -98,7 +98,7 @@ CEI 584-3
 
 Using the HIOKI 8402-20 datalogger with a universal analog input unit LR8501
 
-https://www.hioki.com/en/products/detail/?product_key=5613
+[Hioki 8402 product page](https://www.hioki.com/en/products/detail/?product_key=5613)
 
 ![HIOKI_full_view](HIOKI8402.jpg)
 
