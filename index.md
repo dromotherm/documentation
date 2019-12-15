@@ -1,5 +1,5 @@
 ---
-title: "Products distributed under the Dromotherm banner"
+title: "Products"
 sidebar: themis_sidebar
 permalink: index.html
 toc: false
