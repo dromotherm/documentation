@@ -26,6 +26,10 @@ entries:
     output: web
     folderitems:
     
+    - title: wireless measurement of ambiant temperature and humidity using 169 Mhz sensors
+      url: /TRH_recording.html
+      output: web
+    
     - title: replacing RPI3 by a new RPI4
       url: /Themis_with_RPI4.html
       output: web
@@ -36,7 +40,7 @@ entries:
     
     - title: interfacing a window/door domotic sensor
       url: /Themis_door_sensor.html
-      output: web    
+      output: web
 
   - title: usecases
     output: web
