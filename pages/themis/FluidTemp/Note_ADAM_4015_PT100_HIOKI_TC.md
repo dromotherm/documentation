@@ -134,3 +134,5 @@ node configuration
        channels = 1,1,1
        voice = 1,2,3
 ```
+
+There is not datacode to fix : the HIOKI is streaming ASCII and the decoding is integrated to the interfacer
