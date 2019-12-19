@@ -121,6 +121,7 @@ use the specific Hioki socket interfacer for emonhub :
     [[[runtimesettings]]]
            pubchannels = ToEmonCMS,
            nodeId = 1
+           # interrogation interval in seconds 
            interval = 10
 ```
 

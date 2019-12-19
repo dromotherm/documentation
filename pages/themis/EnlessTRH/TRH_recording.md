@@ -9,6 +9,8 @@ For ambiant temperature and humidity measurement, Themis uses the Enless 169 Mhz
 They embed a [SHT21](https://www.sensirion.com/en/environmental-sensors/humidity-sensors/humidity-temperature-sensor-sht2x-digital-i2c-accurate/)
 manufactured by [Sensirion](https://www.sensirion.com/en/)
 
+![Enless TRH circuit](enless_TRH_circuit_small.jpg)
+
 [SHT21 datasheet](Sensirion_Humidity_Sensors_SHT21_Datasheet.pdf)
 
 The Enless toolkit consists of a set of temperature and humidity transmitters plus a receiver
@@ -25,16 +27,18 @@ At this stage, you do not need to have the hardware connected to the computer on
 
 ![building the ecosystem](building_the_ecosystem.png)
 
+![AIR.png](AIR.png)
+
 Save the csv file (smart if you need to change the periodicity in the future)
 
-![AIR.png](AIR.png)
+[example](ThemisStrasbourg.csv)
 
 ## Pairing process
 
-### transmitters installation
+### Phase 1 : transmitters installation
 
 On the receiver, position the switches as follow :
-- DIP1 : 1,2,3,4 OFF 5,6 ON
+- DIP1 : 1,2,3,4 OFF **5,6 ON**
 - DIP2 : 1,2,3 OFF
     
 Power the receiver with a 12V alimentation
@@ -57,17 +61,94 @@ Power one by one each transmitter
 
 On each transmitter, L1 should blink in red during communication with receiver
 
-{% include tip.html content="in case of success, L1,L2 and L3 should remain lit or only L2 and L3 if radio communication quality is poor" %}
+{% include tip.html content="in case of success, L1,L2 and L3 should remain lit or only L2 and L3 if radio communication quality is poor." %}
 
 {% include warning.html content="in case of failure, L2 and L3 blink during a lap of time" %}
 
+{% include note.html content="These indicators are also valid when you deploy the transmitters in the field for exploitation with Themis" %}
+
 Stop the installation
 
-### receiver installation
+The sensors should now appear as activated
+
+### Phase 2 : receiver installation and pairing with transmitters
 
 Unplug and poweroff the receiver
 
 On the receiver, position the switches as follow :
-- DIP1 : 1,2,3,4 OFF 5,6 ON
-- DIP2 : 1,3 OFF 2 ON
+- DIP1 : 1,2,3,4 OFF **5,6 ON**
+- DIP2 : 1,3 OFF **2 ON**
 
+Power the receiver with a 12V alimentation
+
+Plug the receiver to the computer via USB
+
+Connect to the receiver
+
+Start the installation
+
+```
+bla bla
+```
+Stop the installation
+
+The receiver should now appear as activated
+
+### Phase 3 : switching the receiver in RS485 exploitation mode
+
+Unplug and poweroff the receiver
+
+On the receiver, position the switches as follow :
+- DIP1 : 1,2,5,6 OFF **3,4 ON**
+- DIP2 : 1,2 OFF **3 ON**
+
+### DIP position summary
+
+![DIPS summary](DIPs.svg)
+
+## Physical connexions
+
+![connexions](physical_connexions.jpg)
+
+## Emonhub configuration
+
+```
+[interfacers]
+[[ModbusTCP]]
+    Type = EmonModbusTcpInterfacer2
+    [[[init_settings]]]
+        modbus_IP = 192.168.1.1 # ip address of client to retrieve data from
+        modbus_port = 503 # Portclient listens on
+        fCode = 3 # optional if using function code 3 (read holding registers) - with fCode = 4, the interfacer will read input registers
+    [[[runtimesettings]]]
+        nodeIds = 13,14
+        pubchannels = ToEmonCMS,
+        # time in seconds between checks, This is in addition to emonhub_interfacer.run() sleep time of .01
+        interval = 60
+```
+
+node configuration
+
+```
+[[13]]
+    nodename = TRH12220020
+    [[[rx]]]
+       names = SlaveType,Timer,RSSI,serHigh,serLow,temp,hum
+       registers = 31048,31049,31050,31051,31052,31053,31054
+       datacode = H
+       scales = 1,1,0.5,1,1,0.1,0.1
+
+[[14]]
+    nodename = CO218251004
+    [[[rx]]]
+        names = SlaveType,Timer,RSSI,serHigh,serLow,co2,temp,hum
+        registers = 31092,31093,31094,31095,31096,31097,31098,31099
+        datacode = H
+        scales = 1,1,0.5,1,1,1,0.1,0.1
+```
+
+Please note :
+- register values are 1 more than the values indicated in the Enless datasheet.
+Some manufacturers practice an addition of 1, others not like Enless and it is difficult to make a common rule
+- RSSI is divided by 2
+- Enless is using function code 3
