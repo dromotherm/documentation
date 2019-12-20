@@ -106,6 +106,15 @@ On the receiver, position the switches as follow :
 
 ![DIPS summary](DIPs.svg)
 
+## Routeur configuration
+
+Tested with [Smarflex SR303](https://www.advantech.com/products/06b15852-9a2d-423e-97ec-d90bd82a5bee/bb-sr30310321/mod_59eeda28-54d1-482c-8d5d-b3c450694242) 
+and [ICR3200](https://www.advantech.com/products/7e21d2de-630c-4925-a51c-f41c18642d72/icr-3231/mod_697d4d3b-6001-4b99-9076-e67558296542) from [Advantech](https://www.advantech.com/)
+
+{% include note.html content="A specific library has to be injected in the routeur. [library download](tcp2rtu_library_for_smartflex.zip) " %}
+
+
+
 ## Physical connexions
 
 ![connexions](physical_connexions.jpg)
