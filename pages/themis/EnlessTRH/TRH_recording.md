@@ -121,7 +121,7 @@ On the receiver, position the switches as follow :
         modbus_port = 503 # Portclient listens on
         fCode = 3 # optional if using function code 3 (read holding registers) - with fCode = 4, the interfacer will read input registers
     [[[runtimesettings]]]
-        nodeIds = 13,14
+        nodeIds = 23,24
         pubchannels = ToEmonCMS,
         # time in seconds between checks, This is in addition to emonhub_interfacer.run() sleep time of .01
         interval = 60
@@ -130,7 +130,7 @@ On the receiver, position the switches as follow :
 node configuration
 
 ```
-[[13]]
+[[23]]
     nodename = TRH12220020
     [[[rx]]]
        names = SlaveType,Timer,RSSI,serHigh,serLow,temp,hum
@@ -138,7 +138,7 @@ node configuration
        datacode = H
        scales = 1,1,0.5,1,1,0.1,0.1
 
-[[14]]
+[[24]]
     nodename = CO218251004
     [[[rx]]]
         names = SlaveType,Timer,RSSI,serHigh,serLow,co2,temp,hum
@@ -152,3 +152,4 @@ Please note :
 Some manufacturers practice an addition of 1, others not like Enless and it is difficult to make a common rule
 - RSSI is divided by 2
 - Enless is using function code 3
+- For nodes, define numbers over 20 so you can use the standard emonhub configuration for electricity monitoring without modifcation
