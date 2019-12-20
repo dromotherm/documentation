@@ -61,7 +61,9 @@ Power one by one each transmitter
 
 On each transmitter, L1 should blink in red during communication with receiver
 
-{% include tip.html content="in case of success, L1,L2 and L3 should remain lit or only L2 and L3 if radio communication quality is poor." %}
+{% include tip.html content="in case of success, L1 ans L2 remain lit for 1 minute if radio quality is good" %}
+
+{% incluse tip.html content="L1, L2 and L3 remain lit for 1 minute if radio communication quality is poor." %}
 
 {% include warning.html content="in case of failure, L2 and L3 blink during a lap of time" %}
 
