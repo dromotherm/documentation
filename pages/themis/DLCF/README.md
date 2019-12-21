@@ -8,6 +8,8 @@ permalink: Themis_DLCF_boiler_room.html
 
 ![Ecosystem map](ecosysteme_DLCF_boiler_room.jpg)
 
+The boiler room is organized around three deprecated 
+total hub boilers not insulated but fully working.
 
 ## Anybus AB7007
 https://www.anybus.com/fr/support/file-doc-downloads/communicator-specific/?ordercode=AB7007
