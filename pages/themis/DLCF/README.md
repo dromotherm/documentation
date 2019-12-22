@@ -40,8 +40,11 @@ Themis is basically a TCPIP network organized around a nanocomputer and using a 
 
 {% include note.html content="A python modbus TCP interfacer is available within Themis to query a Modbus TCP hardware such as the sofrel PLC." %}
 
-At the end of 2016, a Davis vantage weather station was connected to the Sofrel, as the temperature sensors associated with the Sauter controllers seemed overly optimistic during intense cold spells. The Davis vantage being a 868Mhz radio device streaming to a modbus RTU receiver, the connection was achieved using an Anybus AB7007 RTU to TCP converter, and the Davis vantage was defined as a slave device (or external PLC) within the Sofrel.
+At the end of 2017, a Davis vantage weather station was connected to the Sofrel, as the temperature sensors associated with the Sauter controllers seemed overly optimistic during intense cold spells. The Davis vantage being a 868Mhz radio device streaming to a modbus RTU receiver, the connection was achieved using an Anybus AB7007 RTU to TCP converter, and the Davis vantage was defined as a slave device (or external PLC) within the Sofrel.
 
+At that time, the Themis project was still very young and had not yet adopted the 169 mhz Enless sensors to measure outdoor and indoor temperatures.
+
+In retrospect, it would have been simpler and cheaper to install a single sensor than a complete weather station.
 
 ## Anybus AB7007
 https://www.anybus.com/fr/support/file-doc-downloads/communicator-specific/?ordercode=AB7007
