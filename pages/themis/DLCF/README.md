@@ -9,7 +9,10 @@ permalink: Themis_DLCF_boiler_room.html
 ![Ecosystem map](ecosysteme_DLCF_boiler_room.jpg)
 
 The boiler room is organized around three deprecated 
-total hub boilers not insulated but fully working.
+TOTALHUB boilers not insulated but fully working.
+
+The room supplies 6 hot water circuits, each using a a 3-way valve and a pump for regulation.
+
 Around 2005, a Sofrel s500 PLC had been installed as a modbus master for the 3 Sauter EQJ controllers, each one managing 2 hot water circuits. 
 The Sofrel is powerful enough to also regulate the production within the primary collector, via a software cascade.
 In order to achieve this, the boilers have recently been equipped with new modulating burners that can be controlled by a 0/10V analog signal.
