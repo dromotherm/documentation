@@ -44,7 +44,7 @@ At the end of 2017, a Davis vantage weather station was connected to the Sofrel,
 
 At that time, the Themis project was still very young and had not yet adopted the 169 mhz Enless sensors to measure outdoor and indoor temperatures.
 
-In retrospect, it would have been simpler and cheaper to install a single sensor than a complete weather station.
+In retrospect, it would have been easiest and cheaper to install a single sensor than a complete weather station.
 
 ## Anybus AB7007
 https://www.anybus.com/fr/support/file-doc-downloads/communicator-specific/?ordercode=AB7007
