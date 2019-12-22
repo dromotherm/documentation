@@ -8,16 +8,19 @@ permalink: Themis_DLCF_boiler_room.html
 
 ![Ecosystem map](ecosysteme_DLCF_boiler_room.jpg)
 
-The boiler room is organized around three deprecated 
-TOTALHUB boilers not insulated but fully working.
+## History and organisation
+
+The boiler room is organized around three deprecated TOTALHUB boilers not insulated but fully working.
 
 The room supplies 6 hot water circuits, each using a a 3-way valve and a pump for regulation.
 
-Around 2005, a Sofrel s500 PLC had been installed as a modbus master for the 3 Sauter EQJ controllers, each one managing 2 hot water circuits. 
+The building supplied by this boiler room dates from the 1970/80s, with no insulation, a large number of metal doors and a roof seal to be reworked. The refurbishment of the boiler room is therefore far from being a priority.
+
+Around 2005, a Sofrel s500 PLC had been installed as a modbus master for the 3 Sauter EQJ controllers, each one managing 2 hot water circuits.
 
 PLC : {{site.data.glossary.PLC}}
 
-The Sofrel is powerful enough to also regulate the production within the primary collector, via a software cascade.
+The Sofrel is powerful enough to also regulate the hot water production within the primary collector, via a software cascade.
 In order to achieve this, the boilers have recently been equipped with new modulating burners that can be controlled by a 0/10V analog signal.
 
 Traditionnaly, the water temperature in each circuit is defined by the Sauter controllers using a linear function of the outdoor temperature, measured by wired sensors.
@@ -31,13 +34,13 @@ All temperature are expressed in °C.
 
 {% include note.html content="during the off-season, the flow temperature for the cell circuit, with an outside temperature of 20°C, can be raised from 30 to 40°C. The confort in the building will be improved." %}
 
-At the end of 2016, a Davis vantage weather station was connected to the Sofrel, as the temperature sensors associated with the Sauter controllers seemed overly optimistic during intense cold spells.
-
 Even though there is a specific software named Softools to control the PLC, it can be easily queried and configured in TCPIP, via its ethernet port, using the modbus TCP mode. The Softools software is only necessary to program the device from scratch, and once programming is done, you can network it freely, which is essential for interoperability. This is valid with all modbus TCP hardware.
 
 Themis is basically a TCPIP network organized around a nanocomputer and using a 4G router for remote maintenance. The routeur has got a full DHCP server managing all connected TCPIP devices. It is therefore very easy to interface a Sofrel PLC to Themis.
 
 {% include note.html content="A python modbus TCP interfacer is available within Themis to query a Modbus TCP hardware such as the sofrel PLC." %}
+
+At the end of 2016, a Davis vantage weather station was connected to the Sofrel, as the temperature sensors associated with the Sauter controllers seemed overly optimistic during intense cold spells. The Davis vantage being a 868Mhz radio device streaming to a modbus RTU receiver, the connection was achieved using an Anybus AB7007 RTU to TCP converter, and the Davis vantage was defined as a slave device (or external PLC) within the Sofrel.
 
 
 ## Anybus AB7007
