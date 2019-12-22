@@ -22,9 +22,9 @@ PLC : {{site.data.glossary.PLC}}
 
 The Sofrel is powerful enough to also regulate the hot water production within the primary collector, via a software cascade.
 In order to achieve this, at the beginning of 2018, new modulating burners were installed on the boilers, that can be controlled by a 0/10V analog signal. 
-With a new PID onboard on the Sofrel, the production was really improved, the global energy efficiency of the boiler room being enhanced.
-2018 was the first year in which we actually saved kwh. 
-Anyway, the functioning of the circuits is far from optimal and it is still very hard to heat the building properly...
+With a new PID onboard, the Sofrel was now able to supervise the production of hot water, the global energy efficiency of the boiler room being really enhanced.
+2018 was the first year in which we actually saved Kwh. It was a great improvment for us.
+Anyway, the functioning of the circuits was far from optimal and it is still very hard to heat the building properly...
 
 Traditionnaly, the water temperature in each circuit is defined by the Sauter controllers using a linear function of the outdoor temperature, measured by wired sensors.
 
