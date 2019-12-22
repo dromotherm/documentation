@@ -10,9 +10,9 @@ permalink: Themis_DLCF_boiler_room.html
 
 The boiler room is organized around three deprecated 
 total hub boilers not insulated but fully working.
-A Sofrel s500 PLC had been installed to control the 3 Sauter controllers, each one managing 2 hot water circuits. 
+A Sofrel s500 PLC had been installed as a modbus master for the 3 Sauter EQJ controllers, each one managing 2 hot water circuits. 
 The Sofrel is powerful enough to also regulate the production within the primary collector, via a software cascade.
-To do this, the boilers have recently been equipped with new modulating burners that can be controlled by a 0/10V analog set point.
+In order to achieve this, the boilers have recently been equipped with new modulating burners that can be controlled by a 0/10V analog set point.
 
 ## Anybus AB7007
 https://www.anybus.com/fr/support/file-doc-downloads/communicator-specific/?ordercode=AB7007
