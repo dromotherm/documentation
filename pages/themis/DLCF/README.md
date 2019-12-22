@@ -33,6 +33,13 @@ All temperature are expressed in °C.
 
 At the end of 2016, a Davis vantage weather station was connected to the Sofrel, as the temperature sensors associated with the Sauter controllers seemed overly optimistic during intense cold spells.
 
+Even though there is a specific software named Softools to control the PLC, it can be easily queried and configured in TCPIP, via its ethernet port, using the modbus TCP mode. The Softools software is only necessary to program the device from scratch, and once programming is done, you can network it freely, which is essential for interoperability. This is valid with all modbus TCP hardware.
+
+Themis is basically a TCPIP network organized around a nanocomputer and using a 4G router for remote maintenance. The routeur has got a full DHCP server managing all connected TCPIP devices. It is therefore very easy to interface a Sofrel PLC to Themis.
+
+{% include note.html content="A python modbus TCP interfacer is available within Themis to query a Modbus TCP hardware such as the sofrel PLC." %}
+
+
 ## Anybus AB7007
 https://www.anybus.com/fr/support/file-doc-downloads/communicator-specific/?ordercode=AB7007
 
