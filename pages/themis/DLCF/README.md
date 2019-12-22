@@ -14,7 +14,7 @@ Around 2005, a Sofrel s500 PLC had been installed as a modbus master for the 3 S
 The Sofrel is powerful enough to also regulate the production within the primary collector, via a software cascade.
 In order to achieve this, the boilers have recently been equipped with new modulating burners that can be controlled by a 0/10V analog signal.
 
-Sauter EQJ controllers control the circuits based on the basis of a water law depending on the outside temperature measured by wired sensors. 
+Traditionnaly, the water temperature in each circuit is defined by the Sauter controllers on the basis of a linear function of the outdoor temperature, measured by wired sensors.
 At the end of 2016, a Davis vantage weather station was connected to the Sofrel, as the temperature sensors associated with the Sauter controllers seemed overly optimistic during intense cold spells.
 
 ## Anybus AB7007
