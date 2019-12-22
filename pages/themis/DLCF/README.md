@@ -14,10 +14,23 @@ TOTALHUB boilers not insulated but fully working.
 The room supplies 6 hot water circuits, each using a a 3-way valve and a pump for regulation.
 
 Around 2005, a Sofrel s500 PLC had been installed as a modbus master for the 3 Sauter EQJ controllers, each one managing 2 hot water circuits. 
+
+PLC : {{site.data.glossary.PLC}}
+
 The Sofrel is powerful enough to also regulate the production within the primary collector, via a software cascade.
 In order to achieve this, the boilers have recently been equipped with new modulating burners that can be controlled by a 0/10V analog signal.
 
 Traditionnaly, the water temperature in each circuit is defined by the Sauter controllers using a linear function of the outdoor temperature, measured by wired sensors.
+
+Ext T	|Start Tcell|	Start Tnord	|Start Tsud|	Start Tsshall|Start Test|Start Touest
+--|--|--|--|--|--|--
+20|30|20|20|20|20|20					
+-10|85|75|67|55|70|67
+
+All temperature are expressed in °C.
+
+{% note.html content="during the off-season, the flow temperature for the cell circuit, with an outside temperature of 20°C, can be raised from 30 to 40°C" %>
+
 At the end of 2016, a Davis vantage weather station was connected to the Sofrel, as the temperature sensors associated with the Sauter controllers seemed overly optimistic during intense cold spells.
 
 ## Anybus AB7007
