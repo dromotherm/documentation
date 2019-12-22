@@ -20,6 +20,16 @@ Around 2005, a Sofrel s500 PLC had been installed as a modbus master for the 3 S
 
 PLC : {{site.data.glossary.PLC}}
 
+Even though there is a specific software named Softools to control the PLC, it can be easily queried and configured in TCPIP, via its ethernet port, using the modbus TCP mode. 
+The Softools software is only necessary to program the device from scratch, and once programming is done, you can network it freely, which is essential for interoperability. 
+This is valid with all modbus TCP hardware.
+
+During the year 2017, a Davis vantage weather station was connected to the Sofrel, as the temperature sensors associated with the Sauter controllers seemed overly optimistic during intense cold spells. The Davis vantage being a 868Mhz radio device streaming to a modbus RTU receiver, the connection was achieved using an Anybus AB7007 RTU to TCP converter, and the Davis vantage was defined as a slave device (or external PLC) within the Sofrel.
+
+At that time, the Themis project was still very young and had not yet adopted the 169 mhz Enless sensors to measure outdoor and indoor temperatures.
+
+In retrospect, it would have been easiest and cheaper to install a single sensor than a complete weather station.
+
 The Sofrel is powerful enough to also regulate the hot water production within the primary collector, via a software cascade.
 In order to achieve this, at the beginning of 2018, new modulating burners were installed on the boilers, that can be controlled by a 0/10V analog signal. 
 With a new PID onboard, the Sofrel was now able to supervise the production of hot water, the global energy efficiency of the boiler room being really enhanced.
@@ -37,17 +47,9 @@ All temperature are expressed in °C.
 
 {% include note.html content="during the off-season, the flow temperature for the cell circuit, with an outside temperature of 20°C, can be raised from 30 to 40°C. The confort in the building will be improved." %}
 
-Even though there is a specific software named Softools to control the PLC, it can be easily queried and configured in TCPIP, via its ethernet port, using the modbus TCP mode. The Softools software is only necessary to program the device from scratch, and once programming is done, you can network it freely, which is essential for interoperability. This is valid with all modbus TCP hardware.
-
 Themis is basically a TCPIP network organized around a nanocomputer and using a 4G router for remote maintenance. The routeur has got a full DHCP server managing all connected TCPIP devices. It is therefore very easy to interface a Sofrel PLC to Themis.
 
 {% include note.html content="A python modbus TCP interfacer is available within Themis to query a Modbus TCP hardware such as the sofrel PLC." %}
-
-At the end of 2017, a Davis vantage weather station was connected to the Sofrel, as the temperature sensors associated with the Sauter controllers seemed overly optimistic during intense cold spells. The Davis vantage being a 868Mhz radio device streaming to a modbus RTU receiver, the connection was achieved using an Anybus AB7007 RTU to TCP converter, and the Davis vantage was defined as a slave device (or external PLC) within the Sofrel.
-
-At that time, the Themis project was still very young and had not yet adopted the 169 mhz Enless sensors to measure outdoor and indoor temperatures.
-
-In retrospect, it would have been easiest and cheaper to install a single sensor than a complete weather station.
 
 ## Anybus AB7007
 https://www.anybus.com/fr/support/file-doc-downloads/communicator-specific/?ordercode=AB7007
