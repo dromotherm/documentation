@@ -62,12 +62,68 @@
      id="layer1"
      transform="translate(0,-87)">
     <rect
-       style="opacity:1;fill:#000000;fill-opacity:0.1682243;fill-rule:nonzero;stroke:none;stroke-width:1.16839993;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       style="opacity:1;fill:#000000;fill-opacity:0.81775668;fill-rule:nonzero;stroke:none;stroke-width:0.07135267;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       id="rect2034-6-9"
+       width="13.758322"
+       height="14.816668"
+       x="181.50403"
+       y="157.03543" />
+    <rect
+       style="opacity:1;fill:#000000;fill-opacity:0.81775668;fill-rule:nonzero;stroke:none;stroke-width:0.07135267;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       id="rect2034-6-8"
+       width="13.758322"
+       height="14.816668"
+       x="97.631271"
+       y="156.50626" />
+    <rect
+       style="opacity:1;fill:#000000;fill-opacity:0.81775668;fill-rule:nonzero;stroke:none;stroke-width:0.07135267;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       id="rect2034-6-2"
+       width="13.758322"
+       height="14.816668"
+       x="13.758335"
+       y="155.18332" />
+    <rect
+       style="opacity:1;fill:#000000;fill-opacity:0.81775668;fill-rule:nonzero;stroke:none;stroke-width:0.07135267;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       id="rect2034-6-67"
+       width="13.758322"
+       height="14.816668"
+       x="219.60419"
+       y="236.67468" />
+    <rect
+       style="opacity:1;fill:#000000;fill-opacity:0.81775668;fill-rule:nonzero;stroke:none;stroke-width:0.07135267;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       id="rect2034-6-13"
+       width="13.758322"
+       height="14.816668"
+       x="179.12291"
+       y="236.41023" />
+    <rect
+       style="opacity:1;fill:#000000;fill-opacity:0.81775668;fill-rule:nonzero;stroke:none;stroke-width:0.07135267;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       id="rect2034-6-6"
+       width="13.758322"
+       height="14.816668"
+       x="139.96443"
+       y="236.14584" />
+    <rect
+       style="opacity:1;fill:#000000;fill-opacity:0.81775668;fill-rule:nonzero;stroke:none;stroke-width:0.07135267;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       id="rect2034-6-1"
+       width="13.758322"
+       height="14.816668"
+       x="97.155441"
+       y="236.21034" />
+    <rect
+       style="opacity:1;fill:#000000;fill-opacity:0.81775668;fill-rule:nonzero;stroke:none;stroke-width:0.07135267;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       id="rect2034-6"
+       width="13.758322"
+       height="14.816668"
+       x="54.124527"
+       y="236.52936" />
+    <rect
+       style="opacity:1;fill:#000000;fill-opacity:0.81775698;fill-rule:nonzero;stroke:none;stroke-width:0.07135267;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
        id="rect2034"
-       width="284.95624"
-       height="191.82292"
-       x="6.8791666"
-       y="93.006256" />
+       width="13.758322"
+       height="14.816668"
+       x="16.404167"
+       y="244.6125" />
     <path
        id="path818"
        d="m 18.489998,159.31956 v -9.73113 h -2.189739 l 4.388452,-3.23764 4.388451,3.23764 h -2.198713 v 9.73113 z"
@@ -657,13 +713,13 @@
     <text
        id="text1060"
        y="160.21487"
-       x="27.683739"
+       x="28.749134"
        style="font-style:normal;font-variant:normal;font-weight:400;font-size:3.81813526px;line-height:110.73511839%;font-family:'Liberation Serif';text-align:start;letter-spacing:0px;word-spacing:0px;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.23956926"
        xml:space="preserve"
-       transform="scale(0.99337142,1.0066728)"><tspan
+       transform="scale(0.99337143,1.0066728)"><tspan
          id="tspan1054"
          y="160.21487"
-         x="27.683739"
+         x="28.749134"
          sodipodi:role="line"
          style="stroke-width:0.23956926"><tspan
            id="tspan1052"
@@ -672,7 +728,7 @@
            dx="0">Vanne 2 voies</tspan></tspan><tspan
          id="tspan1058"
          y="164.44289"
-         x="27.683739"
+         x="28.749134"
          sodipodi:role="line"
          style="stroke-width:0.23956926"><tspan
            id="tspan1056"
