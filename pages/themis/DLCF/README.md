@@ -26,6 +26,8 @@ Even though there is a specific software named Softools to control the PLC, it c
 The Softools software is only necessary to program the device from scratch, and once programming is done, you can network it freely, which is essential for interoperability. 
 This is valid with all modbus TCP hardware.
 
+### Production optimization
+
 During the year 2017, a Davis vantage weather station was connected to the Sofrel, as the temperature sensors associated with the Sauter controllers seemed overly optimistic during intense cold spells. The Davis vantage being a 868Mhz radio device streaming to a modbus RTU receiver, the connection was achieved using an Anybus AB7007 RTU to TCP converter, and the Davis vantage was defined as a slave device (or external PLC) within the Sofrel.
 
 At that time, the Themis project was still very young and had not yet adopted the 169 mhz Enless sensors to measure outdoor and indoor temperatures.
@@ -37,6 +39,8 @@ In order to achieve this, at the beginning of the 2017/2018 winter season, new m
 With a new PID onboard, the Sofrel was now able to supervise the production of hot water, the global energy efficiency of the boiler room being really enhanced.
 2018 was the first year in which we actually saved Kwh and money. It was a great improvment for us.
 Anyway, the functioning of the circuits was far from optimal and it is still very hard to heat the building properly...
+
+### hot water circuits supply optimization
 
 Traditionnaly, the water temperature in each circuit is defined by the Sauter controllers using a linear function of the outdoor temperature, measured by wired sensors.
 
