@@ -14,6 +14,8 @@ The boiler room is organized around three deprecated TOTALHUB boilers not insula
 
 The room supplies 6 hot water circuits, each using a a 3-way valve and a pump for regulation.
 
+![schema](sch_BR_DLCF.svg)
+
 The building heated by this boiler room dates from the 1970/80s, with no insulation, a large number of metal doors and a roof seal to be reworked. The refurbishment of the boiler room is therefore far from being a priority.
 
 Around 2005, a Sofrel s500 PLC had been installed as a modbus master for the 3 Sauter EQJ controllers, each one managing 2 hot water circuits.
