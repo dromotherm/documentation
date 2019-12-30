@@ -34,6 +34,10 @@ At that time, the Themis project was still very young and had not yet adopted th
 
 In retrospect, it would have been easiest and cheaper to install a single sensor than a complete weather station.
 
+Anyway, the Davis vantage weather station came with a [manuel_6537_F_ver10ct.pdf](modbus RS485 bridge) which we decide to translate 
+in modbus IP via a [https://www.anybus.com/fr/support/file-doc-downloads/communicator-specific/?ordercode=AB7007
+)(HMS AB7007 Anybus gateway), for easy integration into the Sofrel S500.
+
 As the Sofrel was powerful enough to also regulate the hot water production within the primary collector, a software cascade was implemented at the beginning of the 2017/2018 winter season.
 In order to achieve this, new modulating burners were installed on the boilers, that can be controlled by a 0/10V or 4/20 mA analog signal. 
 With a new PID onboard, the Sofrel was now able to supervise the production of hot water, the global energy efficiency of the boiler room being really enhanced.
@@ -67,7 +71,6 @@ Themis is basically a TCPIP network organized around a nanocomputer and using a 
 
 
 ## Anybus AB7007
-https://www.anybus.com/fr/support/file-doc-downloads/communicator-specific/?ordercode=AB7007
 
 [Anybus Communicator Manager (ACM)](hms-scm-1204-169.zip)
 
