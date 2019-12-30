@@ -34,7 +34,7 @@ At that time, the Themis project was still very young and had not yet adopted th
 
 In retrospect, it would have been easiest and cheaper to install a single sensor than a complete weather station.
 
-Anyway, the Davis vantage weather station The Davis vantage is a 868Mhz radio device coming with a [modbus RS485 bridge](manuel_6537_F_ver10ct.pdf) which we decide to translate 
+Anyway, we had a Davis vantage weather station, a 868Mhz radio device coming with a [modbus RS485 bridge](manuel_6537_F_ver10ct.pdf) which we decide to translate 
 in modbus IP via a [HMS AB7007 Anybus gateway](https://www.anybus.com/fr/support/file-doc-downloads/communicator-specific/?ordercode=AB7007), for easy integration into the Sofrel S500. The Davis vantage was defined as a slave device (or external PLC) within the S500.
 
 As the Sofrel was powerful enough to also regulate the hot water production within the primary collector, a software cascade was implemented at the beginning of the 2017/2018 winter season.
