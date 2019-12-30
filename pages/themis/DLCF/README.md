@@ -28,14 +28,14 @@ This is valid with all modbus TCP hardware.
 
 ### Production optimization
 
-During the year 2017, a Davis vantage weather station was connected to the Sofrel, as the temperature sensors associated with the Sauter controllers seemed overly optimistic during intense cold spells. The Davis vantage being a 868Mhz radio device streaming to a modbus RTU receiver, the connection was achieved using an Anybus AB7007 RTU to TCP converter, and the Davis vantage was defined as a slave device (or external PLC) within the Sofrel.
+During the year 2017, a Davis vantage weather station was connected to the Sofrel, as the temperature sensors associated with the Sauter controllers seemed overly optimistic during intense cold spells.
 
 At that time, the Themis project was still very young and had not yet adopted the 169 mhz Enless sensors to measure outdoor and indoor temperatures.
 
 In retrospect, it would have been easiest and cheaper to install a single sensor than a complete weather station.
 
-Anyway, the Davis vantage weather station came with a [modbus RS485 bridge](manuel_6537_F_ver10ct.pdf) which we decide to translate 
-in modbus IP via a [HMS AB7007 Anybus gateway](https://www.anybus.com/fr/support/file-doc-downloads/communicator-specific/?ordercode=AB7007), for easy integration into the Sofrel S500.
+Anyway, the Davis vantage weather station The Davis vantage is a 868Mhz radio device coming with a [modbus RS485 bridge](manuel_6537_F_ver10ct.pdf) which we decide to translate 
+in modbus IP via a [HMS AB7007 Anybus gateway](https://www.anybus.com/fr/support/file-doc-downloads/communicator-specific/?ordercode=AB7007), for easy integration into the Sofrel S500. The Davis vantage was defined as a slave device (or external PLC) within the S500.
 
 As the Sofrel was powerful enough to also regulate the hot water production within the primary collector, a software cascade was implemented at the beginning of the 2017/2018 winter season.
 In order to achieve this, new modulating burners were installed on the boilers, that can be controlled by a 0/10V or 4/20 mA analog signal. 
@@ -62,6 +62,10 @@ The so-called cell circuit (in green on the following map) is the most difficult
 ![heating network view](heating_network_DLCFd.png)
 
 {% include note.html content="during the off-season, the flow temperature for the cell circuit, with an outside temperature of 20°C, can be raised from 30 to 40°C. The confort in the building will be improved." %}
+
+The circuits regulation was traditionally achieved with day/night and week/weekend circuit programming. 
+For a building with no inertia and very little insulation, this method is not effective. 
+In order to improve things, we decided in 2018 to test the Batisense solution, an artificial intelligence that schematizes the building as a set of RC circuits in order to model its behavior. 
 
 Themis is basically a TCPIP network organized around a nanocomputer and using a 4G router for remote maintenance. The routeur has got a full DHCP server managing all connected TCPIP devices. It is therefore very easy to interface a Sofrel PLC to Themis.
 
