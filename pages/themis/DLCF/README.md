@@ -61,6 +61,8 @@ Themis is basically a TCPIP network organized around a nanocomputer and using a 
 
 {% include note.html content="A python modbus TCP interfacer is available within Themis to query a Modbus TCP hardware such as the sofrel PLC." %}
 
+![heating network view](heating_network_DLCF.svg)
+
 ## Anybus AB7007
 https://www.anybus.com/fr/support/file-doc-downloads/communicator-specific/?ordercode=AB7007
 
