@@ -40,7 +40,7 @@ With a new PID onboard, the Sofrel was now able to supervise the production of h
 2018 was the first year in which we actually saved Kwh and money. It was a great improvment for us.
 Anyway, the functioning of the circuits was far from optimal and it is still very hard to heat the building properly...
 
-![SOFREL configuration](SOFREL_confb.svg)
+![SOFREL configuration](SOFREL_confc.svg)
 
 ### hot water circuits supply optimization
 
@@ -57,7 +57,7 @@ The so-called cell circuit is the most difficult to regulate, being too long, no
 
 The cell circuit is the green one on the following figure
 
-![heating network view](heating_network_DLCFb.png)
+![heating network view](heating_network_DLCFc.png)
 
 {% include note.html content="during the off-season, the flow temperature for the cell circuit, with an outside temperature of 20°C, can be raised from 30 to 40°C. The confort in the building will be improved." %}
 
