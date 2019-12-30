@@ -65,11 +65,22 @@ The so-called cell circuit (in green on the following map) is the most difficult
 
 The circuits regulation was traditionally achieved with day/night and week/weekend programming. 
 For a building with no inertia and very little insulation, this method is not effective. 
-In order to improve things, we decided in 2018 to test the Batisense solution, an artificial intelligence that schematizes the building as a set of RC circuits in order to model its behavior. 
+In order to improve things, we decided in 2018 to test the Batisense solution, an artificial intelligence developed by the Probayes company, that schematizes the building as a set of electrical/thermal circuits in order to model its behavior. 
 
 ![R3C2](R3C2_model.svg)
 
-Themis is basically a TCPIP network organized around a nanocomputer and using a 4G router for remote maintenance. The routeur has got a full DHCP server managing all connected TCPIP devices. It is therefore very easy to interface a Sofrel PLC to Themis.
+Patents registered on this subject can be found on epo.org :
+[EP3291033A1](https://worldwide.espacenet.com/patent/search/family/057209577/publication/EP3291033A1)
+ and 
+[EP2781976A1](https://worldwide.espacenet.com/patent/search/family/048656084/publication/EP2781976A1)
+
+The implementation of Batisense with its long-range indoor comfort sensors (169 Mhz) was an interesting experience. As far as the cell cicuit was concerned, we suspected it was very necessary to keep heating during the night when it was cold outside, because we had the intuition that the building was losing too much warm and that the energy system was not enough powerful to make up for it. But we couldn't put this into practice. Batisense allowed us to carry things dynamically, optimizing the cut-off periods and taking into account the building's capacities. 
+
+By the end of 2019, we decided to install a complete monitoring separate from Batisense, which is patented and not really designed to exchange data in a 'opensource' manner. So, using a specially modified themis machine, we decided to duplicate the instrumentation for the extra sensors installed by the Probayes (indoor temperature, return temperature in the circuits)...
+
+Themis is basically a TCPIP network organized around a nanocomputer and using a 4G router for remote maintenance. The routeur has got a full DHCP server managing all connected TCPIP devices. It was therefore very easy to interface a Sofrel PLC to Themis. To record in real time the circuits temperature, as we had a spare [HIOKI datalogger](Themis_fluid_T_mes.html), not mobilized in the field, we set off on thermocouples, easy to deploy....
+
+![themis DLCF](Themis_DLCF_small.png)
 
 {% include note.html content="A python modbus TCP interfacer is available within Themis to query a Modbus TCP hardware such as the sofrel PLC." %}
 
