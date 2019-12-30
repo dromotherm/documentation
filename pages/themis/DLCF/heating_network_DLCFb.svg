@@ -214,24 +214,6 @@
 
 
 
-<rect
-   transform="scale(1,-1)"
-   y="-187.83771"
-   x="318.97992"
-   height="13.607162"
-   width="14.387482"
-   id="rect4520-0-2-8"
-   style="fill:url(#radialGradient2721);fill-opacity:1;stroke:none;stroke-width:1.81640446;stroke-linecap:butt;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" /><text
-   transform="scale(1,-1)"
-   id="text2705"
-   y="-178.36365"
-   x="328.63589"
-   style="font-style:normal;font-weight:normal;font-size:30px;line-height:18.75px;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.75"
-   xml:space="preserve"><tspan
-     style="font-size:8px;stroke-width:0.75"
-     y="-178.36365"
-     x="328.63589"
-     id="tspan2703">repeater</tspan></text>
 
 
 
