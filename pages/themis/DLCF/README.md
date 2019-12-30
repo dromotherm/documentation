@@ -67,6 +67,8 @@ The circuits regulation was traditionally achieved with day/night and week/weeke
 For a building with no inertia and very little insulation, this method is not effective. 
 In order to improve things, we decided in 2018 to test the Batisense solution, an artificial intelligence that schematizes the building as a set of RC circuits in order to model its behavior. 
 
+![R3C2](R3C2_model.svg)
+
 Themis is basically a TCPIP network organized around a nanocomputer and using a 4G router for remote maintenance. The routeur has got a full DHCP server managing all connected TCPIP devices. It is therefore very easy to interface a Sofrel PLC to Themis.
 
 {% include note.html content="A python modbus TCP interfacer is available within Themis to query a Modbus TCP hardware such as the sofrel PLC." %}
