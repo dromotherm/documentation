@@ -48,7 +48,7 @@ Anyway, the functioning of the circuits was far from optimal and it is still ver
 
 ### hot water circuits supply optimization
 
-Traditionnaly, the water temperature in each circuit is defined by the Sauter controllers using a linear function of the outdoor temperature, measured by wired sensors.
+Tipically, the water temperature in each circuit is defined by the Sauter controllers using a linear function of the outdoor temperature, measured by wired sensors.
 
 Ext T	|Start Tcell|	Start Tnord	|Start Tsud|	Start Tsshall|Start Test|Start Touest
 --|--|--|--|--|--|--
@@ -63,7 +63,7 @@ The so-called cell circuit (in green on the following map) is the most difficult
 
 {% include note.html content="during the off-season, the flow temperature for the cell circuit, with an outside temperature of 20°C, can be raised from 30 to 40°C. The confort in the building will be improved." %}
 
-The circuits regulation was traditionally achieved with day/night and week/weekend circuit programming. 
+The circuits regulation was traditionally achieved with day/night and week/weekend programming. 
 For a building with no inertia and very little insulation, this method is not effective. 
 In order to improve things, we decided in 2018 to test the Batisense solution, an artificial intelligence that schematizes the building as a set of RC circuits in order to model its behavior. 
 
