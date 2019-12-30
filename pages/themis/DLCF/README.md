@@ -10,7 +10,7 @@ permalink: Themis_DLCF_boiler_room.html
 
 ## History and organisation
 
-The boiler room is organized around three deprecated TOTALHUB boilers not insulated but fully working.
+The boiler room is organized around three deprecated TOTALTUB boilers not insulated but fully working.
 
 The room supplies 6 hot water circuits, each using a a 3-way valve and a pump for regulation.
 
