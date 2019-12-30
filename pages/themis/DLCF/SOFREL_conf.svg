@@ -33,9 +33,9 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="0.35"
-     inkscape:cx="-168.57143"
-     inkscape:cy="560"
+     inkscape:zoom="1.4"
+     inkscape:cx="434.33666"
+     inkscape:cy="317.68831"
      inkscape:document-units="mm"
      inkscape:current-layer="layer1"
      showgrid="false"
@@ -393,30 +393,6 @@
        style="fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:0.26458332"
        inkscape:connector-curvature="0" />
     <text
-       id="text958"
-       y="160.81432"
-       x="12.742966"
-       style="font-style:normal;font-variant:normal;font-weight:400;font-size:4.92786455px;line-height:325.55561066%;font-family:Arial;text-align:start;letter-spacing:0px;word-spacing:0px;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
-       xml:space="preserve"><tspan
-         id="tspan952"
-         y="160.81432"
-         x="12.742966"
-         sodipodi:role="line"
-         style="stroke-width:0.26458332"><tspan
-           id="tspan950"
-           style="font-style:normal;font-variant:normal;font-weight:400;font-size:4.92786455px;font-family:Arial;fill:#000000;stroke-width:0.26458332"
-           dy="0"
-           dx="0">SOFREL S500 DLCF</tspan></tspan><tspan
-         id="tspan956"
-         y="176.85725"
-         x="12.742966"
-         sodipodi:role="line"
-         style="stroke-width:0.26458332"><tspan
-           id="tspan954"
-           style="font-style:normal;font-variant:normal;font-weight:400;font-size:2.811198px;font-family:Arial;fill:#000000;stroke-width:0.26458332"
-           dy="0"
-           dx="0"> Carte 0</tspan></tspan></text>
-    <text
        id="text964"
        y="171.60637"
        x="26.903265"
@@ -538,13 +514,13 @@
            dx="0">carte externe </tspan></tspan></text>
     <text
        id="text1012"
-       y="176.73836"
-       x="12.742966"
+       y="175.83104"
+       x="15.010823"
        style="font-style:normal;font-variant:normal;font-weight:400;font-size:2.811198px;line-height:125%;font-family:Arial;text-align:start;letter-spacing:0px;word-spacing:0px;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
        xml:space="preserve"><tspan
          id="tspan1010"
-         y="176.73836"
-         x="12.742966"
+         y="175.83104"
+         x="15.010823"
          sodipodi:role="line"
          style="stroke-width:0.26458332"><tspan
            id="tspan1008"
@@ -1867,5 +1843,16 @@
            style="font-style:normal;font-variant:normal;font-weight:400;font-size:2.811198px;font-family:Arial;fill:#000000;stroke-width:0.26458332"
            dy="0"
            dx="0">1</tspan></tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:10.58333302px;line-height:6.61458302px;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+       x="23.056549"
+       y="157.90475"
+       id="text2855"><tspan
+         sodipodi:role="line"
+         id="tspan2853"
+         x="23.056549"
+         y="157.90475"
+         style="stroke-width:0.26458332">SOFREL S500 - DLCF</tspan></text>
   </g>
 </svg>
