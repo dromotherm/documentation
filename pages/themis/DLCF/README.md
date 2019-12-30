@@ -37,10 +37,11 @@ In retrospect, it would have been easiest and cheaper to install a single sensor
 As the Sofrel was powerful enough to also regulate the hot water production within the primary collector, a software cascade was implemented at the beginning of the 2017/2018 winter season.
 In order to achieve this, new modulating burners were installed on the boilers, that can be controlled by a 0/10V or 4/20 mA analog signal. 
 With a new PID onboard, the Sofrel was now able to supervise the production of hot water, the global energy efficiency of the boiler room being really enhanced.
-2018 was the first year in which we actually saved Kwh and money. It was a great improvment for us.
-Anyway, the functioning of the circuits was far from optimal and it is still very hard to heat the building properly...
 
 ![SOFREL configuration](SOFREL_confc.svg)
+
+2018 was the first year in which we actually saved Kwh and money. It was a great improvment for us.
+Anyway, the functioning of the circuits was far from optimal and it is still very hard to heat the building properly...
 
 ### hot water circuits supply optimization
 
