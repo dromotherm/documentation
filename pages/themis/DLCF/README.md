@@ -53,11 +53,9 @@ Ext T	|Start Tcell|	Start Tnord	|Start Tsud|	Start Tsshall|Start Test|Start Toue
 
 All temperature are expressed in °C.
 
-The so-called cell circuit is the most difficult to regulate, being too long, not insulated and supplying prefabricated offices from the 80s that were quickly added to the laboratory building.
+The so-called cell circuit (in green on the following map) is the most difficult to regulate, being too long, not insulated and supplying prefabricated offices from the 80s that were quickly added to the laboratory building.
 
-The cell circuit is the green one on the following figure
-
-![heating network view](heating_network_DLCFc.png)
+![heating network view](heating_network_DLCFd.png)
 
 {% include note.html content="during the off-season, the flow temperature for the cell circuit, with an outside temperature of 20°C, can be raised from 30 to 40°C. The confort in the building will be improved." %}
 
