@@ -40,6 +40,8 @@ With a new PID onboard, the Sofrel was now able to supervise the production of h
 2018 was the first year in which we actually saved Kwh and money. It was a great improvment for us.
 Anyway, the functioning of the circuits was far from optimal and it is still very hard to heat the building properly...
 
+![SOFREL configuration](SOFREL_conf.svg)
+
 ### hot water circuits supply optimization
 
 Traditionnaly, the water temperature in each circuit is defined by the Sauter controllers using a linear function of the outdoor temperature, measured by wired sensors.
