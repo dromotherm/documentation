@@ -59,7 +59,7 @@ Ext T	|Start Tcell|	Start Tnord	|Start Tsud|	Start Tsshall|Start Test|Start Toue
 
 All temperature are expressed in °C.
 
-The so-called cell circuit (in green on the following map) is the most difficult to regulate, being too long, not insulated and supplying prefabricated offices from the 80s that were quickly added to the laboratory building.
+The cell circuit (in green on the following map) is the most difficult to regulate, being too long, not insulated and supplying prefabricated offices from the 80s that were quickly added to the laboratory building.
 
 ![heating network view](heating_network_DLCFd.png)
 
@@ -76,7 +76,7 @@ Patents registered on this subject can be found on epo.org :
  and 
 [EP2781976A1](https://worldwide.espacenet.com/patent/search/family/048656084/publication/EP2781976A1)
 
-The implementation of Batisense with its long-range indoor comfort sensors (169 Mhz) was an interesting experience. As far as the cell cicuit was concerned, we suspected it was very necessary to keep heating during the night when it was cold outside, because we had the intuition that the building was losing too much warm and that the energy system was not enough powerful to make up for it. But we couldn't put this into practice. Batisense allowed us to carry things dynamically, optimizing the cut-off periods and taking into account the building's capacities.
+The implementation of Batisense with its long-range indoor comfort sensors (169 Mhz) was a very exciting experience. As far as the cell cicuit was concerned, we suspected it was very necessary to keep a "full" heating during the night when it was cold outside, because we had the intuition that the building was losing too much warm and that the energy system was not enough powerful to make up for it. But we couldn't put this into practice. Batisense allowed us to carry things dynamically, optimizing the cut-off periods and taking into account the building's capacities.
 
 ### Starting deep-learning
 
