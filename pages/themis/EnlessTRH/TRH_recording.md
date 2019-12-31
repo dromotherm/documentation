@@ -61,11 +61,11 @@ Power one by one each transmitter
 
 On each transmitter, L1 should blink in red during communication with receiver
 
-{% include tip.html content="in case of success, L1 and L2 remain lit for 1 minute if radio quality is good" %}
+{% include tip.html content="in case of success, L1 and L2 (on the transmitter) remain lit for 1 minute if radio quality is good" %}
 
-{% include tip.html content="L1, L2 and L3 remain lit for 1 minute if radio communication quality is poor." %}
+{% include tip.html content="L1, L2 and L3 (on the transmitter) remain lit for 1 minute if radio communication quality is poor." %}
 
-{% include warning.html content="in case of failure, L2 and L3 blink during a lap of time" %}
+{% include warning.html content="in case of failure, L2 and L3 (on the transmitter) blink during a lap of time" %}
 
 {% include note.html content="These indicators are also valid when you deploy the transmitters in the field for exploitation with Themis, except if you are using a repeater. <br>With a repeater, you can have L2 and L3 blinking on the transmitter, even though the data packet is correctly repeated !" %}
 
