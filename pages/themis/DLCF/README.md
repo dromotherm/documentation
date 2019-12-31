@@ -30,6 +30,8 @@ This is valid with all modbus TCP hardware.
 
 During the year 2017, a Davis vantage weather station was connected to the Sofrel, as the temperature sensors associated with the Sauter controllers seemed overly optimistic during intense cold spells.
 
+![DAVIS weather station](vantage_DAVIS.jpg)
+
 At that time, the Themis project was still very young and had not yet adopted the 169 mhz Enless sensors to measure outdoor and indoor temperatures.
 
 In retrospect, it would have been easiest and cheaper to install a single sensor than a complete weather station.
