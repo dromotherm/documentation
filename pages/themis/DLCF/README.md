@@ -65,8 +65,8 @@ The so-called cell circuit (in green on the following map) is the most difficult
 
 {% include note.html content="during the off-season, the flow temperature for the cell circuit, with an outside temperature of 20°C, can be raised from 30 to 40°C. The confort in the building will be improved." %}
 
-The circuits regulation was traditionally achieved with day/night and week/weekend programming. 
-For a building with no inertia and very little insulation, this method is not effective. 
+The circuits regulation was traditionally achieved with night and weekend "reductions", which is a very common practise in the world of heating engineers.... For a building with no inertia and very little insulation, this method is not effective and the comfort in the building is absolutely zero. With a well-insulated building, these so called "reductions" can be OK but they are not the best way to save energy.
+
 In order to improve things, we decided in 2018 to test the Batisense solution, an artificial intelligence developed by the Probayes company, that schematizes the building as a set of electrical/thermal circuits in order to model its behavior. 
 
 ![R3C2](R3C2_modelb.svg)
