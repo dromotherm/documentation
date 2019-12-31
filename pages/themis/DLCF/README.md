@@ -38,15 +38,17 @@ Anyway, we had a Davis vantage weather station, a 868Mhz radio device coming wit
 in modbus IP via a [HMS AB7007 Anybus gateway](https://www.anybus.com/fr/support/file-doc-downloads/communicator-specific/?ordercode=AB7007), for easy integration into the Sofrel S500. The Davis vantage was defined as a slave device (or external PLC) within the S500.
 
 As the Sofrel was powerful enough to also regulate the hot water production within the primary collector, a software cascade was implemented at the beginning of the 2017/2018 winter season.
-In order to achieve this, new modulating burners were installed on the boilers, that can be controlled by a 0/10V or 4/20 mA analog signal. 
-With a new PID onboard, the Sofrel was now able to supervise the production of hot water, the global energy efficiency of the boiler room being really enhanced.
+In order to achieve this, new modulating burners were installed on the boilers, that can be controlled by a 0/10V or 4/20 mA analog signal.
 
 ![SOFREL configuration](SOFREL_confc.svg)
+
+With a new PID onboard, the Sofrel was now able to supervise the production of hot water, the global energy efficiency of the boiler room being really enhanced.
+
+![PID in action](PID_heat_production.png)
 
 2018 was the first year in which we actually saved Kwh and money. It was a great improvment for us.
 Anyway, the functioning of the circuits was far from optimal and it is still very hard to heat the building properly...
 
-![PID in action](PID_heat_production.png)
 
 ### Circuits supply optimization
 
