@@ -115,6 +115,7 @@ and [ICR3200](https://www.advantech.com/products/7e21d2de-630c-4925-a51c-f41c186
 
 {% include note.html content="A specific library has to be injected in the routeur. [library download](tcp2rtu_library_for_smartflex.zip) " %}
 
+![routeur configuration](routeur_RS485_config.jpg)
 
 
 ## Physical connexions
