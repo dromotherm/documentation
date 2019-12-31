@@ -69,7 +69,7 @@ The circuits regulation was traditionally achieved with day/night and week/weeke
 For a building with no inertia and very little insulation, this method is not effective. 
 In order to improve things, we decided in 2018 to test the Batisense solution, an artificial intelligence developed by the Probayes company, that schematizes the building as a set of electrical/thermal circuits in order to model its behavior. 
 
-![R3C2](R3C2_model.svg)
+![R3C2](R3C2_modelb.svg)
 
 Patents registered on this subject can be found on epo.org :
 [EP3291033A1](https://worldwide.espacenet.com/patent/search/family/057209577/publication/EP3291033A1)
@@ -90,7 +90,8 @@ Themis is basically a TCPIP network organized around a nanocomputer and using a 
 
 {% include note.html content="A python modbus TCP interfacer is available within Themis to query a Modbus TCP hardware such as the sofrel PLC." %}
 
-For indoor temperature monitoring, Themis is using the same sensors as Batisense, i.e. [Enless 169 Mhz wireless Mbus sensors](TRH_recording.html). With 2 distinct receivers in the boiler room, the mistake to avoid is to place them close to each other.
+For indoor temperature monitoring, Themis is using the same sensors as Batisense, i.e. [Enless 169 Mhz wireless Mbus sensors](TRH_recording.html). With 2 distinct receivers in the boiler room, the mistake to avoid is to place them close to each other. 
+The structure of the building being very unfavourable to the propagation of radio waves (many walls and metal beams), a repeater was installed in order to guarantee a correct quality (RSSI close to -70 dBm almost everywhere).
 
 ![RSSI](RSSI_Cerema.png)
 
