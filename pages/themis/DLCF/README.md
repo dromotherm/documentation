@@ -146,5 +146,8 @@ FB type:            0x0083
 
 ## Sofrel S500
 
-...
+[SOFREL configuration file](S500_10_12_2019.ica)
+
+[SOFREL registers list](registres_modbus_afterEICwork.ods)
+
 
