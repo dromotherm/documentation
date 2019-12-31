@@ -86,19 +86,19 @@ The implementation of Batisense with its long-range indoor comfort sensors (169 
 
 ### Starting deep-learning
 
-By the end of 2019, we decided to install a complete monitoring separate from Batisense, which is patented and not really designed to exchange data in a 'opensource' manner. The aim is to collect a dataset to test our own deep-learning algorithms.
+By the end of 2019, we decided to install a complete monitoring separate from Batisense, which is patented and not really designed to exchange data in a 'opensource' manner. The purpose of this second monitoring is to collect a dataset to test our own deep-learning algorithms.
 
 Using a specially modified themis machine, we decided to duplicate the instrumentation for the extra sensors installed by the Probayes (indoor temperature, return temperature in the circuits)...
 
-Themis is basically a TCPIP network organized around a nanocomputer and using a 4G router for remote maintenance. The routeur has got a full DHCP server managing all connected TCPIP devices. It was therefore very easy to interface a Sofrel PLC to Themis. To record in real time the circuits temperature, as we had a spare [HIOKI datalogger](Themis_fluid_T_mes.html), not mobilized in the field, we just drop some thermocouples, easy to deploy....
+Themis is basically a TCPIP network organized around a nanocomputer, using a 4G router for remote maintenance. The routeur has got a full DHCP server managing all connected TCPIP devices. It was therefore very easy to interface a Sofrel PLC to Themis. To record in real time the circuits temperature, as we had a spare [HIOKI datalogger](Themis_fluid_T_mes.html), not mobilized in the field, we just drop some thermocouples, easy to deploy....
 
 ![themis DLCF](Themis_DLCF_small.png)
 
 {% include note.html content="A python modbus TCP interfacer is available within Themis to query a Modbus TCP hardware such as the sofrel PLC." %}
 
-For indoor temperature monitoring, Themis is using the same kind of sensors as Batisense, i.e. [Enless 169 Mhz wireless Mbus sensors](TRH_recording.html) and we had to deploy two 169 Mhz in the boiler room.
+For indoor temperature monitoring, Themis is using the same kind of sensors as Batisense, i.e. [Enless 169 Mhz wireless Mbus sensors](TRH_recording.html) and we had to deploy two 169 Mhz receivers in the boiler room.
 
-{% include warning.html content="With 2 distinct receivers in the boiler room, the mistake to avoid is to place them close to each other." %}
+{% include warning.html content="With 2 distinct receivers in the boiler room, the common mistake to avoid is to place them close to each other." %}
 
 The structure of the building being very unfavourable to the propagation of radio waves (many walls and metal beams), a repeater was installed in order to guarantee a correct quality (RSSI close to -70 dBm almost everywhere).
 
