@@ -146,7 +146,11 @@ FB type:            0x0083
 
 ## Sofrel S500
 
-[SOFREL configuration file](S500_10_12_2019.ica)
+![SOFREL planning chauffe](planning_non_chauffage.png)
+
+[switching SAUTER controllers to autopilot from SOFREL](SAUTER_auto_mode.pdf)
+
+[SOFREL backup file to recreate the configuration](S500_10_12_2019.ica)
 
 [SOFREL registers list](registres_modbus_afterEICwork.ods)
 
