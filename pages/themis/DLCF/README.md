@@ -92,7 +92,7 @@ Themis is basically a TCPIP network organized around a nanocomputer and using a 
 
 For indoor temperature monitoring, Themis is using the same kind of sensors as Batisense, i.e. [Enless 169 Mhz wireless Mbus sensors](TRH_recording.html) and we had to deploy two 169 Mhz in the boiler room.
 
-{% include warning.html content="With 2 distinct receivers in the boiler room, the mistake to avoid is to place them close to each other."}
+{% include warning.html content="With 2 distinct receivers in the boiler room, the mistake to avoid is to place them close to each other." %}
 
 The structure of the building being very unfavourable to the propagation of radio waves (many walls and metal beams), a repeater was installed in order to guarantee a correct quality (RSSI close to -70 dBm almost everywhere).
 
