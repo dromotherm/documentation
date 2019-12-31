@@ -56,8 +56,8 @@ Tipically, the water temperature in each circuit is defined by the Sauter contro
 
 Ext T	|Start Tcell|	Start Tnord	|Start Tsud|	Start Tsshall|Start Test|Start Touest
 --|--|--|--|--|--|--
-20|30|20|20|20|20|20					
--10|85|75|67|55|70|67
+20|30|30|30|20|25|25
+-10|85|75|85|55|72|72
 
 All temperature are expressed in °C.
 
