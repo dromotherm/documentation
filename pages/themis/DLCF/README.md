@@ -46,7 +46,9 @@ With a new PID onboard, the Sofrel was now able to supervise the production of h
 2018 was the first year in which we actually saved Kwh and money. It was a great improvment for us.
 Anyway, the functioning of the circuits was far from optimal and it is still very hard to heat the building properly...
 
-### hot water circuits supply optimization
+![PID in action](PID_heat_production.png)
+
+### Circuits supply optimization
 
 Tipically, the water temperature in each circuit is defined by the Sauter controllers using a linear function of the outdoor temperature, measured by wired sensors.
 
@@ -67,16 +69,20 @@ The circuits regulation was traditionally achieved with day/night and week/weeke
 For a building with no inertia and very little insulation, this method is not effective. 
 In order to improve things, we decided in 2018 to test the Batisense solution, an artificial intelligence developed by the Probayes company, that schematizes the building as a set of electrical/thermal circuits in order to model its behavior. 
 
-![R3C2](R3C2_model.svg)
+![R3C2](R3C2_modelb.svg)
 
 Patents registered on this subject can be found on epo.org :
 [EP3291033A1](https://worldwide.espacenet.com/patent/search/family/057209577/publication/EP3291033A1)
  and 
 [EP2781976A1](https://worldwide.espacenet.com/patent/search/family/048656084/publication/EP2781976A1)
 
-The implementation of Batisense with its long-range indoor comfort sensors (169 Mhz) was an interesting experience. As far as the cell cicuit was concerned, we suspected it was very necessary to keep heating during the night when it was cold outside, because we had the intuition that the building was losing too much warm and that the energy system was not enough powerful to make up for it. But we couldn't put this into practice. Batisense allowed us to carry things dynamically, optimizing the cut-off periods and taking into account the building's capacities. 
+The implementation of Batisense with its long-range indoor comfort sensors (169 Mhz) was an interesting experience. As far as the cell cicuit was concerned, we suspected it was very necessary to keep heating during the night when it was cold outside, because we had the intuition that the building was losing too much warm and that the energy system was not enough powerful to make up for it. But we couldn't put this into practice. Batisense allowed us to carry things dynamically, optimizing the cut-off periods and taking into account the building's capacities.
 
-By the end of 2019, we decided to install a complete monitoring separate from Batisense, which is patented and not really designed to exchange data in a 'opensource' manner. So, using a specially modified themis machine, we decided to duplicate the instrumentation for the extra sensors installed by the Probayes (indoor temperature, return temperature in the circuits)...
+### Starting deep-learning
+
+By the end of 2019, we decided to install a complete monitoring separate from Batisense, which is patented and not really designed to exchange data in a 'opensource' manner. The aim is to collect a dataset to test our own deep-learning algorithms.
+
+Using a specially modified themis machine, we decided to duplicate the instrumentation for the extra sensors installed by the Probayes (indoor temperature, return temperature in the circuits)...
 
 Themis is basically a TCPIP network organized around a nanocomputer and using a 4G router for remote maintenance. The routeur has got a full DHCP server managing all connected TCPIP devices. It was therefore very easy to interface a Sofrel PLC to Themis. To record in real time the circuits temperature, as we had a spare [HIOKI datalogger](Themis_fluid_T_mes.html), not mobilized in the field, we just drop some thermocouples, easy to deploy....
 
@@ -84,6 +90,10 @@ Themis is basically a TCPIP network organized around a nanocomputer and using a 
 
 {% include note.html content="A python modbus TCP interfacer is available within Themis to query a Modbus TCP hardware such as the sofrel PLC." %}
 
+For indoor temperature monitoring, Themis is using the same sensors as Batisense, i.e. [Enless 169 Mhz wireless Mbus sensors](TRH_recording.html). With 2 distinct receivers in the boiler room, the mistake to avoid is to place them close to each other. 
+The structure of the building being very unfavourable to the propagation of radio waves (many walls and metal beams), a repeater was installed in order to guarantee a correct quality (RSSI close to -70 dBm almost everywhere).
+
+![RSSI](RSSI_Cerema.png)
 
 
 ## Anybus AB7007
