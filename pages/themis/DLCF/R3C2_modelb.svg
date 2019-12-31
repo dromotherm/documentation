@@ -10,12 +10,12 @@
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
    width="297mm"
-   height="210mm"
-   viewBox="0 0 297 210"
+   height="185mm"
+   viewBox="0 0 297 185"
    version="1.1"
    id="svg6674"
-   inkscape:version="0.92.0 r15299"
-   sodipodi:docname="modèleR3C2_bis.svg">
+   inkscape:version="0.92.4 (5da689c313, 2019-01-14)"
+   sodipodi:docname="R3C2_model.svg">
   <defs
      id="defs6668" />
   <sodipodi:namedview
@@ -26,10 +26,10 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="0.98994949"
-     inkscape:cx="479.07036"
-     inkscape:cy="388.33825"
+     inkscape:cx="589.62966"
+     inkscape:cy="368.36129"
      inkscape:document-units="mm"
-     inkscape:current-layer="g6573"
+     inkscape:current-layer="g4697"
      showgrid="false"
      inkscape:window-width="1920"
      inkscape:window-height="986"
@@ -44,7 +44,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title />
+        <dc:title></dc:title>
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -52,7 +52,7 @@
      inkscape:label="Calque 1"
      inkscape:groupmode="layer"
      id="layer1"
-     transform="translate(0,-87)">
+     transform="translate(0,-112)">
     <g
        id="g6573"
        transform="translate(-14.661238,17.750614)">
@@ -531,19 +531,6 @@
              style="font-size:3.08069015px;stroke-width:0.19254313"
              id="tspan6446">internes</tspan></text>
         <text
-           xml:space="preserve"
-           style="font-style:normal;font-weight:normal;font-size:10.58333302px;line-height:6.61458302px;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
-           x="46.113094"
-           y="106.12202"
-           id="text6487"
-           inkscape:export-xdpi="161.63966"
-           inkscape:export-ydpi="161.63966"><tspan
-             sodipodi:role="line"
-             id="tspan6485"
-             x="46.113094"
-             y="106.12202"
-             style="stroke-width:0.26458332">Modèle R3C2 équivalent d'un bâtiment</tspan></text>
-        <text
            transform="scale(0.95288437,1.0494453)"
            id="text4572"
            y="207.3671"
@@ -564,7 +551,7 @@
              style="font-size:2.99245596px;stroke-width:0.1870285"
              y="217.88452"
              x="193.01303"
-             sodipodi:role="line">représentant l'intertie</tspan><tspan
+             sodipodi:role="line">représentant l'inertie</tspan><tspan
              id="tspan4578"
              style="font-size:2.99245596px;stroke-width:0.1870285"
              y="223.72624"
