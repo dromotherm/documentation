@@ -104,6 +104,22 @@ The structure of the building being very unfavourable to the propagation of radi
 
 ![RSSI](RSSI_Cerema.png)
 
+For each circuit, the monitoring provides the following data :
+- water temperature at injection point
+- water temperature after heating
+- indoor temperature in the zone heated by the circuit
+- outside temperature
+- 3-way valve status (opened/closed)
+- pump status (on/off)
+
+![circuit monitoring](circuit_monitoring.png)
+
+The water flow rates (in m3/h) are constant for each circuit and have been measured with an ultrasonic flowmeter
+
+Cellules|Nord|Sous-sol|Sud|Est|Ouest
+--|--|--|--|--|--
+5.19|6.5|4.2|2.6|1.38|1.1
+
 
 ## Anybus AB7007
 
