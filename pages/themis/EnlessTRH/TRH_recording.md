@@ -122,7 +122,7 @@ and [ICR3200](https://www.advantech.com/products/7e21d2de-630c-4925-a51c-f41c186
 
 ![connexions](physical_connexions.jpg)
 
-The above illustration was made with an ISR 3200 router and a smartflex SR303 router with 2 ethernet ports. There is a variant of the SR303 with 3 ethernet ports. The RS495 connectivity is a bit different.
+The above illustration was made using an ISR 3200 router and a smartflex SR303 router with 2 ethernet ports. There is a variant of the SR303 with 3 ethernet ports. The RS485 connectivity is a bit different.
 
 ![connexions3ETH](physical_connexions_3ETH.png)
 
@@ -168,4 +168,4 @@ Please note :
 Some manufacturers practice an addition of 1, others not like Enless and it is difficult to make a common rule
 - RSSI is divided by 2
 - Enless is using function code 3
-- For nodes, define numbers over 20 so you can use the standard emonhub configuration for electricity monitoring without modifcation
+- For nodes, define numbers over 20 so you can use the standard emonhub configuration for electricity monitoring without modification
