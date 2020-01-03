@@ -122,6 +122,10 @@ and [ICR3200](https://www.advantech.com/products/7e21d2de-630c-4925-a51c-f41c186
 
 ![connexions](physical_connexions.jpg)
 
+The above illustration was made with an ISR 3200 router and a smartflex SR303 router with 2 ethernet ports. There is a variant of the SR303 with 3 ethernet ports. The RS495 connectivity is a bit different.
+
+![connexions3ETH](physical_connexions_3ETH.png)
+
 ## Emonhub configuration
 
 ```
