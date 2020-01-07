@@ -100,7 +100,7 @@ Power the receiver with a 12V alimentation
 
 Once the receiver powered, L5 should start blinking on it
 
-{% include warning.html content="when L5 stops flashing on the receiver, the time slot for pairing the receiver and transmitters is over !!" %}
+{% include warning.html content="when L5 stops flashing on the receiver, the time slot for pairing the receiver and its transmitters is over !!" %}
 
 As soon as L5 flashes, don't waste time :
 - plug the receiver to the computer via USB, 
