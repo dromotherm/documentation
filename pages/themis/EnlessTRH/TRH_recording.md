@@ -113,7 +113,6 @@ As soon as L5 flashes, don't waste time :
 [07-janv.-2020 16:44:32] Demande d'installation pour Receiver 21520922
 [07-janv.-2020 16:44:38] Acquittement en phase d'installation Receiver 21520922
 [07-janv.-2020 16:44:44] Succès de l'installation Receiver 21520922
-[07-janv.-2020 16:44:59] Arrêter l’installation
 ```
 Stop the installation
 
