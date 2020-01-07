@@ -21,7 +21,7 @@ Once the pairing has been successfully completed, the datas from the various tra
 
 ## Create the ecosystem
 
-Once you receive the receiver and its transmitters, use the [Enless Field software](https://enless-wireless.com/ressources/Enless%20Field%20Installation.zip) to create the ecosystem
+Once you receive the receiver and its transmitters, use the Enless Field software [AIR](https://enless-wireless.com/ressources/Enless%20Field%20Installation.zip) to create the ecosystem
 
 At this stage, you do not need to have the hardware connected to the computer on which the software is installed
 
@@ -56,12 +56,25 @@ Connect to the receiver
 ```
 
 Start the installation
+```
+[07-janv.-2020 16:24:28] Démarrage de l’installation
+```
 
 Power one by one each transmitter
+```
+[07-janv.-2020 16:24:36] Demande d'installation pour TX TEMP HUM 12220756 RSSI:-28,0dBm
+[07-janv.-2020 16:24:38] Acquittement en phase d'installation 12220756 RSSI:-27,0dBm
+[07-janv.-2020 16:24:39] Niveau RSSI en phase d'installation 12220756 RSSI:-29,0dBm
+[07-janv.-2020 16:24:41] Niveau RSSI en phase d'installation 12220756 RSSI:-27,0dBm
+[07-janv.-2020 16:24:43] Niveau RSSI en phase d'installation 12220756 RSSI:-28,0dBm
+[07-janv.-2020 16:24:45] Niveau RSSI en phase d'installation 12220756 RSSI:-41,0dBm
+[07-janv.-2020 16:24:47] Niveau RSSI en phase d'installation 12220756 RSSI:-40,0dBm
+[07-janv.-2020 16:24:49] Succès de l'installation TX TEMP HUM 12220756 RSSI:-38,0dBm
+```
 
 On each transmitter, L1 should blink in red during communication with receiver
 
-{% include tip.html content="in case of success, L1 and L2 (on the transmitter) remain lit for 1 minute if radio quality is good" %}
+{% include tip.html content="in case of success, L2 and L3 (on the transmitter) remain lit for 1 minute if radio quality is good" %}
 
 {% include tip.html content="L1, L2 and L3 (on the transmitter) remain lit for 1 minute if radio communication quality is poor." %}
 
@@ -70,7 +83,9 @@ On each transmitter, L1 should blink in red during communication with receiver
 {% include note.html content="These indicators are also valid when you deploy the transmitters in the field for exploitation with Themis, except if you are using a repeater. <br>With a repeater, you can have L2 and L3 blinking on the transmitter, even though the data packet is correctly repeated !" %}
 
 Stop the installation
-
+```
+[07-janv.-2020 16:42:24] Arrêter l’installation
+```
 The sensors should now appear as activated
 
 ### Phase 2 : receiver installation and pairing with transmitters
@@ -83,17 +98,28 @@ On the receiver, position the switches as follow :
 
 Power the receiver with a 12V alimentation
 
-Plug the receiver to the computer via USB
+Once the receiver powered, L5 should start blinking on it
 
-Connect to the receiver
+{% include warning.html content="when L5 stops flashing on the receiver, the time slot for pairing the receiver and transmitters is over !!" %}
 
-Start the installation
+As soon as L5 flashes, don't waste time :
+- plug the receiver to the computer via USB, 
+- connect the AIR software to the receiver 
+- start the installation
 
 ```
-bla bla
+[07-janv.-2020 16:44:25] Port série connecté COM9@19200
+[07-janv.-2020 16:44:30] Démarrage de l’installation
+[07-janv.-2020 16:44:32] Demande d'installation pour Receiver 21520922
+[07-janv.-2020 16:44:38] Acquittement en phase d'installation Receiver 21520922
+[07-janv.-2020 16:44:44] Succès de l'installation Receiver 21520922
+[07-janv.-2020 16:44:59] Arrêter l’installation
 ```
 Stop the installation
 
+```
+[07-janv.-2020 16:44:59] Arrêter l’installation
+```
 The receiver should now appear as activated
 
 ### Phase 3 : switching the receiver in RS485 exploitation mode
