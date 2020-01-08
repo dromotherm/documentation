@@ -25,3 +25,5 @@ pin|wire color|pair number
 6|![green](Wire_green.svg.png)|3
 7|![white-brown](90px-Wire_white_brown_stripe.svg.png)|4
 8|![brown](90px-Wire_brown.svg.png)|4
+
+for more complete information, check [wikipedia](https://fr.wikipedia.org/wiki/RJ45)
