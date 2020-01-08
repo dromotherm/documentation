@@ -108,21 +108,7 @@ sudo cp fstab /etc/fstab
 sudo reboot
 ```
 
-with `df -h` and a 16Gb sd card, the output should be :
-```
-Filesystem      Size  Used Avail Use% Mounted on
-/dev/root       4.2G  1.1G  3.0G  26% /
-devtmpfs        460M     0  460M   0% /dev
-tmpfs           464M     0  464M   0% /dev/shm
-tmpfs           464M  6.2M  458M   2% /run
-tmpfs           5.0M  4.0K  5.0M   1% /run/lock
-tmpfs           464M     0  464M   0% /sys/fs/cgroup
-tmpfs           1.0M     0  1.0M   0% /var/tmp
-tmpfs            30M     0   30M   0% /tmp
-/dev/mmcblk0p3   11G  3.8M  9.6G   1% /var/opt/emoncms
-/dev/mmcblk0p1   43M   22M   21M  51% /boot
-tmpfs            93M     0   93M   0% /run/user/1000
-```
+Check if file system has been correctly done with `df -h` command
 
 Create 2 directories  in /opt :
 - openenergymonitor, for the scripts and emonhub sources
