@@ -13,7 +13,7 @@ brown/white|4
 a T568B RJ45 cable
 
 
-Link to the pins of the RJ45 connector
+Link to the pins of the RJ45 connector, for a T568B cable
 
 pin|wire color|pair number
 --|--|--
