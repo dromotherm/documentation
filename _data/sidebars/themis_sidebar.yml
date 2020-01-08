@@ -42,7 +42,7 @@ entries:
       url: /Themis_door_sensor.html
       output: web
       
-    - title: add a self-made 1wire temperature sensor for the emonPI
+    - title: add a self-made 1wire temperature sensor to the emonPI
       url: /1wire.html
       output: web
 
