@@ -3,8 +3,22 @@ title: Themis/EmonCMS - adding a self made 1wire temperature sensor to the emonP
 sidebar: themis_sidebar
 permalink: 1wire.html
 ---
- 
-the 4 pairs of wires of an RJ45 cable
+
+## the DS18B20 sensor
+The [DS18B20P](DS18B20-PAR.pdf) is a parametric version of the classic [DS18B20](DS18B20.pdf) temperature sensor from maxim integrated. Only 2 pins are to be connected : data and ground. The sensor is powered through the data pin.
+![DS18B20 parametric](DS18B20P.jpg)
+
+## the Emonpi RJ45 connector
+The emonPI embed an RJ45 port for connecting single-wire temperature sensors. 
+The 1wire sensor has to be connected through pins 4 and 5.
+![emonpiRJ45 connector](emonpiRJ45connector.jpg)
+
+## anatomy of a 568B RJ45 cable
+You can use a T568B RJ45 cable to make the connection
+
+![RJ45 568B cable](568B.jpg)
+
+### the 4 pairs of wires of an RJ45 cable
 
 ![RJ45 pairs view](ethernet_Pairs.jpg)
 
@@ -15,10 +29,7 @@ orange/white|2
 green/white|3
 brown/white|4
 
-a T568B RJ45 cable
-
-
-Link to the pins of the RJ45 connector, for a T568B cable
+### Link to the pins of the RJ45 connector, for a T568B cable
 
 pin|wire color|pair number
 --|--|--
