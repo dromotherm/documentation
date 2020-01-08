@@ -25,7 +25,7 @@ Once you receive the receiver and its transmitters, use the Enless Field softwar
 
 {% include note.html content="The installation of AIR can be tricky. Please note it requires java to run. The installation of a recent version of the java run time environment (JRE) is therefore a prerequisite." %}
 
-Assuming you are using a windows 10 machine and even if your machine is 64 bits :
+Assuming you are using a windows 10 machine and even if your machine is 64 bits but a bit old :
 - install the [32 bits version](https://javadl.oracle.com/webapps/download/AutoDL?BundleId=240726_5b13a193868b4bf28bcb45c792fce896) of the [jre](https://www.java.com/fr/download/manual.jsp)
 - install the 32 bits of AIR
 
