@@ -1,4 +1,9 @@
-
+---
+title: Themis/EmonCMS - adding a self made 1wire temperature sensor to the emonPI
+sidebar: themis_sidebar
+permalink: 1wire.html
+---
+ 
 the 4 pairs of wires of an RJ45 cable
 
 ![RJ45 pairs view](ethernet_Pairs.jpg)
