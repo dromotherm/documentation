@@ -6,13 +6,25 @@ permalink: Themis_install.html
 
 ## prepare the SD card
 
+### operating system
+
 burn the lastest version of rapsbian (buster) with Etcher
+
+[raspbian download page](https://www.raspberrypi.org/downloads/raspbian/)
+
+Choose the [lite version](https://downloads.raspberrypi.org/raspbian_lite_latest) without desktop
+
+[balena etcher download page](https://www.balena.io/etcher/)
+
+### ssh access
 
 if SD mounted on E:, create an ssh file on /boot
 
 ```
 echo.>E:\ssh
 ```
+### disable (temporary) the automatic SD card resizing process 
+
 Copy the default cmdline.txt to cmdline2.txt in the boot partition and then open to edit cmdline.txt, remove: init=/usr/lib/raspi-config/init_resize.sh
 
 ## boot the RPI and adjust the file system
