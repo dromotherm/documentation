@@ -10,7 +10,7 @@ The [DS18B20P](DS18B20-PAR.pdf) is a parametric version of the classic [DS18B20]
 
 ## the Emonpi RJ45 connector
 The emonPI embed an RJ45 port for connecting single-wire temperature sensors. 
-The 1wire sensor has to be connected through pins 4 and 5.
+The DS18B20P has to be connected through pins 4 and 5. If using a classic DS18B20, also plan to use pin 2 for 5V power.
 
 ![emonpiRJ45 connector](emonpiRJ45connector.jpg)
 
