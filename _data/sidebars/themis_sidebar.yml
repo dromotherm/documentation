@@ -41,6 +41,10 @@ entries:
     - title: interfacing a window/door domotic sensor
       url: /Themis_door_sensor.html
       output: web
+      
+    - title: add a self-made 1wire temperature sensor for the emonPI
+      url: /1wire.html
+      output: web
 
   - title: usecases
     output: web
