@@ -11,12 +11,15 @@ The [DS18B20P](DS18B20-PAR.pdf) is a parametric version of the classic [DS18B20]
 ## the Emonpi RJ45 connector
 The emonPI embed an RJ45 port for connecting single-wire temperature sensors. 
 The 1wire sensor has to be connected through pins 4 and 5.
+
 ![emonpiRJ45 connector](emonpiRJ45connector.jpg)
 
-## anatomy of a 568B RJ45 cable
+## soldering the DS18B20
 You can use a T568B RJ45 cable to make the connection
 
 ![RJ45 568B cable](568B.jpg)
+
+## anatomy of a 568B RJ45 cable
 
 ### the 4 pairs of wires of an RJ45 cable
 
