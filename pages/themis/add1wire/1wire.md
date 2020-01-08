@@ -8,6 +8,7 @@ summary: You can connect a single wire sensor to the emonPI in order to monitor 
 ## the DS18B20 sensor
 The [DS18B20P](DS18B20-PAR.pdf) is a parametric version of the classic [DS18B20](DS18B20.pdf) temperature sensor from maxim integrated. Only 2 pins are to be connected : data and ground. The sensor is powered through the data pin.
 ![DS18B20 parametric](DS18B20P.jpg)
+you can buy some single wire sensors through the [Farnell reseller](https://fr.farnell.com/maxim-integrated-products/ds18b20-par/capteur-temperature-nv-alarm-3to92/dp/2519162)
 
 ## the Emonpi RJ45 connector
 The emonPI embed an RJ45 port for connecting single-wire temperature sensors. 
