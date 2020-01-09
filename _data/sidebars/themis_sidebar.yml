@@ -5,6 +5,14 @@ entries:
   product: Themis
   version: 1.0
   folders:
+  - title: get started
+    output: web
+    folderitems:
+    
+    - title: general overview
+      url: /Themis_overview.html
+      output: web
+      
   - title: installation
     output: web
     folderitems:
