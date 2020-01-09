@@ -28,3 +28,7 @@ In the basic edition, the themis box includes :
 - an emonPI, dedicated to data recording and featuring a 868 Mhz radio receiver to catch data from power consumption sensors (electrical)
 
 All THEMIS software is embedded on a SD card.
+
+## inserting the SD card into the emonPI
+
+![SD_1](SD_insert_1.jpg)
