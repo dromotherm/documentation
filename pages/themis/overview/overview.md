@@ -11,13 +11,7 @@ The basic Themis kit contains :
 - a radio energy sensing node, to monitor electric current (x3) and voltage (x1)
 - a box containing all devices necessary for datas aggregation and online availability in real time
 
-Enless indoor temperature and humidity sensor
-
-![TRH sensors](TX_TEMP_AMB_700-021.png)
-
-Enless outside temperature sensor
-
-![outside temperature sensor](TX_TEMP_INS_800-021.png)
+![TRH sensors](TRH_indoor_outside.jpg)
 
 EmonTx radio energy sensing node
 
