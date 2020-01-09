@@ -1,7 +1,7 @@
 ---
 title: Themis/EmonCMS - overview - what is Themis ? 
 sidebar: themis_sidebar
-permalink: overview.html
+permalink: Themis_overview.html
 ---
 
 ![themis](themis_000051.png)
