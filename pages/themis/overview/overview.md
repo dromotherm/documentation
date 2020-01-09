@@ -1,9 +1,9 @@
 ---
-title: Themis/EmonCMS - overview - what is Themis ? 
+title: Overview - what is Themis ? 
 sidebar: themis_sidebar
 permalink: Themis_overview.html
+summary: Themis is dedicated to the monitoring of large tertiary buildings.
 ---
-Themis is dedicated to the monitoring of large tertiary buildings.
 
 The basic Themis kit contains :
 - indoor temperature and humidity sensors (x10)
@@ -11,13 +11,13 @@ The basic Themis kit contains :
 - a radio energy sensing node, to monitor electric current (x3) and voltage (x1)
 - a box containing all devices necessary for datas aggregation and online availability in real time
 
+{% include note.html content="for real time supervision 24/24, Themis needs a M2M SIM (2FF mini)" %}
+
+M2M : {{site.data.glossary.M2M}}
+
 ![TRH sensors](TRH_indoor_outside.jpg)
 
-EmonTx radio energy sensing node
-
 ![emonTx](emontx.jpg)
-
-The themis box
 
 ![themis](themis_000051.png)
 
