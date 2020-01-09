@@ -12,6 +12,7 @@ entries:
     - title: general overview
       url: /Themis_overview.html
       output: web
+      type: homepage
       
   - title: installation
     output: web
@@ -20,7 +21,6 @@ entries:
     - title: scripted manner
       url: /Themis_install.html
       output: web
-      type: homepage
       
     - title: scripted manner variant
       url: /Themis_scripted_variant.html
