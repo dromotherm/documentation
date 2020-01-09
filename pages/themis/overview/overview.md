@@ -11,13 +11,13 @@ The basic Themis kit contains :
 - a radio energy sensing node, to monitor electric current (x3) and voltage (x1)
 - a box containing all devices necessary for datas aggregation and online availability in real time
 
-{% include note.html content="for real time supervision 24/24, Themis needs a M2M SIM (2FF mini)" %}
-
-M2M : {{site.data.glossary.M2M}}
-
 ![TRH sensors](TRH_indoor_outside.jpg)
 
 ![emonTx](emontx.jpg)
+
+{% include note.html content="for real time supervision 24/24, Themis needs a M2M SIM (2FF mini)" %}
+
+M2M : {{site.data.glossary.M2M}}
 
 ![themis](themis_000051.png)
 
