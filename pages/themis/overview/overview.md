@@ -13,11 +13,11 @@ The basic Themis kit contains :
 
 Enless indoor temperature and humidity sensor
 
-![TRH sensors](TX TEMP AMB 700-021.png)
+![TRH sensors](TX_TEMP_AMB_700-021.png)
 
 Enless outside temperature sensor
 
-![outside temperature sensor](TX TEMP INS 800-021.png)
+![outside temperature sensor](TX_TEMP_INS_800-021.png)
 
 EmonTx radio energy sensing node
 
