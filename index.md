@@ -16,7 +16,7 @@ toc: false
                  <div class="panel-body">
                      <h4>Themis</h4>
                      <p>Themis is a BOS (building operating system) designed to operate with a number of heating controllers and PLCs</p>
-                     <a href="Themis_install.html" class="btn btn-primary">Learn More</a>
+                     <a href="Themis_overview.html" class="btn btn-primary">Learn More</a>
                  </div>
              </div>
          </div>
