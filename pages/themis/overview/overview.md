@@ -32,3 +32,5 @@ All THEMIS software is embedded on a SD card.
 ## inserting the SD card into the emonPI
 
 ![SD_1](SD_insert_1.jpg)
+
+![SD_2](SD_insert_2.jpg)
