@@ -20,9 +20,9 @@ The DS18B20P has to be connected through pins 4 and 5. If using a classic DS18B2
 ## soldering the DS18B20
 You can use a T568B RJ45 cable to make the connection
 
-![soldering_1](soldering_1wire_1.png)
-
 ![RJ45 568B cable](568B.jpg)
+
+![soldering_1](soldering_1wire_1.png)
 
 ## anatomy of a 568B RJ45 cable
 
