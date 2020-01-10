@@ -19,7 +19,7 @@ summary: Themis is dedicated to the monitoring of large tertiary buildings. Them
 
 {% include note.html content="for real time supervision 24/24, Themis needs a M2M SIM (2FF mini)<br> 
 Please note Themis is shipped without any SIM card<br>
-you will need to purchase the SIM card separately" %}
+you will need to purchase the SIM card separately. A SIM with public IP address is strongly recommended" %}
 
 M2M : {{site.data.glossary.M2M}}
 
