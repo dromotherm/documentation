@@ -2,7 +2,7 @@
 title: Overview - what is Themis ? 
 sidebar: themis_sidebar
 permalink: Themis_overview.html
-summary: Themis is dedicated to the monitoring of large tertiary buildings.
+summary: Themis is dedicated to the monitoring of large tertiary buildings. Themis is short for THermic and Energetic MonItoring System.
 ---
 
 The basic Themis kit contains :
