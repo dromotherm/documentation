@@ -7,13 +7,12 @@ summary: Themis is dedicated to the monitoring of large tertiary buildings. Them
 
 ![the basic kit](basic_kit.jpg)
 
-The basic Themis kit contains :
-- indoor temperature and humidity sensors (x10)
-- outside temperature sensor (x1)
+## the Themis basic kit
+### indoor temperature and humidity sensors (x10) plus outside temperature sensor (x1)
 
 ![TRH sensors](TRH_indoor_outside.jpg)
 
-- a radio energy sensing node, to monitor electric current (x3) and voltage (x1)
+### radio energy sensing node, to monitor electric current (x3) and voltage (x1)
 
 ![emonTx](emontx.jpg)
 
@@ -21,7 +20,7 @@ The basic Themis kit contains :
 
 M2M : {{site.data.glossary.M2M}}
 
-- the "heart" of the system, i.e. the Themis box containing all devices necessary for datas aggregation and online availability in real time
+### the Themis box , ie the "heart" of the system containing all devices necessary for datas aggregation and online availability in real time
 
 ![themis](themis_000051.png)
 
