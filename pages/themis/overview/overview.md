@@ -5,6 +5,8 @@ permalink: Themis_overview.html
 summary: Themis is dedicated to the monitoring of large tertiary buildings. Themis is short for THermic and Energetic MonItoring System.
 ---
 
+![the basic kit](basic_kit.jpg)
+
 The basic Themis kit contains :
 - indoor temperature and humidity sensors (x10)
 - outside temperature sensor (x1)
