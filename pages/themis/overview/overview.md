@@ -17,7 +17,9 @@ summary: Themis is dedicated to the monitoring of large tertiary buildings. Them
 
 ![emonTx](emontx.jpg)
 
-{% include note.html content="for real time supervision 24/24, Themis needs a M2M SIM (2FF mini)" %}
+{% include note.html content="for real time supervision 24/24, Themis needs a M2M SIM (2FF mini)<br> 
+Please note Themis is shipped without any SIM card<br>
+you will need to purchase the SIM card separately" %}
 
 M2M : {{site.data.glossary.M2M}}
 
@@ -31,5 +33,5 @@ In the basic edition, the Themis box includes :
 - a 4G router
 - an emonPI, dedicated to data recording and featuring a 868 Mhz radio receiver to catch data from power consumption sensors (electrical)
 
-All Themis software is embedded on a SD card.
+{% include note.html content="All Themis software is embedded on a SD card." %}
 
