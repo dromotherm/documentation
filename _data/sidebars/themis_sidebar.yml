@@ -13,7 +13,15 @@ entries:
       url: /Themis_overview.html
       output: web
       type: homepage
-      
+  
+  - title: daily use
+    output: web
+    folderitems: 
+    
+    - title: advanced (replacing the SD....)
+      url: /Themis_advanced.html
+      output: web
+        
   - title: installation
     output: web
     folderitems:
