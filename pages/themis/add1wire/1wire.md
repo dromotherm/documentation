@@ -48,7 +48,9 @@ You can use a T568B RJ45 cable to make the connection
 </div>
 
 <div role="tabpanel" class="tab-pane" id="a3">
-<p></p>
+<p>add some solder on both wires<br>
+<img src="pages/themis/add1wire/a3_solder_on_blue_wires.png">
+</p>
 </div>
 
 </div>
