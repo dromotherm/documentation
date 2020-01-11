@@ -28,17 +28,17 @@ The DS18B20 will have to be connected to the wires of the blue pair.
 
 ![RJ45 blue pair](1_RJ45_blue_pair.png)
 
-Strip the wires of the blue pair with a wire stripper (you can find them at [FACOM](https://www.fac18.eu/dz-fr/categorie/electricite)).
+Strip the wires of the blue pair with a wire stripper (you can find some at [FACOM](https://www.fac18.eu/dz-fr/categorie/electricite)).
 
 
-
-add some soldering on pins 1 and 2 of the DS19B20.
 
 To identify the pins of the DS18B20, you must distinguish the front panel (on which you can read the brand and type).
 
 ![TO92 box](TO-92_Front_and_back_view_with_Pin_Numbers.png)
 
+Add some soldering on pins 1 and 2 of the DS19B20.
 
+![solder on 1wire pins](1wire_sensor_w_solder.png)
 
 
 ## anatomy of a 568B RJ45 cable
