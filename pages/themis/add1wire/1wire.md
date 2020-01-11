@@ -66,9 +66,9 @@ Note that the parametric version is always packaged as a <a href="https://en.wik
 <br>
 To do so, you must distinguish the front panel (on which you can read the brand and type of the sensor).
 <br>
-<b>Pin 1 will be soldered on the white-blue wire of the RJ45 cable</b>
+<b>Pin 1 will be soldered to the white-blue wire of the RJ45 cable</b>
 <br>
-<b>Pin 2 will be soldered on the blue wire of the RJ45 cable</b>
+<b>Pin 2 will be soldered to the blue wire of the RJ45 cable</b>
 <img src="pages/themis/add1wire/a4_TO-92_Front_and_back_view_with_Pin_Numbers.png">
 </p>
 </div>
@@ -128,6 +128,10 @@ blue/white|1
 orange/white|2
 green/white|3
 brown/white|4
+
+### RJ45 connector of a T568B cable
+
+![RJ45 connector](Rj45plug-8p8c.png)
 
 ### Link to the pins of the RJ45 connector, for a T568B cable
 
