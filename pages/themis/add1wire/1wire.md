@@ -24,7 +24,10 @@ You can use a T568B RJ45 cable to make the connection
 
 
 
-Cut the RJ45 cable, identify its 4 pairs : blue, orange, green and brown.<br>The DS18B20 will have to be connected to the wires of the blue pair.|Strip the wires of the blue pair with a wire stripper (you can find some at [FACOM](https://www.fac18.eu/dz-fr/categorie/electricite)).
+Cut the RJ45 cable, identify its 4 pairs.
+<br> From left to right : orange, green and brown and blue.
+<br>The DS18B20 will have to be connected to the wires of the blue pair.|
+Strip the wires of the blue pair with a wire stripper (you can find some at [FACOM](https://www.fac18.eu/dz-fr/categorie/electricite)).
 --|--
 ![RJ45 blue pair](a1_RJ45_blue_pair.png)|![strip wires](a2_strip_blue_wires.png)
 
