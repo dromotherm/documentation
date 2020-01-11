@@ -64,7 +64,7 @@ You can use a T568B RJ45 cable to make the connection
 <br>
 Note that the parametric version is always packaged as a <a href="https://en.wikipedia.org/wiki/TO-92">TO-92</a>.
 <br>
-To do so, you must distinguish the front panel (on which you can read the brand and type of the sensor).
+You must distinguish the front panel (on which you can read the brand and type of the sensor).
 <br>
 <b>Pin 1 will be soldered to the white-blue wire of the RJ45 cable</b>
 <br>
