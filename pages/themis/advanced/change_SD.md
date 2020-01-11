@@ -1,7 +1,7 @@
 ---
 title: Themis/Emoncms replacing the SD card ? 
 sidebar: themis_sidebar
-permalink: Themis_advanced.html
+permalink: Themis_change_SD.html
 summary: For some reasons, you may want to replace the SD card by a new one, eg to add more disk space for your feeds....
 ---
 
