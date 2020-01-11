@@ -23,26 +23,27 @@ You can use a T568B RJ45 cable to make the connection
 ![RJ45 568B cable](568B.jpg)
 
 <ul id="profileTabs" class="nav nav-tabs">
-    <li class="active"><a href="#profile" data-toggle="tab">step 1</a></li>
-    <li><a href="#about" data-toggle="tab">step 2</a></li>
-    <li><a href="#match" data-toggle="tab">step 3</a></li>
+    <li class="active"><a href="#a1" data-toggle="tab">step 1</a></li>
+    <li><a href="#a2" data-toggle="tab">step 2</a></li>
+    <li><a href="#a3" data-toggle="tab">step 3</a></li>
 </ul>
 <div class="tab-content">
-<div role="tabpanel" class="tab-pane active" id="profile">
+
+<div role="tabpanel" class="tab-pane active" id="a1">
 <p>Cut the RJ45 cable, identify its 4 pairs.
-
-From left to right : orange, green and brown and blue.
-
+<br>
+<b>From left to right : orange, green and brown and blue.</b>
+<br>The DS18B20 will have to be connected to the wires of the blue pair.
+<br>
 <img src="pages/themis/add1wire/a1_RJ45_blue_pair.png" class="d-block w-100">
-
-The DS18B20 will have to be connected to the wires of the blue pair.
 </p>
 </div>
 
-<div role="tabpanel" class="tab-pane" id="about">
-<p>Strip the wires of the blue pair with a wire stripper (you can find some at [FACOM](https://www.fac18.eu/dz-fr/categorie/electricite)).
-
-![strip wires](a2_strip_blue_wires.png)</p>
+<div role="tabpanel" class="tab-pane" id="a2">
+<p>Strip the wires of the blue pair with a wire stripper (you can find some <a href=https://www.fac18.eu/dz-fr/categorie/electricite>FACOM</a>).
+<br>
+<img src="pages/themis/add1wire/a2_strip_blue_wires.png" class="d-block w-100">
+</p>
 </div>
 
 <div role="tabpanel" class="tab-pane" id="match">
