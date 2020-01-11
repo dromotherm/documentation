@@ -22,11 +22,24 @@ You can use a T568B RJ45 cable to make the connection
 
 ![RJ45 568B cable](568B.jpg)
 
-![soldering_1](soldering_1wire_1.png)
+Cut the RJ45 cable, identify its 4 pairs : blue, orange, green and brown. 
 
-![soldering_2](soldering_1wire_2.png)
+The DS18B20 will have to be connected to the wires of the blue pair.
 
-![soldering_3](soldering_1wire_3.png)
+![RJ45 blue pair](1_RJ45_blue_pair.png)
+
+Strip the wires of the blue pair with a wire stripper (you can find them at [FACOM](https://www.fac18.eu/dz-fr/categorie/electricite)).
+
+
+
+add some soldering on pins 1 and 2 of the DS19B20.
+
+To identify the pins of the DS18B20, you must distinguish the front panel (on which you can read the brand and type).
+
+(![TO92 box]TO-92_Front_and_back_view_with_Pin_Numbers.png)
+
+
+
 
 ## anatomy of a 568B RJ45 cable
 
