@@ -27,6 +27,7 @@ You can use a T568B RJ45 cable to make the connection
     <li><a href="#a2" data-toggle="tab">step 2</a></li>
     <li><a href="#a3" data-toggle="tab">step 3</a></li>
 </ul>
+
 <div class="tab-content">
 
 <div role="tabpanel" class="tab-pane active" id="a1">
@@ -40,16 +41,16 @@ You can use a T568B RJ45 cable to make the connection
 </div>
 
 <div role="tabpanel" class="tab-pane" id="a2">
-<p>Strip the wires of the blue pair with a wire stripper (you can find some <a href=https://www.fac18.eu/dz-fr/categorie/electricite>FACOM</a>).
+<p>Strip the wires of the blue pair with a wire stripper (you can find some <a class=link href="https://www.fac18.eu/dz-fr/categorie/electricite">FACOM</a>).
 <br>
 <img src="pages/themis/add1wire/a2_strip_blue_wires.png" class="d-block w-100">
 </p>
 </div>
 
-<div role="tabpanel" class="tab-pane" id="match">
-    <h2>Match</h2>
-    <p>Vel vehicula ....</p>
+<div role="tabpanel" class="tab-pane" id="a3">
+<p></p>
 </div>
+
 </div>
 
 
