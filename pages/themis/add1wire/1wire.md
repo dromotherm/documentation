@@ -50,8 +50,6 @@ You can use a T568B RJ45 cable to make the connection
 <div role="tabpanel" class="tab-pane" id="a3">
 <p>add some solder on both wires<br>
 <img src="pages/themis/add1wire/a3_solder_on_blue_wires.png">
-<br>
-<img src="pages/themis/add1wire/a4_solder_on_blue_wires.png">
 </p>
 </div>
 
