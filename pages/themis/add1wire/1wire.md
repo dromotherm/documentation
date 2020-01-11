@@ -29,6 +29,8 @@ You can use a T568B RJ45 cable to make the connection
     <li><a href="#a4" data-toggle="tab">step 4</a></li>
     <li><a href="#a5" data-toggle="tab">step 5</a></li>
     <li><a href="#a6" data-toggle="tab">step 6</a></li>
+    <li><a href="#a7" data-toggle="tab">step 7</a></li>
+    <li><a href="#a8" data-toggle="tab">step 8</a></li>
 </ul>
 
 <div class="tab-content">
@@ -90,6 +92,14 @@ Add some heat-shrink tubing on the striped blue and white wires of the RJ45 cabl
 Solder the sensor to the RJ45 cable....
 <br>
 <img src="pages/themis/add1wire/a7_soldering.png">
+</p>
+</div> 
+
+<div role="tabpanel" class="tab-pane" id="a7">
+<p>
+Shrink the black tubing by heating
+<br>
+<img src="pages/themis/add1wire/a8_shrink_the_tube.png">
 </p>
 </div> 
 
