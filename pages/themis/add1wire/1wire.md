@@ -36,7 +36,7 @@ add some soldering on pins 1 and 2 of the DS19B20.
 
 To identify the pins of the DS18B20, you must distinguish the front panel (on which you can read the brand and type).
 
-(![TO92 box](TO-92_Front_and_back_view_with_Pin_Numbers.png)
+![TO92 box](TO-92_Front_and_back_view_with_Pin_Numbers.png)
 
 
 
