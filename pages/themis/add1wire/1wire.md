@@ -41,7 +41,7 @@ You can use a T568B RJ45 cable to make the connection
 </div>
 
 <div role="tabpanel" class="tab-pane" id="a2">
-<p>Strip the wires of the blue pair with a wire stripper (you can find some <a class=link href="https://www.fac18.eu/dz-fr/categorie/electricite">FACOM</a>).
+<p>Strip the wires of the blue pair with a wire stripper (you can find some <a class="card-link" href="https://www.fac18.eu/dz-fr/categorie/electricite">FACOM</a>).
 <br>
 <img src="pages/themis/add1wire/a2_strip_blue_wires.png" class="d-block w-100">
 </p>
