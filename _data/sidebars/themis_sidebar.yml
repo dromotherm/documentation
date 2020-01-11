@@ -14,9 +14,17 @@ entries:
       output: web
       type: homepage
 
+    - title: inserting the SIM
+      url: /Themis_SIM.html
+      output: web
+     
   - title: daily use
     output: web
     folderitems: 
+    
+    - title: adding temperature/humidity node
+      url: /Themis_TRH_node.html
+      output: web
   
   - title: advanced use
     output: web
