@@ -54,7 +54,7 @@ entries:
     output: web
     folderitems:
     
-    - title: wireless measurement of ambiant temperature and humidity using 169 Mhz sensors
+    - title: configure a wireless ecosystem of 169 Mhz sensors
       url: /TRH_recording.html
       output: web
     

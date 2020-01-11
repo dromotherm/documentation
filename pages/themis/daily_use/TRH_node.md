@@ -1,5 +1,5 @@
 ---
-title: Themis / declare a new 169 Mhz temperature/humidity node in emonhub and starting recording datas
+title: Themis / declare a new 169 Mhz temperature/humidity node in emonhub and start recording datas
 sidebar: themis_sidebar
 permalink: Themis_new_TRH_node.html
 ---
