@@ -56,7 +56,10 @@ You can use a T568B RJ45 cable to make the connection
 </div>
 
 <div role="tabpanel" class="tab-pane" id="a4">
-<p>Identify the pins of the DS18B20.<br>
+<p>Identify the pins of the DS18B20. 
+<br>
+Note that the parametric version is always packaged as a <a href="https://en.wikipedia.org/wiki/TO-92">TO-92</a>.
+<br>
 To do so, you must distinguish the front panel (on which you can read the brand and type of the sensor).
 <br>
 <img src="pages/themis/add1wire/a4_TO-92_Front_and_back_view_with_Pin_Numbers.png">
