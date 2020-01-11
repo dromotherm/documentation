@@ -95,9 +95,9 @@ Solder the sensor to the RJ45 cable....
 </p>
 </div> 
 
-<div role="tabpanel" class="tab-pane" id="a7">
+<div role="tabpanel" class="tab-pane" id="a8">
 <p>
-Shrink the black tubing by heating
+Heat the black tubings with the soldering iron, in order to shrink them so they fit the wires.
 <br>
 <img src="pages/themis/add1wire/a8_shrink_the_tube.png">
 </p>
