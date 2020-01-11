@@ -1,5 +1,5 @@
 ---
-title: Themis adding a new 169 Mhz temperature/humidity node and starting recording datas
+title: Themis / declare a new 169 Mhz temperature/humidity node in emonhub and starting recording datas
 sidebar: themis_sidebar
 permalink: Themis_new_TRH_node.html
 ---
@@ -12,7 +12,7 @@ Once logged to Themis, Emonhub user interface can be easily found.
 
 Emonhub's user interface permits :
 - to visualize in real time if data processing is correctly performed
-- to edit a config file, used to activate new sensors, never activated before...
+- to edit a config file, in order to activate new sensors, never activated before in the hub...
 
 ![emonhub UI](emonhub2.png)
 

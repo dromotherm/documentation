@@ -22,7 +22,7 @@ entries:
     output: web
     folderitems: 
     
-    - title: adding temperature/humidity node
+    - title: declare a temperature/humidity node in emonhub
       url: /Themis_new_TRH_node.html
       output: web
   
