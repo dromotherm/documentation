@@ -2,7 +2,7 @@
 title: Themis/EmonCMS - adding a self made 1wire temperature sensor to the emonPI
 sidebar: themis_sidebar
 permalink: 1wire.html
-summary: You can connect a single wire sensor to the emonPI in order to monitor the temperature inside the Themis main box, which can be in a very hot place...this post explains how to build yourself the sensor from the electronic component, using a RJ45 cable.
+summary: You can connect a single wire sensor to the emonPI in order to monitor the temperature inside the Themis main box, which can sometimes be in a very hot place...this post explains how to build yourself the sensor from the electronic component, using a RJ45 cable.
 ---
 
 ## the DS18B20 sensor

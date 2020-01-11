@@ -13,6 +13,10 @@ entries:
       url: /Themis_overview.html
       output: web
       type: homepage
+    
+    - title: the Themis softwares
+      url: /Themis_softs.html
+      output: web
 
     - title: inserting the SIM
       url: /Themis_SIM.html

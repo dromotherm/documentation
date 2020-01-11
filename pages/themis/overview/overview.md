@@ -35,3 +35,4 @@ In the basic edition, the Themis box includes :
 
 {% include note.html content="All Themis software is embedded on a SD card." %}
 
+

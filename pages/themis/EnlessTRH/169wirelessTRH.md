@@ -195,10 +195,3 @@ The above illustration was made using an ISR 3200 router and a smartflex SR303 r
         datacode = H
         scales = 1,1,0.5,1,1,1,0.1,0.1
 ```
-
-Please note :
-- register values are 1 more than the values indicated in the Enless datasheet.
-Some manufacturers practice an addition of 1, others not like Enless and it is difficult to make a common rule
-- RSSI is divided by 2
-- Enless is using function code 3
-- For nodes, define numbers over 20 so you can use the standard emonhub configuration for electricity monitoring without modification

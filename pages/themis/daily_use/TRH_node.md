@@ -4,7 +4,7 @@ sidebar: themis_sidebar
 permalink: Themis_new_TRH_node.html
 ---
 
-for most operations related to sensor's connectivity, Themis uses emonhub, a python service to handle socket, serial or radio connections
+for most operations related to connectivity with sensors and real world, Themis uses emonhub, a python service to handle socket, serial or radio connections
 
 Once logged to Themis, Emonhub user interface can be easily found.
 
@@ -16,34 +16,54 @@ Emonhub's user interface permits :
 
 ![emonhub UI](emonhub2.png)
 
-## Emonhub configuration
+## Fit Emonhub configuration
+
+### Emonhub configuration file structure
+
+the file has got 3 main sections : hub, interfacers and nodes
+
+```
+[hub]
+.....
+[interfacers]
+.....
+[nodes]
+```
+
+To declare a new sensor, you have to modify parts of the sections [interfacers] and [nodes] 
+
+### Modify the [interfacers] section
+
+Find the declaration of the ModbusTCP interfacer, which should look like that :
 
 ```
 [interfacers]
 [[ModbusTCP]]
     Type = EmonModbusTcpInterfacer2
     [[[init_settings]]]
-        modbus_IP = 192.168.1.1 # ip address of client to retrieve data from
-        modbus_port = 503 # Portclient listens on
-        fCode = 3 # optional if using function code 3 (read holding registers) - with fCode = 4, the interfacer will read input registers
+        modbus_IP = 192.168.1.1
+        modbus_port = 503
+        fCode = 3
     [[[runtimesettings]]]
-        nodeIds = 23,24
+        nodeIds = 23
         pubchannels = ToEmonCMS,
         # time in seconds between checks, This is in addition to emonhub_interfacer.run() sleep time of .01
         interval = 60
 ```
 
-node configuration
+Add a node number for your new sensor, making sure this number is not already in use.
 
 ```
-[[23]]
-    nodename = TRH12220020
-    [[[rx]]]
-       names = SlaveType,Timer,RSSI,serHigh,serLow,temp,hum
-       registers = 31048,31049,31050,31051,31052,31053,31054
-       datacode = H
-       scales = 1,1,0.5,1,1,0.1,0.1
+nodeIds = 23,24
+```
 
+{% include note.html content="Enless is using function code 3" %}
+
+{% include note.html content="define node numbers over 20 so you can use the standard emonhub configuration for electricity monitoring without modification" %}
+
+### Define the node in the [nodes] section
+
+```
 [[24]]
     nodename = CO218251004
     [[[rx]]]
@@ -52,3 +72,12 @@ node configuration
         datacode = H
         scales = 1,1,0.5,1,1,1,0.1,0.1
 ```
+
+{% include note.html content="register values are 1 more than the values indicated in the Enless datasheet.
+<br>Some manufacturers practice an addition of 1, others not like Enless and it is difficult to make a common rule" %}
+
+{% include tip.html content="the received value of RSSI has to be divided by 2" %}
+
+{% include tip.html content="the received values of temperature and humidity have to be multiplied by 0.1 as the precision is 0.1" %}
+
+{% include tip.html content="the co2 concentration is expressed in ppm and there is nothing to do on the received value" %}
