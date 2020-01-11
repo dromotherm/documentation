@@ -1,7 +1,7 @@
 ---
 title: Themis adding a new 169 Mhz temperature/humidity node and starting recording datas
 sidebar: themis_sidebar
-permalink: Themis_TRH_node.html
+permalink: Themis_new_TRH_node.html
 ---
 
 for most operations related to sensor's connectivity, Themis uses emonhub, a python service to handle socket, serial or radio connections

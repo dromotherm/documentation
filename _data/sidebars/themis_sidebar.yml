@@ -23,7 +23,7 @@ entries:
     folderitems: 
     
     - title: adding temperature/humidity node
-      url: /Themis_TRH_node.html
+      url: /Themis_new_TRH_node.html
       output: web
   
   - title: advanced use
