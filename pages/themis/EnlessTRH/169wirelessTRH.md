@@ -159,6 +159,8 @@ The above illustration was made using an ISR 3200 router and a smartflex SR303 r
 
 ## Emonhub configuration
 
+### declare the interfacer
+
 ```
 [interfacers]
 [[ModbusTCP]]
@@ -174,7 +176,7 @@ The above illustration was made using an ISR 3200 router and a smartflex SR303 r
         interval = 60
 ```
 
-node configuration
+### configure some nodes
 
 ```
 [[23]]
