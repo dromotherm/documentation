@@ -10,11 +10,11 @@ Once logged to Themis, Emonhub user interface can be easily found.
 
 ![go to emonhub UI](emonhub1.png)
 
-Emonhub's user interface allows you to view the log in real time and edit the config file.
+Emonhub's user interface permits :
+- to visualize in real time if data processing is correctly performed
+- to edit a config file, used to activate new sensors, never activated before...
 
 ![emonhub UI](emonhub2.png)
-
-The config file is used to activate new sensors, never activated before...
 
 ## Emonhub configuration
 
