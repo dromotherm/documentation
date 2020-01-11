@@ -27,7 +27,7 @@ You can use a T568B RJ45 cable to make the connection
     <li><a href="#about" data-toggle="tab">step 2</a></li>
     <li><a href="#match" data-toggle="tab">step 3</a></li>
 </ul>
-  <div class="tab-content">
+<div class="tab-content">
 <div role="tabpanel" class="tab-pane active" id="profile">
 Cut the RJ45 cable, identify its 4 pairs.
 
@@ -42,6 +42,8 @@ The DS18B20 will have to be connected to the wires of the blue pair
 Strip the wires of the blue pair with a wire stripper (you can find some at [FACOM](https://www.fac18.eu/dz-fr/categorie/electricite)).
 
 ![strip wires](a2_strip_blue_wires.png)
+</div>
+
 <div role="tabpanel" class="tab-pane" id="match">
     <h2>Match</h2>
     <p>Vel vehicula ....</p>
