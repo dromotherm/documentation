@@ -60,12 +60,14 @@ You can use a T568B RJ45 cable to make the connection
 To do so, you must distinguish the front panel (on which you can read the brand and type of the sensor).
 <br>
 <img src="TO-92_Front_and_back_view_with_Pin_Numbers.png">
+</p>
 </div>
 
 <div role="tabpanel" class="tab-pane" id="a5">
-Add some soldering on pins 1 and 2 of the DS19B20.
+<p>Add some soldering on pins 1 and 2 of the DS19B20.
 <br>
 <img src="1wire_sensor_w_solder.png">
+</p>
 </div>
 
 </div>
