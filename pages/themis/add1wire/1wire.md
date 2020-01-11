@@ -63,6 +63,9 @@ Note that the parametric version is always packaged as a <a href="https://en.wik
 <br>
 To do so, you must distinguish the front panel (on which you can read the brand and type of the sensor).
 <br>
+<b>Pin 1 will be soldered on the white-blue wire of the RJ45 cable</b>
+<br>
+<b>Pin 2 will be soldered on the blue wire of the RJ45 cable</b>
 <img src="pages/themis/add1wire/a4_TO-92_Front_and_back_view_with_Pin_Numbers.png">
 </p>
 </div>
@@ -79,6 +82,14 @@ To do so, you must distinguish the front panel (on which you can read the brand 
 Add some heat-shrink tubing on the striped blue and white wires of the RJ45 cable.
 <br>
 <img src="pages/themis/add1wire/a6_add_heat_shrink.png">
+</p>
+</div>
+
+<div role="tabpanel" class="tab-pane" id="a7">
+<p>
+Solder the sensor to the RJ45 cable....
+<br>
+<img src="pages/themis/add1wire/a7_soldering.png">
 </p>
 </div> 
 
