@@ -34,7 +34,7 @@ You can use a T568B RJ45 cable to make the connection
 From left to right : orange, green and brown and blue.
 
 The DS18B20 will have to be connected to the wires of the blue pair
-<img src="a1_RJ45_blue_pair.png" class="d-block w-100">
+<img src="a1_RJ45_blue_pair.png" class="d-block w-100"></p>
 </div>
 
 <div role="tabpanel" class="tab-pane" id="about">
