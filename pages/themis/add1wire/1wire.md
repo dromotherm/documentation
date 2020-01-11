@@ -26,6 +26,8 @@ You can use a T568B RJ45 cable to make the connection
 
 ![soldering_2](soldering_1wire_2.png)
 
+![soldering_3](soldering_1wire_3.png)
+
 ## anatomy of a 568B RJ45 cable
 
 ### the 4 pairs of wires of an RJ45 cable
