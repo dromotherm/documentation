@@ -26,11 +26,12 @@ Cut the RJ45 cable, identify its 4 pairs : blue, orange, green and brown.
 
 The DS18B20 will have to be connected to the wires of the blue pair.
 
-![RJ45 blue pair](a1_RJ45_blue_pair.png)
+--|--
+![RJ45 blue pair](a1_RJ45_blue_pair.png)|![strip wires](a2_strip_blue_wires.png)
 
 Strip the wires of the blue pair with a wire stripper (you can find some at [FACOM](https://www.fac18.eu/dz-fr/categorie/electricite)).
 
-![strip wires](a2_strip_blue_wires.png)
+
 
 To identify the pins of the DS18B20, you must distinguish the front panel (on which you can read the brand and type of the sensor).
 
