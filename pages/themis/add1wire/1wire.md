@@ -28,6 +28,7 @@ You can use a T568B RJ45 cable to make the connection
     <li><a href="#a3" data-toggle="tab">step 3</a></li>
     <li><a href="#a4" data-toggle="tab">step 4</a></li>
     <li><a href="#a5" data-toggle="tab">step 5</a></li>
+    <li><a href="#a6" data-toggle="tab">step 6</a></li>
 </ul>
 
 <div class="tab-content">
@@ -73,11 +74,15 @@ To do so, you must distinguish the front panel (on which you can read the brand 
 </p>
 </div>
 
+<div role="tabpanel" class="tab-pane" id="a6">
+<p>
+Add some heat-shrink tubing on the striped blue and white wires of the RJ45 cable.
+<br>
+<img src="pages/themis/add1wire/a6_add_heat_shrink.png">
+</p>
+</div> 
+
 </div>
-
-
-
-
 
 
 
