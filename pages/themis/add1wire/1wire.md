@@ -26,6 +26,8 @@ You can use a T568B RJ45 cable to make the connection
     <li class="active"><a href="#a1" data-toggle="tab">step 1</a></li>
     <li><a href="#a2" data-toggle="tab">step 2</a></li>
     <li><a href="#a3" data-toggle="tab">step 3</a></li>
+    <li><a href="#a4" data-toggle="tab">step 4</a></li>
+    <li><a href="#a5" data-toggle="tab">step 5</a></li>
 </ul>
 
 <div class="tab-content">
@@ -53,16 +55,25 @@ You can use a T568B RJ45 cable to make the connection
 </p>
 </div>
 
+<div role="tabpanel" class="tab-pane" id="a4">
+<p>Identify the pins of the DS18B20.<br>
+To do so, you must distinguish the front panel (on which you can read the brand and type of the sensor).
+<br>
+<img src="TO-92_Front_and_back_view_with_Pin_Numbers.png">
+</div>
+
+<div role="tabpanel" class="tab-pane" id="a5">
+Add some soldering on pins 1 and 2 of the DS19B20.
+<br>
+<img src="1wire_sensor_w_solder.png">
+</div>
+
 </div>
 
 
-To identify the pins of the DS18B20, you must distinguish the front panel (on which you can read the brand and type of the sensor).
 
-![TO92 box](TO-92_Front_and_back_view_with_Pin_Numbers.png)
 
-Add some soldering on pins 1 and 2 of the DS19B20.
 
-![solder on 1wire pins](1wire_sensor_w_solder.png)
 
 
 ## anatomy of a 568B RJ45 cable
