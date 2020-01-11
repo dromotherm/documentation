@@ -36,20 +36,22 @@ You can use a T568B RJ45 cable to make the connection
 <b>From left to right : orange, green and brown and blue.</b>
 <br>The DS18B20 will have to be connected to the wires of the blue pair.
 <br>
-<img src="pages/themis/add1wire/a1_RJ45_blue_pair.png" class="d-block w-100">
+<img src="pages/themis/add1wire/a1_RJ45_blue_pair.png">
 </p>
 </div>
 
 <div role="tabpanel" class="tab-pane" id="a2">
 <p>Strip the wires of the blue pair with a wire stripper (you can find some <a class="card-link" href="https://www.fac18.eu/dz-fr/categorie/electricite">FACOM</a>).
 <br>
-<img src="pages/themis/add1wire/a2_strip_blue_wires.png" class="d-block w-100">
+<img src="pages/themis/add1wire/a2_strip_blue_wires.png">
 </p>
 </div>
 
 <div role="tabpanel" class="tab-pane" id="a3">
 <p>add some solder on both wires<br>
 <img src="pages/themis/add1wire/a3_solder_on_blue_wires.png">
+<br>
+<img src="pages/themis/add1wire/a4_solder_on_blue_wires.png">
 </p>
 </div>
 
