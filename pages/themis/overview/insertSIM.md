@@ -46,13 +46,16 @@ date
 Sat 16 Dec 19:57:36 CET 2017
 ````
 
-### fix date manually
+### fix date
+
+#### manual fix
+
 
 ```language
 sudo date MMDDhhmmYY.ss
 ````
 
-### use a local NTP server
+#### using a local NTP server
 
 We assume you know the address of a NTP server that can be reached by Themis, eg ntp.as.i2
 
