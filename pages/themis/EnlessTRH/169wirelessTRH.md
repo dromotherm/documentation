@@ -45,7 +45,9 @@ Save the csv file (smart if you need to change the periodicity in the future)
 
 {% include note.html content="At this stage, you need the hardware receiver to be recognized by the host computer on which you've installed AIR.
 <br>Usually, the receiver is automatically recognized but on some old machines, you may need to do it manually
-<br>The drivers can be found on the ftdi website, as the lastest windows [M2xx drivers](https://www.ftdichip.com/Drivers/CDM/CDM21228_Setup.zip) or on the main [D2XX page](https://www.ftdichip.com/Drivers/D2XX.htm)" %}
+<br>The drivers can be found on the ftdi website, as the lastest windows [M2xx drivers](https://www.ftdichip.com/Drivers/CDM/CDM21228_Setup.zip) or on the main [D2XX page](https://www.ftdichip.com/Drivers/D2XX.htm)
+![receiver bottom](enless_receiver_bottom_view.jpg)
+" %}
 
 
 On the receiver, position the switches as follow :
