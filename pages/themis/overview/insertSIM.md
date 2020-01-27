@@ -14,7 +14,9 @@ Anyway, when booting a Themis machine without connecting it to a network linked 
 
 Once logged with a desktop machine to the Themis network (using wifi or wired connection through an RJ45 cable), the Themis server can be usually reached on 192.168.1.2. 
 
-You will need to establish a SSH connection using the Putty software (which is a simple exe file in a windows 10 environment). 
+You will need to establish a SSH connection 
+- on linux via the basic shell command `ssh pi@192.168.1.2`
+- on windows 10 via the Putty software (which is a simple exe file). 
 
 Just download the [zip](putty.zip), unzip, drop the exe file on the desktop for example and launch it.
 
