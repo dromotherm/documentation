@@ -116,7 +116,7 @@ bash <(curl -sL https://raw.githubusercontent.com/node-red/raspbian-deb-package/
 To start nodered as a service: `sudo systemctl enable nodered.service`
 
 
-## Extra notes
+## Extra notes - to check in case of installation problems
 
 If the process described above does not succeed in creating a new /dev/mmcblk0p3 partition, you can do it manually using gparted on a ubuntu desktop
 
@@ -142,14 +142,11 @@ git_repo[emonhub]=https://github.com/alexandrecuer/emonhub.git
 # emonpi/rpi specific tools
 git_repo[emonpi]=https://github.com/dromotherm/emonpi.git
 ```
-
-To remove the isc-dhcp server, if not needed
+to make the restart button of the config module work, jump to the master branch of config :
 ```
-cd /etc/systemd/system
-sudo ln -s /dev/null isc-dhcp-server.service
+emoncms_emonpi_modules[config]=stable
 ```
-
-to make the LCD work with python3 (temporary) :
+normally, the dromotherm emonpi fork will make things work with python3 but in case, it is good to know how to debug the LCD. There is some dependancies :
 
 ```
 sudo apt-get install python3-smbus i2c-tools python3-rpi.gpio python3-pip redis-server  python3-gpiozero -y
@@ -157,13 +154,21 @@ sudo pip3 install redis paho-mqtt xmltodict requests
 ```
 All files are in /opt/openenergymonitor/emonpi/lcd
 
-modify the service emonPiLCD.service
+the service emonPiLCD.service should include such a line :
 ```
 ExecStart=/usr/bin/python3 /opt/openenergymonitor/emonpi/lcd/emonPiLCD.py
 ```
-then create the service by hand :
+the service file should be located in /lib/systemd/system. If you install it manually
 ```
 sudo cp emonPiLCD.service /lib/systemd/system/emonPiLCD.service
 sudo systemctl enable emonPiLCD.service
 sudo systemctl restart emonPiLCD.service
+```
+
+## miscellaneous
+
+To remove the isc-dhcp server, if not needed
+```
+cd /etc/systemd/system
+sudo ln -s /dev/null isc-dhcp-server.service
 ```
