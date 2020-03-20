@@ -119,26 +119,26 @@ To start nodered as a service: `sudo systemctl enable nodered.service`
 ## Extra notes
 
 To remove the isc-dhcp server, if not needed
-``
+```
 cd /etc/systemd/system
 sudo ln -s /dev/null isc-dhcp-server.service
-``
+```
 
 to make the LCD work with python3 (temporary) :
 
-``
+```
 sudo apt-get install python3-smbus i2c-tools python3-rpi.gpio python3-pip redis-server  python3-gpiozero -y
 sudo pip3 install redis paho-mqtt xmltodict requests
-``
+```
 All files are in /opt/openenergymonitor/emonpi/lcd
 
 modify the service emonPiLCD.service
-``
+```
 ExecStart=/usr/bin/python3 /opt/openenergymonitor/emonpi/lcd/emonPiLCD.py
-``
+```
 then create the service by hand :
-``
+```
 sudo cp emonPiLCD.service /lib/systemd/system/emonPiLCD.service
 sudo systemctl enable emonPiLCD.service
 sudo systemctl restart emonPiLCD.service
-``
+```
