@@ -118,6 +118,31 @@ To start nodered as a service: `sudo systemctl enable nodered.service`
 
 ## Extra notes
 
+If the process described above does not succeed in resizing the filesystem, you can do it manually using gparted on a ubuntu desktop
+
+Once things are done in gparted, you will still have to fix the sector size to 1024 :
+
+```
+sudo mkfs.ext2 -b 1024 /dev/mmcblk0p3
+sudo mkdir /var/opt/emoncms
+sudo chown www-data /var/opt/emoncms
+wget https://raw.githubusercontent.com/openenergymonitor/EmonScripts/master/defaults/etc/fstab
+sudo cp fstab /etc/fstab
+sudo reboot
+```
+repositories to use for a themis python3 config (without the Themis cosmetics tools included into the themis emoncms branch) = How to modify the emonsd.config.ini
+```
+emonhub_branch=themis_python3
+....
+symlinked_emoncms_modules[postprocess]=themis
+....
+git_repo[postprocess]=https://github.com/alexandrecuer/postprocess.git
+....
+git_repo[emonhub]=https://github.com/alexandrecuer/emonhub.git
+# emonpi/rpi specific tools
+git_repo[emonpi]=https://github.com/dromotherm/emonpi.git
+```
+
 To remove the isc-dhcp server, if not needed
 ```
 cd /etc/systemd/system
