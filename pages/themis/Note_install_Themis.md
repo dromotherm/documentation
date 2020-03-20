@@ -120,7 +120,7 @@ To start nodered as a service: `sudo systemctl enable nodered.service`
 
 If the process described above does not succeed in creating a new /dev/mmcblk0p3 partition, you can do it manually using gparted on a ubuntu desktop
 
-Once things are done in gparted, you will still have to fix the sector size to 1024 :
+Once things are done in gparted, you will still have to format and to fix the sector size to 1024 :
 
 ```
 sudo mkfs.ext2 -b 1024 /dev/mmcblk0p3
