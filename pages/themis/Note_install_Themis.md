@@ -116,7 +116,7 @@ bash <(curl -sL https://raw.githubusercontent.com/node-red/raspbian-deb-package/
 To start nodered as a service: `sudo systemctl enable nodered.service`
 
 
-# Extra notes
+## Extra notes
 
 To remove the isc-dhcp server, if not needed
 ``
