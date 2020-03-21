@@ -53,7 +53,14 @@ With the Adam in init mode, you dont have to care about baudrate : keep the fact
 
 ![Adam_utility_search](adam_utility_search.png)
 
-After the device discovered, fix the address if you have more than 1 element on your modbus network, choose modbus for the protocol, 19.2 Kbps for the baudrate and press update
+After the device discovered : 
+- fix the address if you have more than 1 element on your modbus network, 
+- choose modbus for the protocol,
+- for RTD PT100, choose a data format : Engineering Units is the easiest
+- choose 19.2 Kbps for the baudrate
+Validate the confuguration by pressing update (in the 'General Setting' section)
+
+![Adam4015_configure](adam_utility_configure.png)
 
 ![Adam4015_Init1](INIT_MODE_ADAM4015_1.png)
 
