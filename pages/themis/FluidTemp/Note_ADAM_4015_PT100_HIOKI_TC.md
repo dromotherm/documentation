@@ -67,7 +67,7 @@ Value = input_range * Modbus_decimal_raw_data / 65535 + lower_value_of_the_input
 ````
 for PT100(385) working between -50°C and °150°C, the conversion formula is :
 ````
-Value = 200 * Modbus_decimal_raw_data / 65535 - 20
+Value = 200 * Modbus_decimal_raw_data / 65535 - 50
 ````
 
 ![Adam4015_configure](adam_utility_configure.png)
