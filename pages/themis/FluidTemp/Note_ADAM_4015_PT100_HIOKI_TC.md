@@ -13,6 +13,14 @@ Using and ohmmeter, find the wires between which a resistance is present
 
 ### Configure ADAM4015 for operation on a RS485 network
 
+#### check the moxa configuration
+
+we are using a moxa uport 1150 - [download drivers](https://www.moxa.com/en/products/industrial-edge-connectivity/usb-to-serial-converters-usb-hubs/secure-routers/uport-1000-series#resources)
+
+on a window desktop, go to the device manager and fit the moxa so it works in RS485(2W)
+
+![moxa uport conf](uport_conf.png)
+
 #### Init mode
 
 Booting the ADAM4015 in Init mode can be done by using the specific switch on recent models or by connecting the init terminal to the
