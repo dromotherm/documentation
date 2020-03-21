@@ -80,7 +80,7 @@ Value = 200 * Modbus_decimal_raw_data / 65535 - 50
 
 Go back to normal mode and test if communication is OK for example with [modbus doctor](http://www.kscada.com/modbusdoctor.html). Even without any sensor, you can check th module type :
 
-![modbusdoctor model check]modbus_doctor_model_check.png
+![modbusdoctor model check](modbus_doctor_model_check.png)
 
 ![Adam4015&Smartflex](connect_ADAM4015_to_SmartFlex4GRouterb.png)
 
