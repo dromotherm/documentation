@@ -24,9 +24,11 @@ In that section, we will use a USB to serial adapter : the moxa uport 1150
 
 [download drivers](https://www.moxa.com/en/products/industrial-edge-connectivity/usb-to-serial-converters-usb-hubs/secure-routers/uport-1000-series#resources)
 
+for ADAM configuration, Advantech provides the [ADAM utility](https://support.advantech.com/support/DownloadSRDetail_New.aspx?SR_ID=1-9HOC2&Doc_Source=Download)
+
 #### check the moxa configuration
 
-on a window desktop, go to the device manager and fit the moxa so it works in RS485(2W)
+On a window desktop, go to the device manager and fit the moxa so it works in RS485(2W)
 
 ![moxa uport conf](uport_conf.png)
 
@@ -38,6 +40,10 @@ GND terminal
 ![Adam4015_Moxa](configure_ADAM4015_w_moxa.png)
 
 connect all the wires on the green terminal block, plug the block in the module, with the switch in INIT mode and power on !
+
+Init mode on an older model, without switch
+
+![Adam4015_Moxa_init_mode_w_switch](init_mode_w_wire.png)
 
 #### Configure with ADAM utility
 
