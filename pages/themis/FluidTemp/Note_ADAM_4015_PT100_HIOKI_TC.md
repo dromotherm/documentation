@@ -82,7 +82,7 @@ Go back to normal mode and test if communication is OK for example with [modbus 
 
 ![modbusdoctor model check](modbus_doctor_model_check.png)
 
-![Adam4015&Smartflex](connect_ADAM4015_to_SmartFlex4GRouterb.png)
+![Adam4015&Smartflex](connect_ADAM4015_to_SmartFlex4GRouter.png)
 
 ### emonhub configuration
 
