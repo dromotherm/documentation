@@ -11,6 +11,12 @@ Using and ohmmeter, find the wires between which a resistance is present
 
 ![Adam4015&PT100](connectPT100_to_ADAM4015.png)
 
+many PT100 follow a specific color code and you dont need an ohmmeter : 
+- red = VCC > RTD+
+- black = GND > RTD-
+- yelow = DATA > COM
+![Adam4015&PT100_RNJ](PT100_RNJ.png)
+
 ### Configure ADAM4015 for operation on a RS485 network
 
 #### check the moxa configuration
