@@ -20,7 +20,7 @@ many PT100 follow a specific color code and you dont need an ohmmeter :
 
 ### Configure ADAM4015 for operation on a RS485 network
 
-In that section, we will be using a USB to serial adapter : the moxa uport 1150
+In that section, we will use a USB to serial adapter : the moxa uport 1150
 
 [download drivers](https://www.moxa.com/en/products/industrial-edge-connectivity/usb-to-serial-converters-usb-hubs/secure-routers/uport-1000-series#resources)
 
