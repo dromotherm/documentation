@@ -20,13 +20,11 @@ many PT100 follow a specific color code and you dont need an ohmmeter :
 
 ### Configure ADAM4015 for operation on a RS485 network
 
-In that section, we will use a USB to serial adapter : the moxa uport 1150
+In that section, we will use a USB to serial adapter : the moxa uport 1150 - [download MOXA uport drivers](https://www.moxa.com/en/products/industrial-edge-connectivity/usb-to-serial-converters-usb-hubs/secure-routers/uport-1000-series#resources)
 
-[download drivers](https://www.moxa.com/en/products/industrial-edge-connectivity/usb-to-serial-converters-usb-hubs/secure-routers/uport-1000-series#resources)
+For ADAM configuration, Advantech provides the [ADAM utility](https://support.advantech.com/support/DownloadSRDetail_New.aspx?SR_ID=1-9HOC2&Doc_Source=Download)
 
-for ADAM configuration, Advantech provides the [ADAM utility](https://support.advantech.com/support/DownloadSRDetail_New.aspx?SR_ID=1-9HOC2&Doc_Source=Download)
-
-#### check the moxa configuration
+#### check the Moxa configuration
 
 On a window desktop, go to the device manager and fit the moxa so it works in RS485(2W)
 
