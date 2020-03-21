@@ -84,8 +84,6 @@ Go back to normal mode and test if communication is OK for example with [modbus 
 
 ![Adam4015&Smartflex](connect_ADAM4015_to_SmartFlex4GRouterb.png)
 
-**for more information about smartflex RS485 connectors, check the ![topic](https://dromotherm.github.io/documentation/TRH_recording.html#physical-connexions) related to interfacing smartflex with enless wireless sensors via RS485 receiver**
-
 ### emonhub configuration
 
 create a modbusTCPinterfacer
