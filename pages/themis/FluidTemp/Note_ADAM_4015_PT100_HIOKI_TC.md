@@ -56,9 +56,19 @@ With the Adam in init mode, you dont have to care about baudrate : keep the fact
 After the device discovered : 
 - fix the address if you have more than 1 element on your modbus network, 
 - choose modbus for the protocol,
-- for RTD PT100, choose a data format : Engineering Units is the easiest
+- for RTD PT100, fix data format to Engineering Units
 - choose 19.2 Kbps for the baudrate
+
 Validate the confuguration by pressing update (in the 'General Setting' section)
+
+Working with engineering units will require a single conversion :
+````
+Value = input_range * Modbus_decimal_raw_data / 65535 + lower_value_of_the_input_range
+````
+for PT100(385) working between -50°C and °150°C, the conversion formula is :
+````
+Value = 200 * Modbus_decimal_raw_data / 65535 - 20
+````
 
 ![Adam4015_configure](adam_utility_configure.png)
 
