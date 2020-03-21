@@ -24,9 +24,11 @@ In that section, we will use a USB to serial adapter : the moxa uport 1150 - [do
 
 For ADAM configuration, Advantech provides the [ADAM utility](https://support.advantech.com/support/DownloadSRDetail_New.aspx?SR_ID=1-9HOC2&Doc_Source=Download)
 
-#### check the Moxa configuration
+#### Check the Moxa configuration
 
-On a window desktop, go to the device manager and fit the moxa so it works in RS485(2W)
+On a window desktop, go to the device manager and fit the Moxa so it works in RS485(2W)
+
+Here the Moxa appears on COM1
 
 ![moxa uport conf](uport_conf.png)
 
