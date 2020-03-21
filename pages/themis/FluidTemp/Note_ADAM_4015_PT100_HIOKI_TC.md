@@ -39,7 +39,7 @@ GND terminal
 
 ![Adam4015_Moxa](configure_ADAM4015_w_moxa.png)
 
-connect all the wires on the green terminal block, plug the block in the module, with the switch in INIT mode and power on !
+connect all the wires on the green terminal block, plug the block in the module, with the switch in INIT mode and power on with a 12v AC-DC alimentation !
 
 Init mode on an older model, without switch
 
