@@ -14,6 +14,16 @@ The Kipp and Zonen [SMP3-V](https://www.kippzonen.com/Product/201/SMP3-Pyranomet
 
 On a window desktop, go to the device manager and check that the Moxa works in RS485(2W)
 
+The SMP comes with a 8-wire cable :
+- 1 - red : Not used
+- 2 - blue : MODBUS GND
+- 3 - green : analogue out
+- 4 - yellow : MODBUS B+
+- 5 - grey - MODBUS A-
+- 6 - brown : analogue ground
+- 7 - white : VCC (12 ACDC)
+- 8 - black : GROUND
+
 Connect the SMP as follow :
 
 ![wiring](wiring.jpg)
