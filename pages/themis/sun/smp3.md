@@ -88,7 +88,12 @@ In our case, SMP3 is on node 24, whereas node 23 is a standard wireless TRH node
        scale = 1
 
 ````
-| modbus register| emonhub register | parameter | Name | Description |
+| modbus_register| emonhub_register |
+|--------|--------|
+| 0 | 1 |
+| 0 | 1 |
+
+| modbus_register| emonhub_register | parameter | Name | Description |
 |--------|--------|--------|--------|--------|
 | 0 | 1 | IO_DEVICE_TYPE | DevType | type of the sensor |
 | 1 | 2 | IO_DATAMODEL_VERSION | DataSet | Version of the object data model |
