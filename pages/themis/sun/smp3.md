@@ -60,3 +60,43 @@ To fix the configuration in the SMP :
 
 ### Connection to the Themis RS485 bus
 
+![fix1](connect_to_SR303.jpg)
+
+Adjust Emonhub configuration :
+````
+[[ModbusTCP]]
+    Type = EmonModbusTcpInterfacer2
+    [[[init_settings]]]
+        modbus_IP = 192.168.2.1 # ip address of client to retrieve data from
+        modbus_port = 503 # Portclient listens on
+        fCode = 3 # optional if using function code 3 (read holding registers) - with fCode = 4, the interfacer will read input registers
+    [[[runtimesettings]]]
+        nodeIds = 23,24
+        pubchannels = ToEmonCMS,
+        # time in seconds between checks, This is in addition to emonhub_interfacer.run() sleep time of .01
+        interval = 10
+````
+In our case, SMP3 is on node 24, whereas node 23 is a standard wireless TRH node 
+````
+[[24]]
+    nodename = SMP3-V
+    [[[rx]]]
+       names = dev. type,model,net rad.,body temp.
+       registers =1,2,7,9
+       unitIds = 2
+       datacode = H
+       scale = 1
+
+````
+modbus register| emonhub register | parameter | Nmae | Description
+--|--|--|--
+0 | 1 | IO_DEVICE_TYPE | DevType | type of the sensor
+1 | 2 | IO_DATAMODEL_VERSION | DataSet | Version of the object data model
+2 | 3 | IO_OPERATIONAL_MODE | DevMode |Operational mode: normal, service, calibration and so on
+3 | 4 | IO_STATUS_FLAGS | Status | Device Status flags
+4 | 5 | IO_SCALE_FACTOR | Range | Range and scale factor sensor data (determines number of decimal places)
+5 | 6 | IO_SENSOR1_DATA | Sensor1 | Temperature compensated radiation in W/m2 (Net radiation for SGR)
+6 | 7 | IO_RAW_SENSOR1_DATA | RawData1 | Net radiation (sensor 1) in W/m2
+7 | 8 | IO_STDEV_SENSOR1 | StDev1 | Standard deviation IO_SENSOR1_DATA
+8 | 9 | IO_BODY_TEMPERATURE | BodyTemp | temperature in 0.1 °C
+9 | 10 | IO_EXT_POWER_SENSOR | VSupply | External power voltage
