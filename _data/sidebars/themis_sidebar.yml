@@ -61,6 +61,10 @@ entries:
     - title: configure a wireless ecosystem of 169 Mhz sensors
       url: /TRH_recording.html
       output: web
+      
+    - title : using a pyranometer for IR monitoring
+      url: /Themis_smp3.html
+      output: web
     
     - title: replacing RPI3 by a new RPI4
       url: /Themis_with_RPI4.html
