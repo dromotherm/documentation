@@ -88,15 +88,15 @@ In our case, SMP3 is on node 24, whereas node 23 is a standard wireless TRH node
        scale = 1
 
 ````
-modbus register| emonhub register | parameter | Name | Description
---|--|--|--|--
-0 | 1 | IO_DEVICE_TYPE | DevType | type of the sensor
-1 | 2 | IO_DATAMODEL_VERSION | DataSet | Version of the object data model
-2 | 3 | IO_OPERATIONAL_MODE | DevMode |Operational mode: normal, service, calibration and so on
-3 | 4 | IO_STATUS_FLAGS | Status | Device Status flags
-4 | 5 | IO_SCALE_FACTOR | Range | Range and scale factor sensor data (determines number of decimal places)
-5 | 6 | IO_SENSOR1_DATA | Sensor1 | Temperature compensated radiation in W/m2 (Net radiation for SGR)
-6 | 7 | IO_RAW_SENSOR1_DATA | RawData1 | Net radiation (sensor 1) in W/m2
-7 | 8 | IO_STDEV_SENSOR1 | StDev1 | Standard deviation IO_SENSOR1_DATA
-8 | 9 | IO_BODY_TEMPERATURE | BodyTemp | temperature in 0.1 °C
-9 | 10 | IO_EXT_POWER_SENSOR | VSupply | External power voltage
+|modbus register| emonhub register | parameter | Name | Description|
+|--|--|--|--|--|
+|0 | 1 | IO_DEVICE_TYPE | DevType | type of the sensor|
+|1 | 2 | IO_DATAMODEL_VERSION | DataSet | Version of the object data model|
+|2 | 3 | IO_OPERATIONAL_MODE | DevMode |Operational mode: normal, service, calibration and so on|
+|3 | 4 | IO_STATUS_FLAGS | Status | Device Status flags|
+|4 | 5 | IO_SCALE_FACTOR | Range | Range and scale factor sensor data (determines number of decimal places)|
+|5 | 6 | IO_SENSOR1_DATA | Sensor1 | Temperature compensated radiation in W/m2 (Net radiation for SGR)|
+|6 | 7 | IO_RAW_SENSOR1_DATA | RawData1 | Net radiation (sensor 1) in W/m2|
+|7 | 8 | IO_STDEV_SENSOR1 | StDev1 | Standard deviation IO_SENSOR1_DATA|
+|8 | 9 | IO_BODY_TEMPERATURE | BodyTemp | temperature in 0.1 °C|
+|9 | 10 | IO_EXT_POWER_SENSOR | VSupply | External power voltage|
