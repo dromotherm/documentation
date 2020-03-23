@@ -65,12 +65,12 @@ entries:
     - title : using a pyranometer for IR monitoring
       url: /Themis_smp3.html
       output: web
-    
-    - title: replacing RPI3 by a new RPI4
-      url: /Themis_with_RPI4.html
-      output: web
 
-    - title: measuring a fluid temperature
+    - title: add a self-made 1wire temperature sensor to the emonPI
+      url: /1wire.html
+      output: web
+ 
+    - title: measuring a fluid temperature (BETA)
       url: /Themis_fluid_T_mes.html
       output: web
     
@@ -78,8 +78,8 @@ entries:
       url: /Themis_door_sensor.html
       output: web
       
-    - title: add a self-made 1wire temperature sensor to the emonPI
-      url: /1wire.html
+    - title: replacing RPI3 by a new RPI4
+      url: /Themis_with_RPI4.html
       output: web
 
   - title: usecases
