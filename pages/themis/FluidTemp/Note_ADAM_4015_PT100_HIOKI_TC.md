@@ -5,6 +5,10 @@ permalink: Themis_fluid_T_mes.html
 ---
 ## Using PT 100 and ADAM 4015
 
+modbus error codes
+
+http://www.simplymodbus.ca/exceptions.htm
+
 ### connect PT100 to ADAM4015
 
 Using and ohmmeter, find the wires between which a resistance is present
