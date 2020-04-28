@@ -4,7 +4,7 @@ sidebar: themis_sidebar
 permalink: Themis_softs.html
 ---
 
-The Themis tools are developped on the basis of the emoncms ecosystem
+The Themis tools are developped on the basis of the [emoncms](http://github.com/emoncms) ecosystem
 
 They consist of :
 - a vizualisation tool for creating **psychometric** diagrams 
