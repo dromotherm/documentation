@@ -11,5 +11,5 @@ blue|D-/RXD|blue
 white|D+/TXD|red
 brown|Vsupply|brown
 black|Vheat|green(1 Watt Heater) or white(10 Watt Heater)
-grey|GND|yellow|black
+grey|GND|yellow+black
 
