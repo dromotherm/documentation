@@ -79,6 +79,13 @@ tmpfs            30M     0   30M   0% /tmp
 /dev/mmcblk0p1   43M   22M   21M  51% /boot
 tmpfs            93M     0   93M   0% /run/user/1000
 ```
+At this stage, you can use the `sudo raspi-config` command to fix the timezone, if you don't want to stay on the UTC London one
+
+```
+Current default time zone: 'Europe/Paris'
+Local time is now:      Sun Jun 14 11:12:36 CEST 2020.
+Universal Time is now:  Sun Jun 14 09:12:36 UTC 2020.
+```
 
 ## install the themis softwares 
 
