@@ -18,7 +18,15 @@ Choose the [lite version](https://downloads.raspberrypi.org/raspbian_lite_latest
 
 ### ssh access
 
-if SD mounted on E:, create an ssh file on /boot
+Create an ssh file on the SD boot directory
+
+On linux, if the SD boot directory is mounted on `/media/alexandrecuer/boot` :
+```
+cd /media/alexandrecuer/boot
+touch ssh
+```
+
+On windows, if the SD boot directory is mounted on `E` :
 
 ```
 echo.>E:\ssh
