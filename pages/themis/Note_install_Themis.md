@@ -45,6 +45,10 @@ nano cmdline.txt
 
 ## boot the RPI and adjust the file system, once logged in via SSH
 
+We assume the rapsberry was assigned the IP address `192.168.1.23` by the network DHCP server.
+
+To log in via SSH via a linux workstation : `ssh pi@192.168.1.23` and enter the raspbian base password : `pi`
+
 ```
 wget https://raw.githubusercontent.com/openenergymonitor/EmonScripts/master/install/init_resize.sh
 chmod +x init_resize.sh
