@@ -103,7 +103,7 @@ cd install
 ```
 
 ### option 1
-{% include note.html content="Option 1 is the simplest and preferred solution." %}
+{% include note.html content="Option 1 should the simplest and preferred solution. But as things are not stabilized, use option 2" %}
 ```
 rm emonsd.config.ini
 wget https://raw.githubusercontent.com/dromotherm/documentation/master/pages/themis/emonsd.config.ini
@@ -111,24 +111,34 @@ wget https://raw.githubusercontent.com/dromotherm/documentation/master/pages/the
 
 ### option 2
 
-manually change emonsd.config.ini with the following lines
+manually change emonsd.config.ini !
+
+repositories to use for a themis python3 config (without the Themis cosmetics tools included into the themis emoncms branch) = How to modify the emonsd.config.ini
 ```
-emoncms_core_branch=themis or themis_uptodate
+emonhub_branch=themis_python3
+....
+symlinked_emoncms_modules[postprocess]=themis
+....
+git_repo[postprocess]=https://github.com/alexandrecuer/postprocess.git
+....
+git_repo[emonhub]=https://github.com/alexandrecuer/emonhub.git
+# emonpi/rpi specific tools
+git_repo[emonpi]=https://github.com/dromotherm/emonpi.git
+```
+to add the emoncms psychrographic tools :
+
+```
+emoncms_core_branch=themis
+....
+git_repo[emoncms_core]=https://github.com/alexandrecuer/emoncms.git
+```
+
+There is also a specific emonhub branch working with env variables - work in progress - dont know if this is going really to ship ???
+
+```
 emonhub_branch=modbusTCPinterfacer_multinodes_env_example
 ```
-```
-symlinked_emoncms_modules[postprocess]=themis
-```
-```
-git_repo[emoncms_core]=https://github.com/alexandrecuer/emoncms.git
-# main modules
-git_repo[config]=https://github.com/alexandrecuer/config.git
-```
-```
-git_repo[postprocess]=https://github.com/alexandrecuer/postprocess.git
-# emonhub
-git_repo[emonhub]=https://github.com/alexandrecuer/emonhub.git
-```
+
 ### launch the scripts
 ```
 ./main.sh
@@ -157,22 +167,8 @@ wget https://raw.githubusercontent.com/openenergymonitor/EmonScripts/master/defa
 sudo cp fstab /etc/fstab
 sudo reboot
 ```
-repositories to use for a themis python3 config (without the Themis cosmetics tools included into the themis emoncms branch) = How to modify the emonsd.config.ini
-```
-emonhub_branch=themis_python3
-....
-symlinked_emoncms_modules[postprocess]=themis
-....
-git_repo[postprocess]=https://github.com/alexandrecuer/postprocess.git
-....
-git_repo[emonhub]=https://github.com/alexandrecuer/emonhub.git
-# emonpi/rpi specific tools
-git_repo[emonpi]=https://github.com/dromotherm/emonpi.git
-```
-to make the restart button of the config module work, jump to the master branch of config :
-```
-emoncms_emonpi_modules[config]=stable
-```
+
+
 normally, the dromotherm emonpi fork will make things work with python3 but in case, it is good to know how to debug the LCD. There is some dependancies :
 
 ```
