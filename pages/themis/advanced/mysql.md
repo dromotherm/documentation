@@ -131,3 +131,41 @@ MariaDB [emoncms]> describe feeds;
 +-------------+-------------+------+-----+---------+----------------+
 13 rows in set (0.007 sec)
 ```
+
+On peut dès lors reprendre les noms de flux, les unités via emoncms
+
+```
+mysql -u emoncms -pemonpiemoncmsmysql2016
+Welcome to the MariaDB monitor.  Commands end with ; or \g.
+Your MariaDB connection id is 571
+Server version: 10.3.22-MariaDB-0+deb10u1 Raspbian 10
+
+Copyright (c) 2000, 2018, Oracle, MariaDB Corporation Ab and others.
+
+Type 'help;' or '\h' for help. Type '\c' to clear the current input statement.
+
+MariaDB [(none)]> USE emoncms
+Reading table information for completion of table and column names
+You can turn off this feature to get a quicker startup with -A
+
+Database changed
+MariaDB [emoncms]> select * from feeds;
++----+--------------+--------+---------+------+-------+----------+--------+---------+--------+--------+-------------+------+
+| id | name         | userid | tag     | time | value | datatype | public | size    | engine | server | processList | unit |
++----+--------------+--------+---------+------+-------+----------+--------+---------+--------+--------+-------------+------+
+|  1 | T int        |      1 | restore | NULL |  NULL |        1 |      1 |   98908 |      5 |      0 | NULL        | °C   |
+|  2 | RH int       |      1 | restore | NULL |  NULL |        1 |      1 |   98908 |      5 |      0 | NULL        | %    |
+|  4 | glob_sun_rad |      1 | restore | NULL |  NULL |        1 |      1 | 2898472 |      5 |      0 | NULL        | W/m2 |
+|  5 | feed5        |      1 | restore | NULL |  NULL |        1 |      1 | 2898380 |      5 |      0 | NULL        |      |
+|  6 | feed6        |      1 | restore | NULL |  NULL |        1 |      1 | 2892976 |      5 |      0 | NULL        |      |
+|  7 | feed7        |      1 | restore | NULL |  NULL |        1 |      1 | 4532592 |      5 |      0 | NULL        |      |
+|  8 | feed8        |      1 | restore | NULL |  NULL |        1 |      1 | 4532588 |      5 |      0 | NULL        |      |
+|  9 | feed9        |      1 | restore | NULL |  NULL |        1 |      1 | 4532588 |      5 |      0 | NULL        |      |
+| 10 | feed10       |      1 | restore | NULL |  NULL |        1 |      1 | 4532576 |      5 |      0 | NULL        |      |
+| 11 | feed11       |      1 | restore | NULL |  NULL |        1 |      1 | 4532520 |      5 |      0 | NULL        |      |
+| 13 | feed13       |      1 | restore | NULL |  NULL |        1 |      1 | 4532520 |      5 |      0 | NULL        |      |
+| 14 | feed14       |      1 | restore | NULL |  NULL |        1 |      1 | 4532520 |      5 |      0 | NULL        |      |
+| 16 | feed16       |      1 | restore | NULL |  NULL |        1 |      1 | 4532520 |      5 |      0 | NULL        |      |
++----+--------------+--------+---------+------+-------+----------+--------+---------+--------+--------+-------------+------+
+13 rows in set (0.001 sec)
+```
