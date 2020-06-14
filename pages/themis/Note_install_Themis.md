@@ -35,7 +35,15 @@ echo.>E:\ssh
 
 Copy the default cmdline.txt to cmdline2.txt in the boot partition and then open to edit cmdline.txt, remove: init=/usr/lib/raspi-config/init_resize.sh
 
-## boot the RPI and adjust the file system
+On linux :
+
+```
+cd /media/alexandrecuer/boot
+cp cmdline.txt cmdline2.txt
+nano cmdline.txt
+```
+
+## boot the RPI and adjust the file system, once logged in via SSH
 
 ```
 wget https://raw.githubusercontent.com/openenergymonitor/EmonScripts/master/install/init_resize.sh
