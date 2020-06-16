@@ -33,8 +33,7 @@ echo.>E:\ssh
 ```
 ### disable (temporary) the automatic SD card resizing process 
 
-Copy the default cmdline.txt to cmdline2.txt in the boot partition and then open to edit cmdline.txt, remove: init=/usr/lib/raspi-config/init_resize.sh
-
+Copy the default cmdline.txt to cmdline2.txt in the boot partition and then open to edit cmdline.txt, remove: `init=/usr/lib/raspi-config/init_resize.sh`
 On linux :
 
 ```
