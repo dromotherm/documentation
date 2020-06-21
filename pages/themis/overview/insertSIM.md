@@ -4,6 +4,17 @@ sidebar: themis_sidebar
 permalink: Themis_SIM.html
 ---
 
+## Install the SIM in the smartflex
+
+Remove the smartflex from the Themis Box
+
+![SIM insertion part 1](sim_insertion1.jpg)
+
+Turn the router upside down. The SIM card slots are located on the back panel.
+
+![SIM insertion part 2](sim_insertion2.jpg)
+
+
 ## Themis without any SIM
 
 It is possible to use Themis without SIM, but you may have difficulties related to time and date.
