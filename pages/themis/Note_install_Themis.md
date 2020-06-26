@@ -168,24 +168,20 @@ sudo reboot
 ```
 
 
-normally, the dromotherm emonpi fork will make things work with python3 but in case, it is good to know how to debug the LCD. There is some dependancies :
+it is good to know how to debug the LCD. There is some dependancies with python3 :
 
 ```
 sudo apt-get install python3-smbus i2c-tools python3-rpi.gpio python3-pip redis-server  python3-gpiozero -y
-sudo pip3 install redis paho-mqtt xmltodict requests
+pip3 install redis paho-mqtt xmltodict requests
 ```
-All files are in /opt/openenergymonitor/emonpi/lcd
+Nota : never use sudo with pip or pip3
 
-the service emonPiLCD.service should include such a line :
-```
-ExecStart=/usr/bin/python3 /opt/openenergymonitor/emonpi/lcd/emonPiLCD.py
-```
-the service file should be located in /lib/systemd/system. If you install it manually
-```
-sudo cp emonPiLCD.service /lib/systemd/system/emonPiLCD.service
-sudo systemctl enable emonPiLCD.service
-sudo systemctl restart emonPiLCD.service
-```
+All files are in `/opt/openenergymonitor/emonpi/lcd`
+
+You can test with `python3 emonPiLCD.py`
+
+debug with `systemctl status emonPiLCD.service` and `journalctl -f -u emonPiLCD`
+
 
 ## miscellaneous
 
