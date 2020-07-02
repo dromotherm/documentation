@@ -169,3 +169,4 @@ MariaDB [emoncms]> select * from feeds;
 +----+--------------+--------+---------+------+-------+----------+--------+---------+--------+--------+-------------+------+
 13 rows in set (0.001 sec)
 ```
+Nota : les tables d'une base de données de type mariadb ou msql sont dans `/var/lib/mysql`
