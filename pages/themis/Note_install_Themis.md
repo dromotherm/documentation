@@ -142,6 +142,7 @@ emonhub_branch=modbusTCPinterfacer_multinodes_env_example
 ```
 ./main.sh
 ```
+**finally, the process asks to change the sudoer pi password**
 
 ## install NodeRED
 
