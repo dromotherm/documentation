@@ -4,6 +4,8 @@ sidebar: themis_sidebar
 permalink: TRH_recording.html
 ---
 
+{% include note.html content="To operate battery connection on the sensors or to handle the DIPs on the receiver, you will need a cruciform/cross-point screwdriver 1*50mm" %}
+
 For ambiant temperature and humidity measurement, Themis uses the Enless 169 Mhz sensors - TX TEMP HUM AMB 700-022.
 
 They embed a [SHT21](https://www.sensirion.com/en/environmental-sensors/humidity-sensors/humidity-temperature-sensor-sht2x-digital-i2c-accurate/)
