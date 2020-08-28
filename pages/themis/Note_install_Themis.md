@@ -165,6 +165,8 @@ emonhub_branch=modbusTCPinterfacer_multinodes_env_example
 
 ``
 bash <(curl -sL https://raw.githubusercontent.com/node-red/raspbian-deb-package/master/resources/update-nodejs-and-nodered)
+
+bash <(curl -sL https://raw.githubusercontent.com/node-red/linux-installers/master/deb/update-nodejs-and-nodered)
 ``
 
 To start nodered as a service: `sudo systemctl enable nodered.service`
