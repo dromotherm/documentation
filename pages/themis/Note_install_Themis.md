@@ -78,7 +78,7 @@ tmpfs            30M     0   30M   0% /tmp
 /dev/mmcblk0p1   43M   22M   21M  51% /boot
 tmpfs            93M     0   93M   0% /run/user/1000
 ```
-with a 32Gb sd card :
+with a 32Gb SANDISK sd card:
 ```
 Filesystem      Size  Used Avail Use% Mounted on
 /dev/root        20G  1.3G   18G   7% /
