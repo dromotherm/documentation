@@ -78,6 +78,23 @@ tmpfs            30M     0   30M   0% /tmp
 /dev/mmcblk0p1   43M   22M   21M  51% /boot
 tmpfs            93M     0   93M   0% /run/user/1000
 ```
+with a 32Gb sd card :
+```
+Filesystem      Size  Used Avail Use% Mounted on
+/dev/root        20G  1.3G   18G   7% /
+devtmpfs        431M     0  431M   0% /dev
+tmpfs           463M     0  463M   0% /dev/shm
+tmpfs           463M  6.2M  457M   2% /run
+tmpfs           5.0M  4.0K  5.0M   1% /run/lock
+tmpfs           463M     0  463M   0% /sys/fs/cgroup
+tmpfs           1.0M     0  1.0M   0% /var/tmp
+tmpfs           1.0M     0  1.0M   0% /var/lib/php/sessions
+tmpfs            30M     0   30M   0% /tmp
+/dev/mmcblk0p3  9.9G  3.8M  9.4G   1% /var/opt/emoncms
+/dev/mmcblk0p1  253M   54M  199M  22% /boot
+tmpfs            93M     0   93M   0% /run/user/1000
+```
+
 At this stage, you can use the `sudo raspi-config` command to fix the timezone, if you don't want to stay on the UTC London one
 
 ```
