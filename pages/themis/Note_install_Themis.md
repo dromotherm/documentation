@@ -162,10 +162,12 @@ emonhub_branch=modbusTCPinterfacer_multinodes_env_example
 **finally, the process asks to change the sudoer pi password**
 
 ## install NodeRED
-
+DEPRECATED
 ```
 bash <(curl -sL https://raw.githubusercontent.com/node-red/raspbian-deb-package/master/resources/update-nodejs-and-nodered)
-
+```
+current command
+```
 bash <(curl -sL https://raw.githubusercontent.com/node-red/linux-installers/master/deb/update-nodejs-and-nodered)
 ```
 
