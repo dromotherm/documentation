@@ -24,15 +24,17 @@ toc: false
          <div class="col-md-9 col-sm-6">
              <div class="panel panel-default">
                <div class="panel-heading">THEMIS latest image</div>
-               <ul>This permits to test the Themis ecosystem without the Themis hardware. 
-               <br>Download, unzip and burn on a blank 16 Go SD card using <a href="https://www.balena.io/etcher">Balena Etcher</a>
-               <br>Insert in a raspberry PI3 and boot, that's all...
-               <br><b>Please note this is a big file (1.5 Go)</b>
-               <li>(.img) MD5:  5DDCE792337257963853A019FD8C4672</li>
-               <li>(.zip) MD5:  D186E859D341BC4F4E64C0EA78372376</li>
-               </ul>
-               <a href="http://alexjunk.pagesperso-orange.fr/Themis/ThemisV0.zip" class="btn btn-primary">Download</a>
-               
+               <div class="panel-body">
+                   <ul>
+                       This permits to test the Themis ecosystem without the Themis hardware. 
+                       <br>Download, unzip and burn on a blank 16 Go SD card using <a href="https://www.balena.io/etcher">Balena Etcher</a>
+                       <br>Insert in a raspberry PI3 and boot, that's all...
+                       <br><b>Please note this is a big file (1.5 Go)</b>
+                       <li>(.img) MD5:  5DDCE792337257963853A019FD8C4672</li>
+                       <li>(.zip) MD5:  D186E859D341BC4F4E64C0EA78372376</li>
+                   </ul>
+                   <a href="http://alexjunk.pagesperso-orange.fr/Themis/ThemisV0.zip" class="btn btn-primary">Download</a>
+               </div>
              </div>
          </div>
 </div>
