@@ -24,7 +24,10 @@ toc: false
          <div class="col-md-9 col-sm-6">
              <div class="panel panel-default">
                <div class="panel-heading">THEMIS latest image</div>
-               <ul>THIS is a big file (1.5 Go)
+               <ul>This permits you to test the Themis ecosystem without the Themis hardware. 
+               Download, unzip and burn on a blank 16 Go SD card using <a href=https://www.balena.io/etcher>Balena Etcher</a>
+               Insert in a raspberry PI3 and boot, that's all...
+               Please note this is a big file (1.5 Go)
                <li>(.img) MD5:  5DDCE792337257963853A019FD8C4672</li>
                <li>(.zip) MD5:  D186E859D341BC4F4E64C0EA78372376</li>
                </ul>
