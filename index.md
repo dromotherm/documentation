@@ -23,8 +23,8 @@ toc: false
          
          <div class="col-md-4 col-sm-4">
              <div class="panel panel-default">
-               <div class="panel-heading">Download latest image</div>
-               <a href="http://alexjunk.pagesperso-orange.fr/Themis/ThemisV0.zip" class="btn btn-primary">Download<br>latest image</a>
+               <div class="panel-heading">THEMIS latest image</div>
+               <a href="http://alexjunk.pagesperso-orange.fr/Themis/ThemisV0.zip" class="btn btn-primary">Download</a>
              </div>
          </div>
 </div>
