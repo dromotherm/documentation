@@ -24,14 +24,10 @@ toc: false
          <div class="col-md-9 col-sm-6">
              <div class="panel panel-default">
                <div class="panel-heading">THEMIS latest image</div>
-               <ul>THIS is a big file (1.5 Go)</ul>
-               
-               <li>(.img) SHA256: 67203251CCCE63E9EF5E86C5F16B35E1040573AC8F27A4B5ADD6B869E0ACFAFF</li>
-               <li>(.zip) SHA256: 9A2C9EBB76EE575CB25206EAB4DBB51C31C43B452165156164197B9F08FC65B2
-
+               <ul>THIS is a big file (1.5 Go)
                <li>(.img) MD5:  5DDCE792337257963853A019FD8C4672</li>
                <li>(.zip) MD5:  D186E859D341BC4F4E64C0EA78372376</li>
-               
+               </ul>
                <a href="http://alexjunk.pagesperso-orange.fr/Themis/ThemisV0.zip" class="btn btn-primary">Download</a>
              </div>
          </div>
