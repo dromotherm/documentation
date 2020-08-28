@@ -4,7 +4,9 @@ sidebar: themis_sidebar
 permalink: Themis_OEMSDimg_30_10_2018.html
 ---
 
-Note : this is deprecated but things at the bottom (phpredisadmin, phpadmin) can be usefull for development
+Note : this is deprecated but the idea is not so bad : it permits to create a Themis image with very little effort
+
+things at the bottom (phpredisadmin, phpadmin) can be usefull for development
 
 [Emoncms on Raspberry Pi - Raspbian Stretch](https://github.com/emoncms/emoncms/blob/master/docs/RaspberryPi/readme.md)
 
