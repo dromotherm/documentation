@@ -13,11 +13,12 @@ toc: false
                  <div class="panel-heading">
                      {% include image.html file="themis.svg" alt="themis" max-width="150" %}
                  </div>
-                 [Download latest image](http://alexjunk.pagesperso-orange.fr/Themis/ThemisV0.zip)
+                 
                  <div class="panel-body">
                      <h4>Themis</h4>
                      <p>Themis is a BOS (building operating system) designed to operate with a number of heating controllers and PLCs</p>
                      <a href="Themis_overview.html" class="btn btn-primary">Learn More</a>
+                     <a href="http://alexjunk.pagesperso-orange.fr/Themis/ThemisV0.zip" class="btn btn-secondary">Download latest image</a>
                  </div>
              </div>
          </div>
