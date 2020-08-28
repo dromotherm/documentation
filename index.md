@@ -24,7 +24,7 @@ toc: false
          <div class="col-md-9 col-sm-6">
              <div class="panel panel-default">
                <div class="panel-heading">THEMIS latest image</div>
-               <ul>This permits you to test the Themis ecosystem without the Themis hardware. 
+               <ul>This permits to test the Themis ecosystem without the Themis hardware. 
                <br>Download, unzip and burn on a blank 16 Go SD card using <a href="https://www.balena.io/etcher">Balena Etcher</a>
                <br>Insert in a raspberry PI3 and boot, that's all...
                <br><b>Please note this is a big file (1.5 Go)</b>
