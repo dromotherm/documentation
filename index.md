@@ -18,7 +18,19 @@ toc: false
                      <h4>Themis</h4>
                      <p>Themis is a BOS (building operating system) designed to operate with a number of heating controllers and PLCs</p>
                      <a href="Themis_overview.html" class="btn btn-primary">Learn More</a>
-                     <a href="http://alexjunk.pagesperso-orange.fr/Themis/ThemisV0.zip" class="alert alert-info">Download latest image</a>
+                 </div>
+             </div>
+         </div>
+         <div class="col-md-3 col-sm-6">
+             <div class="panel panel-default text-center">
+                 <div class="panel-heading">
+                     {% include image.html file="themis.svg" alt="themis" max-width="150" %}
+                 </div>
+                 
+                 <div class="panel-body">
+                     <h4>Themis</h4>
+                     <p>Themis is a BOS (building operating system) designed to operate with a number of heating controllers and PLCs</p>
+                     <a href="http://alexjunk.pagesperso-orange.fr/Themis/ThemisV0.zip" class="btn btn-primary">Download latest image</a>
                  </div>
              </div>
          </div>
