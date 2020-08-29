@@ -28,10 +28,15 @@ toc: false
                    <ul>
                        This permits to test the Themis ecosystem without the Themis hardware. 
                        <br>Download, unzip and burn on a blank 16 Go SD card using <a href="https://www.balena.io/etcher">Balena Etcher</a>
-                       <br>Insert in a raspberry PI3 and boot, that's all...
+                       <br>Insert in a raspberry PI3, connect to your box and boot, that's all...
                        <br><b>Please note this is a big file (1.5 Go)</b>
                        <li>(.img) MD5:  c1ff894b69ea77997e8ae7032e35161b</li>
                        <li>(.zip) MD5:  a72f93460e6f33011afbc52430867fe8</li>
+                       NodeRed 1.1.13<br>
+                       EmonCMS Themis version 10.2.5<br>
+                       Assuming the raspberry is attributed the address 192.168.1.2<br>
+                       <li>to access to Themis : http://192.168.1.2 user: verdi, password: aida<br></li>
+                       <li>to access to NodeRED : https://192.168.1.2:1880</li>
                    </ul>
                    <a href="http://alexjunk.pagesperso-orange.fr/Themis/Themis1.0.img.zip" class="btn btn-primary">Download</a>
                </div>
