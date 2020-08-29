@@ -119,7 +119,7 @@ cd install
 ```
 
 ### option 1
-{% include note.html content="Option 1 should the simplest and preferred solution. But as things are not stabilized, use option 2" %}
+{% include note.html content="Option 1 should the simplest and preferred solution. But when things are not stabilized, use option 2" %}
 ```
 rm emonsd.config.ini
 wget https://raw.githubusercontent.com/dromotherm/documentation/master/pages/themis/emonsd.config.ini
