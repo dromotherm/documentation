@@ -125,9 +125,14 @@ rm emonsd.config.ini
 wget https://raw.githubusercontent.com/dromotherm/documentation/master/pages/themis/emonsd.config.ini
 ```
 
+or 
+```
+wget -O config.ini https://raw.githubusercontent.com/dromotherm/documentation/master/pages/themis/emonsd.config.ini
+```
+
 ### option 2
 
-manually change emonsd.config.ini !
+manually change emonsd.config.ini ! or config.ini if you've lauched `./main.sh` once and answered yes.....
 
 repositories to use for a themis python3 config (without the Themis cosmetics tools included into the themis emoncms branch) = How to modify the emonsd.config.ini
 ```
