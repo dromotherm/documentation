@@ -35,8 +35,9 @@ toc: false
                        NodeRed 1.1.13<br>
                        EmonCMS Themis version 10.2.5<br>
                        Assuming the raspberry is attributed the address 192.168.1.2<br>
-                       <li>to access to Themis : http://192.168.1.2 user: verdi, password: aida<br></li>
-                       <li>to access to NodeRED : https://192.168.1.2:1880</li>
+                       <li>to access to Themis, browse http://192.168.1.2</li>
+                       <li>to access to NodeRED, browse https://192.168.1.2:1880</li>
+                       Themis user : verdi, password : aida<br>
                    </ul>
                    <a href="http://alexjunk.pagesperso-orange.fr/Themis/Themis1.0.img.zip" class="btn btn-primary">Download</a>
                </div>
