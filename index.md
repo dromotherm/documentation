@@ -29,7 +29,7 @@ toc: false
                        This permits to test the Themis ecosystem without the Themis hardware. 
                        <br>Download, unzip and burn on a blank 16 Go SD card using <a href="https://www.balena.io/etcher">Balena Etcher</a>
                        <br>Insert in a raspberry PI3, connect to your box and boot, that's all...
-                       <br><b>Please note this is a big file (1.5 Go)</b>
+                       <br><b>Please note this is a big file (1.2 Go) so be patient :-)</b>
                        <li>(.img) MD5:  c1ff894b69ea77997e8ae7032e35161b</li>
                        <li>(.zip) MD5:  a72f93460e6f33011afbc52430867fe8</li>
                        NodeRed 1.1.13<br>
