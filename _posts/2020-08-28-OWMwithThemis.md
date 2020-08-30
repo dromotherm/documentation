@@ -34,13 +34,17 @@ We will use the following ones :
 
 ![nodeRED most basic nodes](images/post1/basicnodes.png)
 
-The flow has to look like that :
+At its final stage, the flow should look like that :
 
 ![the flow](images/post1/weatherflow.png)
 
 ### inject and OWM nodes configuration
 
+Just define a polling interval (here 30 minutes) and enter your city name....
+
 ![nodes configuration part 1](images/post1/config_1.png)
+
+An alternative is to provide geographic coordinates (latitude and longitude)
 
 ### emoncms node configuration
 
