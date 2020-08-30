@@ -9,7 +9,7 @@ You have downloaded the themis image, but don't have any wired or wireless tempe
 
 No problem ! We'll use openweathermap and nodeRED, which is preinstalled on the themis image.
 
-[https://openweathermap.org](openweathermap) provides current weather all over the world through a network of weather stations. Thanks to its API, it is very easy to integrate and historise datas from OWM into Themis.
+[openweathermap](https://openweathermap.org) provides current weather all over the world through a network of weather stations. Thanks to its API, it is very easy to integrate and historise datas from OWM into Themis.
 
 ## Heading
 
