@@ -74,7 +74,7 @@ msg = {temp_ext:parseInt(tempc),HR_ext:parseInt(hum)};
 mytime = new Date().toISOString();
 return {payload:msg, time: mytime};
 ```
-## 3) check your values are coming in
+## 3) check if your values are coming in
 
 Once the flow has been successfully deployed, you just have to browse themis inputs:
 
