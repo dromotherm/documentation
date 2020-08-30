@@ -34,6 +34,14 @@ We will use the following ones :
 
 ![nodeRED most basic nodes](images/post1/basicnodes.png)
 
+![the flow](images/post1/weatherflow.png)
+
+![nodes configuration part 1](images/post1/config_1.png)
+
+![nodes configuration part 2](images/post1/config_2.png)
+
+![emoncms API key](images/post1/emonAPIkeys.png)
+
 
 
 
