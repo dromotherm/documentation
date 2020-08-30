@@ -32,7 +32,7 @@ We will use the following ones :
 - emoncms : posts the json object to Emoncms - **requires the emonCMS write API key**
 - debug : displays selected message in the debug sidebar tab.
 
-![nodeRED most basic nodes](basicnodes.png)
+![nodeRED most basic nodes](images/post1/basicnodes.png)
 
 
 
