@@ -4,10 +4,13 @@ entries:
 - title: Sidebar
   levels: one
   folders:
-
-  - title: Learn
+  
+  - title: Discover
     output: web
-    url: /learn.html
-  - title: Themis
-    url: /Themis_overview.html
-    output: web
+    folderitems:
+    - title: Learn
+      output: web
+      url: /learn.html
+    - title: Themis
+      url: /Themis_overview.html
+      output: web
