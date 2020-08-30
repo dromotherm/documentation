@@ -34,15 +34,21 @@ We will use the following ones :
 
 ![nodeRED most basic nodes](images/post1/basicnodes.png)
 
+The flow has to look like that :
+
 ![the flow](images/post1/weatherflow.png)
+
+### inject and OWM nodes configuration
 
 ![nodes configuration part 1](images/post1/config_1.png)
 
+### emoncms node configuration
+
 ![nodes configuration part 2](images/post1/config_2.png)
 
+you can find the emonCMS API key within the account details
+
 ![emoncms API key](images/post1/emonAPIkeys.png)
-
-
 
 
 {% include links.html %}
