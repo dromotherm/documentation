@@ -15,7 +15,7 @@ No problem ! We'll use openweathermap and nodeRED, which is preinstalled on the 
 
 [sign up to OWM](https://home.openweathermap.org/users/sign_up)
 
-You will need to choose a usename and to provide a valid email address. Signup process as usual : the system will send you a confirmation email to activate your account.....
+You will need to choose a username and to provide a valid email address. Signup process as usual : the system will send you a confirmation email to activate your account.....
 
 once logged in OWM, go to the `API keys` tab and copy the default key (generated during account activation
 
