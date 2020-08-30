@@ -2,7 +2,7 @@
 title:  "Using openweathermap.org and Themis"
 published: true
 permalink: OWMwithThemis.html
-summary: "How to start monitoring without a themis machine and without any sensor...."
+summary: "How to start monitoring without any sensor...."
 tags: [learn, get_started, themis, nodeRED]
 ---
 You have downloaded the themis image, but don't have any wired or wireless temperature sensor. 
