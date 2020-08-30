@@ -7,10 +7,7 @@ entries:
 
   - title: News
     output: web
-    folderitems:
-    - title: News
-      url: /news.html
-      output: web
+    url: /news.html
   
   - title: Products
     output: web
