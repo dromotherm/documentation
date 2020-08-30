@@ -21,7 +21,7 @@ once logged in OWM, go to the `API keys` tab and copy the default key (generated
 
 ## 2) open nodeRED and construct a flow
 
-if your themis IP is 192.168.1.2, just browse to https://192.168.1.2:1880
+if your themis IP is 192.168.1.37, just browse to https://192.168.1.37:1880
 
 NodeRED is composed of nodes which you can find in the left column of the dashboard
 
@@ -38,6 +38,8 @@ At its final stage, the flow should look like that :
 
 ![the flow](images/post1/weatherflow.png)
 
+** Once configuration completed, don't forget to deploy (red button at the top right) ** 
+
 ### inject and OWM nodes configuration
 
 Just define a polling interval (here 30 minutes) and enter your city name....
@@ -48,11 +50,27 @@ An alternative is to provide geographic coordinates (latitude and longitude)
 
 ### emoncms node configuration
 
+If your local emonCMS/themis server has not been configured, you have to do it providing its write API key.
+
+To publish, the node needs a node number or string : just give `emonpi`...
+
 ![nodes configuration part 2](images/post1/config_2.png)
 
 you can find the emonCMS API key within the account details
 
 ![emoncms API key](images/post1/emonAPIkeys.png)
+
+### function node configuration
+
+Use the following javascript code :
+
+```
+tempc = msg.payload.tempc;
+hum = msg.payload.humidity;
+msg = {temp_ext:parseInt(tempc),HR_ext:parseInt(hum)};
+mytime = new Date().toISOString();
+return {payload:msg, time: mytime};
+```
 
 
 {% include links.html %}
