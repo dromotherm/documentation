@@ -9,12 +9,22 @@ You have downloaded the themis image, but don't have any wired or wireless tempe
 
 No problem ! We'll use openweathermap and nodeRED, which is preinstalled on the themis image.
 
-[openweathermap](https://openweathermap.org) provides current weather all over the world through a network of weather stations. Thanks to its API, it is very easy to integrate and historise datas from OWM into Themis.
+[openweathermap](https://openweathermap.org) provides current weather all over the world through a network of weather stations. Thanks to its API, it is very easy to integrate and historise datas from OWM into Themis. And everything is free !
 
-## Heading
+## 1) create an OWM account
 
-but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+[sign up to OWM](https://home.openweathermap.org/users/sign_up)
 
-Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries
+You will need to choose a usename and to provide a valid email address. Signup process as usual : the system will send you a confirmation email to activate your account.....
+
+once logged in OWM, go to the `API keys` tab and copy the default key (generated during account activation
+
+## 2) open nodeRED and construct a flow
+
+if your themis IP is 192.168.1.2, just browse to https://192.168.1.2:1880
+
+
+
+
 
 {% include links.html %}
