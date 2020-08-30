@@ -9,5 +9,5 @@ entries:
     output: web
     url: /learn.html
   - title: Themis
-    url: /index.html
+    url: /Themis_overview.html
     output: web
