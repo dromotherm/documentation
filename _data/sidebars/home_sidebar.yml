@@ -17,3 +17,4 @@ entries:
     folderitems:
     - title: Themis
       url: /index.html
+      output: web
