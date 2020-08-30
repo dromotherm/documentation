@@ -30,7 +30,7 @@ We will use the following ones :
 node name | action
 --|--
 inject | triggers the actions according to a regular time step
-openweathermap | interrogate the OWM API - **requires the OWM API key**
+openweathermap | interrogates the OWM API - **requires the OWM API key**
 function | javaScript function to produce a json object with the datas from the payload transmitted by openweathermap
 emoncms | posts the json object to Emoncms - **requires the emonCMS write API key**
 debug | displays selected message in the debug sidebar tab.
