@@ -74,6 +74,10 @@ msg = {temp_ext:parseInt(tempc),HR_ext:parseInt(hum)};
 mytime = new Date().toISOString();
 return {payload:msg, time: mytime};
 ```
+## 3) check your values are coming in
 
+Once the flow has been successfully deployed, you just have to browse themis inputs:
+
+![emoncms inputs](images/post1/emonCMSinputs.png)
 
 {% include links.html %}
