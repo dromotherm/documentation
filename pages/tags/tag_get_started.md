@@ -1,9 +1,9 @@
 ---
 title: "Getting started pages"
-tagName: getting_started
+tagName: get_started
 search: exclude
-permalink: tag_getting_started.html
-sidebar: mydoc_sidebar
+permalink: tag_get_started.html
+sidebar: home_sidebar
 folder: tags
 ---
 {% include taglogic.html %}
