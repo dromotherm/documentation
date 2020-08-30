@@ -3,11 +3,9 @@
 topnav:
 - title: Topnav
   items:
-    - title: GitHub
-      external_url: https://github.com/dromotherm/documentation
     - title: Dromotherm
       external_url: http://www.dromotherm.com
-    - title: learn
+    - title: LEARN & DISCOVER
       url: /learn
 
 #Topnav dropdowns
