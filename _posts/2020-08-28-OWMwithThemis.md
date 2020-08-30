@@ -41,7 +41,7 @@ At its final stage, the flow should look like that :
 
 ![the flow](images/post1/weatherflow.png)
 
-** Once configuration completed, don't forget to deploy (red button at the top right) ** 
+{% include note.html content="Once configuration completed, don't forget to deploy (red button at the top right)" %}
 
 ### inject and OWM nodes configuration
 
