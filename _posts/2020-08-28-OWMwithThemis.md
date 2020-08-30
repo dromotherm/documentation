@@ -26,11 +26,14 @@ if your themis IP is 192.168.1.37, just browse to https://192.168.1.37:1880
 NodeRED is composed of nodes which you can find in the left column of the dashboard
 
 We will use the following ones :
-- inject : triggers the actions according to a regular time step
-- openweathermap : interrogate the OWM API - **requires the OWM API key**
-- function : javaScript function to produce a json object with the datas from the payload transmitted by openweathermap
-- emoncms : posts the json object to Emoncms - **requires the emonCMS write API key**
-- debug : displays selected message in the debug sidebar tab.
+
+node name | action
+--|--
+inject | triggers the actions according to a regular time step
+openweathermap | interrogate the OWM API - **requires the OWM API key**
+function | javaScript function to produce a json object with the datas from the payload transmitted by openweathermap
+emoncms | posts the json object to Emoncms - **requires the emonCMS write API key**
+debug | displays selected message in the debug sidebar tab.
 
 ![nodeRED most basic nodes](images/post1/basicnodes.png)
 
