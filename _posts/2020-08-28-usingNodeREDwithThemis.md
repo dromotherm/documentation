@@ -3,7 +3,7 @@ title:  "Using NodeRED and Themis"
 published: true
 permalink: nodeREDwithThemis.html
 summary: "This is some summary frontmatter for my sample post."
-tags: [news, getting_started]
+tags: [learn, get_started, news]
 ---
 
 Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries
