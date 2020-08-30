@@ -34,10 +34,11 @@ toc: false
                        <li>(.zip) MD5:  a72f93460e6f33011afbc52430867fe8</li>
                        NodeRed 1.1.13<br>
                        EmonCMS Themis version 10.2.5<br>
-                       Assuming the raspberry is attributed the address 192.168.1.2<br>
-                       <li>to access to Themis, browse http://192.168.1.2</li>
-                       <li>to access to NodeRED, browse https://192.168.1.2:1880</li>
+                       Assuming the raspberry is attributed the address 192.168.1.37<br>
+                       <li>to access to Themis, browse http://192.168.1.37</li>
+                       <li>to access to NodeRED, browse https://192.168.1.37:1880</li>
                        Themis user : verdi, password : aida<br>
+                       Even if you don't have any sensor, you can start monitoring : check <a href=OWMwithThemis.html>this</a>
                    </ul>
                    <a href="http://alexjunk.pagesperso-orange.fr/Themis/Themis1.0.img.zip" class="btn btn-primary">Download</a>
                </div>
