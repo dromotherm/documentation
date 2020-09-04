@@ -40,7 +40,7 @@ toc: false
                        Themis user : verdi, password : aida<br><br>
                        Even if you don't have any sensor, you can start monitoring : check <a href="OWMwithThemis.html">this</a>!
                    </ul>
-                   <a href="http://alexjunk.pagesperso-orange.fr/Themis/Themis1.0.img.zip" class="btn btn-primary">Download</a>
+                   <a href="https://alexjunk.pagesperso-orange.fr/Themis/Themis1.0.img.zip" class="btn btn-primary">Download</a>
                </div>
              </div>
          </div>
