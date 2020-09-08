@@ -23,7 +23,11 @@ much higher on the RPI4 !
 
 ## what is inside ?
 
+### cpuinfo
+
 1.5 GHz quad-core Arm® Cortex®-A72 CPU
+
+Just at the end, you can get the serial number of your PI, here `6f1bd081`
 ```
 cat /proc/cpuinfo
 processor       : 0
@@ -70,6 +74,8 @@ Hardware        : BCM2835
 Revision        : b03111
 Serial          : 100000006f1bd081
 ```
+### memory
+
 2 Gb RAM
 
 ```
