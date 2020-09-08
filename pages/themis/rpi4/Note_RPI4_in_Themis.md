@@ -28,6 +28,9 @@ much higher on the RPI4 !
 1.5 GHz quad-core Arm® Cortex®-A72 CPU
 
 Just at the end, you can get the serial number of your PI, here `6f1bd081`
+
+To isolate the serial only, just do `cat /proc/cpuinfo |grep Serial`
+
 ```
 cat /proc/cpuinfo
 processor       : 0
