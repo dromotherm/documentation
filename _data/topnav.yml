@@ -4,6 +4,7 @@ topnav:
 - title: Topnav
   items:
     - title: Dromotherm
+      description: "lo-fi smart grid with solar thermic roads"
       external_url: http://www.dromotherm.com
     - title: LEARN & DISCOVER
       url: /learn
