@@ -14,6 +14,8 @@ topnav_dropdowns:
 - title: Topnav dropdowns
   folders:
     - title: Products
+      description: "products for building monitoring and management"
       folderitems:
         - title: Themis
+          description: "THermic and Energetic MonItoring System"
           url: /Themis_overview.html
