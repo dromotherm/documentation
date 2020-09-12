@@ -1,5 +1,5 @@
 ---
-title: "Products"
+title: "Home"
 sidebar: themis_sidebar
 permalink: index.html
 toc: false
