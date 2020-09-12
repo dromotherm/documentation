@@ -108,7 +108,7 @@ description: "building monitoring and management - products from the dromotherm 
 # the description is used in the feed.xml file
 
 # needed for sitemap.xml file only
-url: http://dromotherm.github.io
+url: http://dromotherm.github.io/documentation
 baseurl: /documentation
 
 
