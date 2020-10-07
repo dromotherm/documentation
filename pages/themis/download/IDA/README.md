@@ -50,4 +50,4 @@ installation du receveur
 [07-oct.-2020 17:52:04] Succès de l'installation Receiver 21521732
 [07-oct.-2020 17:52:18] Arrêter l’installation
 ```
-[activation](activation.png)
+![activation](activation.png)
