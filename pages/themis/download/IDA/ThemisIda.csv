@@ -1,0 +1,6 @@
+"Device ID","Device Type","Periodicity","Retry Count","TX PULSE: Initial count 1/TX ANALOG: Wake Time","TX PULSE: Initial count 2","TX ENERGY: Slave ID","Baud Rate","Parity","Stop Bits","Data Bits","TX ENERGY: Register Nbr","TX ENERGY : Register Cnt","RX MODBUS ID","RX MODBUS: First register","RX MODBUS: First TX ENERGY Register","Last Configured"
+"12421042","TX CO2","15","0","0","0","NA","NA","NA","NA","NA","NA","NA","NA","NA","NA",""
+"12421037","TX CO2","15","0","0","0","NA","NA","NA","NA","NA","NA","NA","NA","NA","NA",""
+"12421035","TX CO2","15","0","0","0","NA","NA","NA","NA","NA","NA","NA","NA","NA","NA",""
+"21521732","RX MODBUS","NA","NA","NA","NA","NA","9600","None","2","8","NA","NA","2","31000","32000",""
+"12310268","TX TEMP","15","0","0","0","NA","NA","NA","NA","NA","NA","NA","NA","NA","NA",""
