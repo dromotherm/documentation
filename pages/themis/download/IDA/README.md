@@ -42,3 +42,11 @@ installation des transmetteurs
 [07-oct.-2020 17:45:59] Niveau RSSI en phase d'installation 12421035 RSSI:-26,0dBm
 [07-oct.-2020 17:46:01] Succès de l'installation TX CO2 12421035 RSSI:-32,0dBm
 ```
+installation du receveur
+```
+[07-oct.-2020 17:51:51] Port série connecté COM4@19200
+[07-oct.-2020 17:51:52] Demande d'installation pour Receiver 21521732
+[07-oct.-2020 17:51:58] Acquittement en phase d'installation Receiver 21521732
+[07-oct.-2020 17:52:04] Succès de l'installation Receiver 21521732
+[07-oct.-2020 17:52:18] Arrêter l’installation
+```
