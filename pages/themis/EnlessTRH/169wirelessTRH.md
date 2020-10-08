@@ -215,16 +215,19 @@ The above illustration was made using an ISR 3200 router and a smartflex SR303 r
 ```
 # DEPLOYMENT
 
-Enless TRH Sensors : 
+## Enless TRH Sensors : 
 
 - L2 and L3 (on the transmitter) remain lit for 1 minute if radio quality is good
 - L1, L2 and L3 (on the transmitter) remain lit for 1 minute if radio communication quality is poor.
 - With a repeater, you can have L2 and L3 blinking on the transmitter, even though the data packet is correctly repeated
 
-Enless CO2 Sensors :
+# Enless CO2 Sensors :
 
 2 modes : calibration and communication
 
-when powered, the sensor is :
-- in calibration if L1,L2,L3 blinks successively then remain **all** lit for one minute
-- in communication if L1,L2,L3 blink successively, then L1 blink each 2 second and L3 remain lit
+When powered, the sensor can be either in calibration or communication mode
+
+mode | sequence
+--|--
+calibration |L1,L2,L3 blinks successively then remain **all** lit for one minute
+communication | L1,L2,L3 blink successively<br>L1 blink each 2 second<br>L3 remain lit if radio quality is good
