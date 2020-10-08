@@ -98,8 +98,6 @@ On each transmitter, L1 should blink in red during communication with receiver
 
 {% include warning.html content="in case of failure, L2 and L3 (on the transmitter) blink during a lap of time" %}
 
-{% include note.html content="These indicators are also valid when you deploy the transmitters in the field for exploitation with Themis, except if you are using a repeater. <br>With a repeater, you can have L2 and L3 blinking on the transmitter, even though the data packet is correctly repeated !" %}
-
 Stop the installation
 ```
 [07-janv.-2020 16:42:24] Arrêter l’installation
@@ -147,7 +145,7 @@ On the receiver, position the switches as follow :
 - DIP1 : 1,2,5,6 OFF **3,4 ON**
 - DIP2 : 1,2 OFF **3 ON**
 
-## summary
+## SUMMARY
 
 Phase | transmitters installation | receiver installation
 --|--|--
@@ -215,3 +213,18 @@ The above illustration was made using an ISR 3200 router and a smartflex SR303 r
         unitId = 2
         scales = 1,1,0.5,1,1,1,0.1,0.1
 ```
+# DEPLOYMENT
+
+Enless TRH Sensors : 
+
+- L2 and L3 (on the transmitter) remain lit for 1 minute if radio quality is good
+- L1, L2 and L3 (on the transmitter) remain lit for 1 minute if radio communication quality is poor.
+- With a repeater, you can have L2 and L3 blinking on the transmitter, even though the data packet is correctly repeated
+
+Enless CO2 Sensors :
+
+2 modes : calibration and communication
+
+when powered, the sensor is :
+- in calibration if L1,L2,L3 blinks successively then remain **all** lit for one minute
+- in communication if L1,L2,L3 blink successively, then L1 blink each 2 second and L3 remain lit
