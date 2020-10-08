@@ -193,6 +193,7 @@ The above illustration was made using an ISR 3200 router and a smartflex SR303 r
        names = SlaveType,Timer,RSSI,serHigh,serLow,temp,hum
        registers = 31048,31049,31050,31051,31052,31053,31054
        datacode = H
+       unitId = 2
        scales = 1,1,0.5,1,1,0.1,0.1
 
 [[24]]
@@ -201,5 +202,6 @@ The above illustration was made using an ISR 3200 router and a smartflex SR303 r
         names = SlaveType,Timer,RSSI,serHigh,serLow,co2,temp,hum
         registers = 31092,31093,31094,31095,31096,31097,31098,31099
         datacode = H
+        unitId = 2
         scales = 1,1,0.5,1,1,1,0.1,0.1
 ```
