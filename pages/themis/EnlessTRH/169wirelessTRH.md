@@ -152,8 +152,10 @@ On the receiver, position the switches as follow :
 Phase | transmitters installation | receiver installation
 --|--|--
 DIPS on the receiver | - DIP1 : 1,2,3,4 OFF **5,6 ON** <br>- DIP2 : 1,2,3 OFF | - DIP1 : 1,2,3,4 OFF **5,6 ON**<br>- DIP2 : 1,3 OFF **2 ON**
-sequence|Power the receiver with a 12V alimentation<br>Plug the receiver to the computer via USB<br>Load the csv file if needed<br>Connect to the receiver<br>Start the installation<br>Power one by one each transmitter<br>Stop the installation<br>Unplug and poweroff the receiver | Power the receiver with a 12V alimentation<br>Once the receiver powered, L5 should start blinking on it<br>plug the receiver to the computer via USB<br>Connect to the receiver<br>Start the installation<br>Stop the installation<br>Unplug and poweroff the receiver
+sequence|Load the csv file if needed<br>Power the receiver with a 12V alimentation<br>Plug the receiver to the computer via USB<br>Connect to the receiver<br>Start the installation<br>Power one by one each transmitter<br>Stop the installation<br>Unplug and poweroff the receiver | Load the csv file if needed<br>Power the receiver with a 12V alimentation<br>Once the receiver powered, L5 should start blinking on it<br>Plug the receiver to the computer via USB<br>Connect to the receiver<br>Start the installation<br>Stop the installation<br>Unplug and poweroff the receiver
 results|transmitters activated|receiver activated
+
+**Each sequence can be performed independently**
 
 ## Routeur configuration
 
