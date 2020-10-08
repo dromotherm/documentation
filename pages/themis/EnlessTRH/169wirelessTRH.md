@@ -229,5 +229,5 @@ When powered, the sensor can be either in calibration or communication mode
 
 mode | sequence
 --|--
-calibration |L1,L2,L3 blinks successively then remain **all** lit for one minute
+calibration |L1,L2,L3 blinks successively<br>then remain **all** lit for one minute
 communication | L1,L2,L3 blink successively<br>L1 blink each 2 second<br>L3 remain lit if radio quality is good
