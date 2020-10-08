@@ -213,15 +213,15 @@ The above illustration was made using an ISR 3200 router and a smartflex SR303 r
         unitId = 2
         scales = 1,1,0.5,1,1,1,0.1,0.1
 ```
-# DEPLOYMENT
+## DEPLOYMENT
 
-## Enless TRH Sensors : 
+### Enless TRH Sensors : 
 
 - L2 and L3 (on the transmitter) remain lit for 1 minute if radio quality is good
 - L1, L2 and L3 (on the transmitter) remain lit for 1 minute if radio communication quality is poor.
 - With a repeater, you can have L2 and L3 blinking on the transmitter, even though the data packet is correctly repeated
 
-# Enless CO2 Sensors :
+### Enless CO2 Sensors :
 
 2 modes : calibration and communication
 
