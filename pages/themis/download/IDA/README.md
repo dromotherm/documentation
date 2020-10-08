@@ -1,4 +1,13 @@
-installation des transmetteurs
+
+# [csv de configuration enless](ThemisIda.csv)
+
+Transmetteur :
+- 9600 bauds, 1 bit de stop, 8 bits de données
+- numéro modbus : 2
+
+Tous les capteurs configurés avec un pas de temps de 15 minutes
+
+# installation des transmetteurs
 
 ```
 [07-oct.-2020 11:27:36] Log in utilisateur: User
@@ -42,7 +51,7 @@ installation des transmetteurs
 [07-oct.-2020 17:45:59] Niveau RSSI en phase d'installation 12421035 RSSI:-26,0dBm
 [07-oct.-2020 17:46:01] Succès de l'installation TX CO2 12421035 RSSI:-32,0dBm
 ```
-installation du receveur
+# installation du receveur
 ```
 [07-oct.-2020 17:51:51] Port série connecté COM4@19200
 [07-oct.-2020 17:51:52] Demande d'installation pour Receiver 21521732
