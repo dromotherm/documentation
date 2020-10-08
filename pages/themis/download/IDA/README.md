@@ -2,7 +2,7 @@
 # [csv de configuration enless](ThemisIda.csv)
 
 Transmetteur :
-- 9600 bauds, 2 bits de stop, 8 bits de données
+- 9600 bauds, 1 bit de stop, 8 bits de données
 - numéro modbus : 2
 
 Tous les capteurs configurés avec un pas de temps de 15 minutes
