@@ -1,4 +1,4 @@
-### connect PT100 to ADAM4015
+# connect PT100 to ADAM4015
 
 Using and ohmmeter, find the wires between which a resistance is present
 
@@ -11,11 +11,11 @@ many PT100 follow a specific color code and you dont need an ohmmeter :
 
 ![Adam4015&PT100_RNJ](PT100_RNJ.png)
 
-### Configure ADAM4015 for operation on a RS485 network
+# Configure ADAM4015 for operation on a RS485 network
 
 For ADAM configuration, Advantech provides the [ADAM utility](https://support.advantech.com/support/DownloadSRDetail_New.aspx?SR_ID=1-9HOC2&Doc_Source=Download)
 
-#### Init mode
+## Init mode
 
 Booting the ADAM4015 in Init mode can be done by using the specific switch on recent models or by connecting the init terminal to the
 GND terminal
