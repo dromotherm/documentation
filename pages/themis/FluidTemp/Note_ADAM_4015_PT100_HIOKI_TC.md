@@ -95,7 +95,7 @@ Use the [PM8TC isolated](https://www.proconel.com/product/pm8tc-iso-8-thermocoup
 
 ## industrial approach
 
-in case of demonstrator instrumentation, with a lot of data to record, the HIOKI 8402-20 is a the good choice
+in case of a demonstrator instrumentation, with a lot of data to record, the HIOKI 8402-20 is a good choice
 
 Using the HIOKI 8402-20 datalogger with a universal analog input unit LR8501
 
