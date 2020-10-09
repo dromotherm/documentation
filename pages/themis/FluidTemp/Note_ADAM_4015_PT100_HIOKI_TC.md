@@ -47,7 +47,7 @@ smartflex|2|3
 Once the promux **PM6RTD** powered and connected via RTU or TCP, make a simple test with [modbus doctor](http://www.kscada.com/modbusdoctor.html). Even without any sensor, you can check the serial on register 0. It should be something like 96D (upper byte = software version, here 9, lower byte always = 109 ie 6D) 
 
 ### emonhub configuration
-Interfacer section
+Interfacer section :
 ```
 [[Enless]]
     Type = EmonModbusTcpInterfacer2
@@ -61,7 +61,7 @@ Interfacer section
         # time in seconds between checks, This is in addition to emonhub_interfacer.run() sleep time of .01
         interval = 60
 ```
-node 
+node :
 ```
 [[21]]
     nodename = circuits_PT100
@@ -72,6 +72,7 @@ node
         datacode = H
         scales = 1,0.1,0.1
 ```
+**with the PM6RTD, sensors values can be found from register 2 to 7**
 
 ## Using thermocouple (Seebeck effect)
 
@@ -89,6 +90,8 @@ CEI 584-3
 > - white = -
 
 Use the [PM8TC isolated](https://www.proconel.com/product/pm8tc-iso-8-thermocouple-input-module-isolated/) module
+
+**with the PM8TC, sensors values can be found from register 2 to 9**
 
 ## industrial approach
 
