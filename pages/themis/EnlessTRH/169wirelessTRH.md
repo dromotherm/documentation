@@ -233,3 +233,5 @@ calibration |L1,L2,L3 blinks successively<br>then remain **all** lit for one min
 communication | L1,L2,L3 blink successively<br>L1 blink each 2 second<br>L3 remain lit if radio quality is good
 
 If you are in calibration mode and want to enter communication mode (or vice versa), just power off the sensor for one-minute and power on.
+
+[more info](enless_CO2.pdf)
