@@ -20,7 +20,7 @@ connector|4-|3+|12V+|GND
 
 ### RTU wiring
 
-We will use a USB to serial adapter : the moxa uport 1150 - [download MOXA uport drivers](https://www.moxa.com/en/products/industrial-edge-connectivity/usb-to-serial-converters-usb-hubs/secure-routers/uport-1000-series#resources)
+To check the module without any integration into Themis, we will use a USB to serial adapter : the moxa uport 1150 - [download MOXA uport drivers](https://www.moxa.com/en/products/industrial-edge-connectivity/usb-to-serial-converters-usb-hubs/secure-routers/uport-1000-series#resources)
 
 On a window desktop, go to the device manager and fit the Moxa so it works in RS485(2W). Here the Moxa appears to be on COM1
 
@@ -45,6 +45,33 @@ smartflex|2|3
 ### basic testing
 
 Once the promux **PM6RTD** powered and connected via RTU or TCP, make a simple test with [modbus doctor](http://www.kscada.com/modbusdoctor.html). Even without any sensor, you can check the serial on register 0. It should be something like 96D (upper byte = software version, here 9, lower byte always = 109 ie 6D) 
+
+### emonhub configuration
+Interfacer section
+```
+[[Enless]]
+    Type = EmonModbusTcpInterfacer2
+    [[[init_settings]]]
+        modbus_IP = 192.168.1.1
+        modbus_port = 503
+        fCode = 3
+    [[[runtimesettings]]]
+        nodeIds = 21
+        pubchannels = ToEmonCMS,
+        # time in seconds between checks, This is in addition to emonhub_interfacer.run() sleep time of .01
+        interval = 60
+```
+node 
+```
+[[21]]
+    nodename = circuits_PT100
+    [[[rx]]]
+        names = serial,PT100_1,PT100_2
+        registers = 1,2,3
+        unitId = 1
+        datacode = H
+        scales = 1,0.1,0.1
+```
 
 ## Using thermocouple (Seebeck effect)
 
