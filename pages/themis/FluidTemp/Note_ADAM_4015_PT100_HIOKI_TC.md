@@ -5,7 +5,7 @@ permalink: Themis_fluid_T_mes.html
 ---
 ## Using PT 100 to measure fluid temperatures in a heating network
 
-A convenient solution is to use a modbus module, such as Promux [PM6RTD](https://www.proconel.com/product/pm6rtd-6-rtd-input-module/)
+A convenient solution is to use a [modbus](http://www.simplymodbus.ca/exceptions.htm) module, such as Promux [PM6RTD](https://www.proconel.com/product/pm6rtd-6-rtd-input-module/)
 
 In a nutshell, keep the factory settings on the PM6RTD : 9600 bauds, 1 stop bit, no parity. Adjust the modbus address with the switches on the front
 modbus address | switches
@@ -14,7 +14,11 @@ modbus address | switches
 2|S2 ON 
 3|S1 & S2 ON 
 
-[modbus error codes](http://www.simplymodbus.ca/exceptions.htm)
+PM6RTD RS485 terminal block|4|3|2|1
+--|--|--|--|--
+connector|4-|3+|12V+|GND
+
+### RTU wiring
 
 We will use a USB to serial adapter : the moxa uport 1150 - [download MOXA uport drivers](https://www.moxa.com/en/products/industrial-edge-connectivity/usb-to-serial-converters-usb-hubs/secure-routers/uport-1000-series#resources)
 
@@ -22,13 +26,25 @@ On a window desktop, go to the device manager and fit the Moxa so it works in RS
 
 ![moxa uport conf](uport_conf.png)
 
-Promux|cable|uport 1150
+promux|4-|3+
 --|--|--
-3+|green|R+(D+)=3
-4-|white|R-(D-)=4
+cable|white|green
+uport 1150|R-(D-)=4|R+(D+)=3
 
-Once the promux **PM6RTD** powered and connected, make a simple RTU test with [modbus doctor](http://www.kscada.com/modbusdoctor.html). Even without any sensor, you can check the serial on register 0. It should be something like 96D (upper byte = software version, here 9, lower byte always = 109 ie 6D) 
+### modbusTCP wiring
 
+smartflex RS485 terminal block|1|2|3
+--|--|--|--
+connector|GND|TxRx+|TxRx-
+
+promux|4-|3+
+--|--|--
+cable|white|green
+smartflex|2|3
+
+### basic testing
+
+Once the promux **PM6RTD** powered and connected via RTU or TCP, make a simple test with [modbus doctor](http://www.kscada.com/modbusdoctor.html). Even without any sensor, you can check the serial on register 0. It should be something like 96D (upper byte = software version, here 9, lower byte always = 109 ie 6D) 
 
 ## Using thermocouple (Seebeck effect)
 
