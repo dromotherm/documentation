@@ -1,6 +1,6 @@
 # connect PT100 to ADAM4015
 
-Using and ohmmeter, find the wires between which a resistance is present
+Using an ohmmeter, find the wires between which a resistance is present
 
 ![Adam4015&PT100](connectPT100_to_ADAM4015.png)
 
