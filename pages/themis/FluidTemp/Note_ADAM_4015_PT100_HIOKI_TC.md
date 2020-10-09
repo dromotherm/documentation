@@ -5,17 +5,20 @@ permalink: Themis_fluid_T_mes.html
 ---
 ## Using PT 100 to measure fluid temperatures in a heating network
 
-A convenient solution is to use a modbus module, such as Promux [pm6rtd](https://www.proconel.com/product/pm6rtd-6-rtd-input-module/)
+A convenient solution is to use a modbus module, such as Promux [PM6RTD](https://www.proconel.com/product/pm6rtd-6-rtd-input-module/)
+
+In a nutshell, keep the factory settings on the PM6RTD : 9600 bauds, 1 stop bit, no parity. Adjust the modbus address with the switches on the front
+modbus address | switches
+--|--
+1|S1 ON
+2|S2 ON 
+3|S1 & S2 ON 
 
 [modbus error codes](http://www.simplymodbus.ca/exceptions.htm)
 
 We will use a USB to serial adapter : the moxa uport 1150 - [download MOXA uport drivers](https://www.moxa.com/en/products/industrial-edge-connectivity/usb-to-serial-converters-usb-hubs/secure-routers/uport-1000-series#resources)
 
-### Check the Moxa configuration
-
-On a window desktop, go to the device manager and fit the Moxa so it works in RS485(2W)
-
-Here the Moxa appears on COM1
+On a window desktop, go to the device manager and fit the Moxa so it works in RS485(2W). Here the Moxa appears to be on COM1
 
 ![moxa uport conf](uport_conf.png)
 
@@ -24,7 +27,7 @@ Promux|cable|uport 1150
 3+|green|R+(D+)=3
 4-|white|R-(D-)=4
 
-Once the promux pm6rtd powered and connected, make a simple RTU test with [modbus doctor](http://www.kscada.com/modbusdoctor.html). Even without any sensor, you can check the serial. It should be on register 0 
+Once the promux **PM6RTD** powered and connected, make a simple RTU test with [modbus doctor](http://www.kscada.com/modbusdoctor.html). Even without any sensor, you can check the serial on register 0. It should be something like 96D (upper byte = software version, here 9, lower byte always = 109 ie 6D) 
 
 
 ## Using thermocouple (Seebeck effect)
