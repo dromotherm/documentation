@@ -88,6 +88,12 @@ CEI 584-3
 > - brown = +
 > - white = -
 
+Use the [PM8TC isolated](https://www.proconel.com/product/pm8tc-iso-8-thermocouple-input-module-isolated/) module
+
+## industrial approach
+
+in case of demonstrator instrumentation, with a lot of data to record, the HIOKI 8402-20 is a the good choice
+
 Using the HIOKI 8402-20 datalogger with a universal analog input unit LR8501
 
 [Hioki 8402 product page](https://www.hioki.com/en/products/detail/?product_key=5613)
