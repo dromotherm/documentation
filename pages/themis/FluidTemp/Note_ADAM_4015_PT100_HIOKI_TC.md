@@ -5,11 +5,11 @@ permalink: Themis_fluid_T_mes.html
 ---
 ## Using PT 100 to measure fluid temperatures in a heating network
 
-the classic solution is to use a modbus module, such as Promux [pm6rtd](https://www.proconel.com/product/pm6rtd-6-rtd-input-module/)
+A convenient solution is to use a modbus module, such as Promux [pm6rtd](https://www.proconel.com/product/pm6rtd-6-rtd-input-module/)
 
 [modbus error codes](http://www.simplymodbus.ca/exceptions.htm)
 
-In that section, we will use a USB to serial adapter : the moxa uport 1150 - [download MOXA uport drivers](https://www.moxa.com/en/products/industrial-edge-connectivity/usb-to-serial-converters-usb-hubs/secure-routers/uport-1000-series#resources)
+We will use a USB to serial adapter : the moxa uport 1150 - [download MOXA uport drivers](https://www.moxa.com/en/products/industrial-edge-connectivity/usb-to-serial-converters-usb-hubs/secure-routers/uport-1000-series#resources)
 
 #### Check the Moxa configuration
 
@@ -21,87 +21,7 @@ Here the Moxa appears on COM1
 
 
 
-#### Configure with ADAM utility
 
-![Adam_utility_launch](adam_utility_launch.png)
-
-With the Adam in init mode, you dont have to care about baudrate : keep the factory settings of ADAM utility 
-
-![Adam_utility_search](adam_utility_search.png)
-
-After the device discovered : 
-- fix the address if you have more than 1 element on your modbus network, 
-- choose modbus for the protocol,
-- for RTD PT100, fix data format to Engineering Units
-- choose 19.2 Kbps for the baudrate
-
-Validate the confuguration by pressing update (in the 'General Setting' section)
-
-Working with engineering units will require a single conversion :
-````
-Value = input_range * Modbus_decimal_raw_data / 65535 + lower_value_of_the_input_range
-````
-for PT100(385) working between -50°C and °150°C, the conversion formula is :
-````
-Value = 200 * Modbus_decimal_raw_data / 65535 - 50
-````
-
-![Adam4015_configure](adam_utility_configure.png)
-
-![Adam4015_Init1](INIT_MODE_ADAM4015_1.png)
-
-![Adam4015_Init2](INIT_MODE_ADAM4015_2.png)
-
-### connect ADAM4015 to Smartflex
-
-Go back to normal mode and test if communication is OK for example with [modbus doctor](http://www.kscada.com/modbusdoctor.html). Even without any sensor, you can check th module type :
-
-![modbusdoctor model check](modbus_doctor_model_check.png)
-
-![Adam4015&Smartflex](connect_ADAM4015_to_SmartFlex4GRouter.png)
-
-### emonhub configuration
-
-create a modbusTCPinterfacer
-```
-[[ModbusTCP]]
-    Type = EmonModbusTcpInterfacer
-    [[[init_settings]]]
-        modbus_IP = 192.168.1.1
-        modbus_port = 503
-    [[[runtimesettings]]]
-        nodeId = 11
-        pubchannels = ToEmonCMS,
-        # time in seconds between checks, This is in addition to emonhub_interfacer.run() sleep time of .01
-        interval = 10
-```
-
-node section example in emonhub :
-
-```
-[[11]]
-    nodename = PT1000
-    [[[rx]]]
-       names = CH0,CH1,f1,f2
-       registers =1,2,211,212
-       datacode = H
-       scale = 1
-```
-
-for register numbers, check doc on ADAM4015 on Advantech website
-
-parameter |register for emonhub|register for modbusdoctor
---- | ---  | ---
-channel 0|1|0
-channel 1|2|1
-channel 2|3|2
-channel 3|4|3
-channel 4|5|4
-channel 5|6|5
-channel 6|7|6
-channel 7|8|7
-module name 1|211|210 or D2h
-module name 2|212|211 or D3h
 
 ## Using thermocouple (Seebeck effect)
 
