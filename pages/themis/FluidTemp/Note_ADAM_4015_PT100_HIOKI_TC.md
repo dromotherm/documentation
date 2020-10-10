@@ -33,6 +33,8 @@ uport 1150|R-(D-)=4|R+(D+)=3
 
 ### modbusTCP wiring
 
+![modbus TCP wiring](modbus_con.png)
+
 smartflex RS485 terminal block|1|2|3
 --|--|--|--
 connector|GND|TxRx+|TxRx-
