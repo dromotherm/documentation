@@ -46,6 +46,10 @@ smartflex|2|3
 
 Once the promux **PM6RTD** powered and connected via RTU or TCP, make a simple test with [modbus doctor](http://www.kscada.com/modbusdoctor.html). Even without any sensor, you can check the serial on register 0. It should be something like 96D (upper byte = software version, here 9, lower byte always = 109 ie 6D) 
 
+### PT100 wiring
+
+![wiring the PT100](PT_con.jpg)
+
 ### emonhub configuration
 Interfacer section :
 ```
