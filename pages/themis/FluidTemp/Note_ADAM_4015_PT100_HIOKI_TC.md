@@ -7,16 +7,18 @@ permalink: Themis_fluid_T_mes.html
 
 A convenient solution is to use a [modbus](http://www.simplymodbus.ca/exceptions.htm) module, such as Promux [PM6RTD](https://www.proconel.com/product/pm6rtd-6-rtd-input-module/)
 
-In a nutshell, keep the factory settings on the PM6RTD : 9600 bauds, 1 stop bit, no parity. Adjust the modbus address with the switches on the front
+In a nutshell, keep the factory settings on the PM6RTD : 9600 bauds, 1 stop bit, no parity. 
+
+PM6RTD RS485 terminal block|4|3|2|1
+--|--|--|--|--
+connector|4-|3+|12V+|GND
+
+Adjust the modbus address with the switches on the front
 modbus address | switches
 --|--
 1|S1 ON
 2|S2 ON 
 3|S1 & S2 ON 
-
-PM6RTD RS485 terminal block|4|3|2|1
---|--|--|--|--
-connector|4-|3+|12V+|GND
 
 ### RTU wiring
 
