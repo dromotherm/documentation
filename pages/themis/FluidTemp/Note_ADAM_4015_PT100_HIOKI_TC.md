@@ -35,6 +35,8 @@ promux|4-|3+
 cable|white|green
 uport 1150|R-(D-)=4|R+(D+)=3
 
+**NOTA : THE WIRING IS EXACTLY THE SAME WITH THE ENLESS RECEIVER**
+
 ### modbusTCP wiring
 
 ![modbus TCP wiring](modbus_con.png)
