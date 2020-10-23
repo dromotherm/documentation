@@ -14,11 +14,13 @@ PM6RTD RS485 terminal block|4|3|2|1
 connector|4-|3+|12V+|GND
 
 Adjust the modbus address with the switches on the front
-modbus address|switches
---|--
-1|S1 ON
-2|S2 ON 
-3|S1 & S2 ON 
+
+modbus address|S1|S2|S3
+--|--|--|--
+1|ON|OFF|OFF
+2|OFF|ON|OFF
+3|ON|ON|OFF
+
 
 ### RTU wiring
 
