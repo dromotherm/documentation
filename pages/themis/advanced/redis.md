@@ -1,23 +1,41 @@
 # Utilisation de la ligne de commande redis
 
+## les commandes redis 
+
+datatype | lister tous les éléments | ajout d'un élément
+--|--|--
+hash| hgetall | hset
+set ou liste | smembers | sadd
+key | get | set
+
+## fonctionnement d'EmonCMS
+
+la route `feed/list.json` du contrôleur feed fait appel à la méthode `get_user_feeds` du modèle `feed` qui lance la méthode `redis_get_user_feeds`. Cette dernière s'occupe du chargement des numéros de flux de l'utilisateur dans la liste redis `user:feeds:1` via la méthode privée `load_to_redis` uniquement si la liste est vide :
+```
+if (!$this->redis->exists("user:feeds:$userid")) $this->load_to_redis($userid);
+```
+
+## application à THEMIS/BIOS
+
 Il peut-être assez essentiel sur le terrain de vérifier ce que la base redis a en mémoire.
 
 En effet, EmonCMS n'est pour l'instant pas tout à fait conçu pour parfaitement exploiter les flux redis temporaires que THEMIS/BIOS utise pour les prévisions météo. 
 
 Il a été prévu que ces flux temporaires soient visualisables par EmonCMS, pour pouvoir comparer les données chaudes de prévisions avec les données froides de la vérité terrain, stockées dans des flux PHPFINA....
 
-En cas de crash d'EmonCMS (ultra rare), il peut arriver que les flux de prévisions météo soient reconstruits et attribués à l'utilisateur 1 (le maître sur un serveur EmonCMS)
-avant que le serveur EmonCMS ait eu le temps de mettre à jour la liste redis `user:feeds:1` depuis la base MYSQL.
+En cas de crash d'EmonCMS (ultra rare), il peut arriver que les flux de prévisions météo soient reconstruits et attribués à l'utilisateur 1 (le maître sur un serveur EmonCMS) avant que le serveur EmonCMS ait eu le temps de mettre à jour la liste redis `user:feeds:1` depuis la base MYSQL.
 
-Vu l'architecture du module feed d'EmonCMS, il n'est pas prévu de routine pour mettre à jour la liste redis user:feeds:1 dès lors qu'elle existe. 
+Vu l'architecture du module feed d'EmonCMS, il n'est pas prévu de routine pour mettre à jour la liste redis `user:feeds:1` dès lors qu'elle existe. 
 On se contente d'ajouter des éléments dans la pile...
 
 Si la liste redis `user:feeds:1` ne contient pas les numéros de flux des données froides, ceux-ci ne seront pas listés sur la page feed, ni par le module graph
-Une solution est de rebooter le serveur.....avant de le faire, il faut vérifier le contenu de la liste redis `user:feeds:1`. 
+Une solution est de rebooter le serveur.....
+
+Avant de rebooter, il faut vérifier le contenu de la liste redis `user:feeds:1`. 
 
 En mode développement, on peut vérifier avec phpRedisAdmin par exemple, mais en mode exploitation sur le terrain, ce n'est pas envisageable
 
-On utilisera donc la ligne de commande
+On utilisera donc la ligne de commande :
 
 ```
 redis-cli
@@ -116,10 +134,4 @@ Si on obtient uniquement des timestamps, c'est qu'il faut rebooter :
 10) "1606730406"
 ```
 
-## les commandes redis 
 
-datatype | lister tous les éléments | ajout d'un élément
---|--|--
-hash| hgetall | hset
-set ou liste | smenbers | sadd
-key | get | set
