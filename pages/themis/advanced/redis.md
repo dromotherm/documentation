@@ -29,7 +29,8 @@ Vu l'architecture du module feed d'EmonCMS, il n'est pas prévu de routine pour 
 On se contente d'ajouter des éléments dans la pile...
 
 Si la liste redis `user:feeds:1` ne contient pas les numéros de flux des données froides, ceux-ci ne seront pas listés sur la page feed, ni par le module graph
-Une solution est de rebooter le serveur.....
+
+**La solution est d'arrer BIOS, de faire un flush de la base redis depuis la page admin d'emoncms, qui va reconstruire les clés, puis de redémarrer BIOS.**
 
 Avant de rebooter, il faut vérifier le contenu de la liste redis `user:feeds:1`. 
 
@@ -120,7 +121,7 @@ Si on obtient quelque chose mélangeant une numérotation depuis 1 et des numér
 72) "1606744375"
 ```
 
-Si on obtient uniquement des timestamps, c'est qu'il faut rebooter :
+Si on obtient uniquement des timestamps, c'est qu'il y a un problème :
 ```
 1) "1606688283"
 2) "1606688285"
