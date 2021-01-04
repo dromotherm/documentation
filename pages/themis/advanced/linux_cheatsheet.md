@@ -32,3 +32,7 @@ Si l'utilisateur est existant :
 ```
 sudo usermod -a -G dialout,tty alexandrecuer
 ```
+il y a aussi la commande useradd :
+```
+sudo adduser alexandrecuer dialout
+```
