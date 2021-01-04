@@ -36,3 +36,7 @@ il y a aussi la commande adduser :
 ```
 sudo adduser alexandrecuer dialout
 ```
+pour lister les groupes et les utilisateurs qu'ils contiennent :
+```
+cat /etc/group
+```
