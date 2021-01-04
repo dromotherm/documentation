@@ -22,3 +22,13 @@ Le `.` à la fin de la commande signifie que le fichier téléchargé sera dans 
 ```
 scp user@176.149.2.179:/var/log/bios/bios.log.1 .
 ```
+
+pour créer un utilisateur avec des privilèges particuliers sur le port série : 
+```
+sudo useradd -M -r -G dialout,tty -c "emonHub user" emonhub
+```
+
+Si l'utilisateur est existant : 
+```
+sudo usermod -a -G dialout,tty alexandrecuer
+```
