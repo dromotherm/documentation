@@ -4,6 +4,9 @@ Voir le partionnement du disque dur
 df -h
 ```
 
+Vérifier le modèle de raspberry : `cat /proc/device-tree/model` ou `pinout`
+
+
 Vérifier l'état des services, gérés par systemd
 
 ```
