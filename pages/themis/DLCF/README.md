@@ -73,7 +73,7 @@ The circuits regulation was traditionally achieved with night and weekend "reduc
 
 For a building with no inertia, very little insulation and not fitted with any indoor temperature sensor connected to the controllers, this method is not effective and the comfort in the building is absolutely zero. With a well-insulated building, these so called "reductions" can be OK but they are not the best way to save energy.
 
-In order to improve things, we decided in 2018 to test the Batisense solution, an artificial intelligence developed by the Probayes company, that schematizes the building as a set of electrical/thermal circuits in order to model its behavior.
+In order to improve things, we decided in 2018 to test the Batisense solution, a prediction solution developed by the Probayes company, that schematizes the building as a set of electrical/thermal circuits in order to model its behavior.
 
 ![R3C2](R3C2_modelb.svg)
 
@@ -84,9 +84,9 @@ Patents registered on this subject can be found on epo.org :
 
 The implementation of Batisense with its long-range indoor comfort sensors (169 Mhz) was a very exciting experience. As far as the cell cicuit was concerned, we suspected it was very necessary to keep a "full" heating during the night when it was cold outside, because we had the intuition that the building was losing too much warm and that the energy distribution system was not enough powerful to make up for it. But we couldn't put this into practice. Batisense allowed us to carry things dynamically, optimizing the cut-off periods and taking into account the building's capacities.
 
-### Starting deep-learning
+### Collecting datasets...
 
-By the end of 2019, we decided to install a complete monitoring separate from Batisense, which is patented and not really designed to exchange data in a 'opensource' manner. The purpose of this second monitoring is to collect a dataset to test our own deep-learning algorithms.
+By the end of 2019, we decided to install a complete monitoring separate from Batisense, which is patented and not really designed to exchange data in a 'opensource' manner. The purpose of this second monitoring is to collect a full dataset to train a neural network in a reinforcement-learning manner.
 
 Using a specially modified themis machine, we decided to duplicate the instrumentation for the extra sensors installed by the Probayes (indoor temperature, return temperature in the circuits)...
 
