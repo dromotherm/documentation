@@ -41,3 +41,15 @@ pour lister les groupes et les utilisateurs qu'ils contiennent :
 ```
 cat /etc/group
 ```
+
+pour ajouter un répertoire dans le path, içi celui de platformio :
+```
+cd ~
+nano .profile
+```
+a la fin, on rajoute la ligne suivante :
+
+```
+PATH=$PATH:/home/pi/.platformio/penv/bin
+```
+
