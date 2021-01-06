@@ -13,6 +13,7 @@ Vérifier l'état des services, gérés par systemd
 systemctl status
 systemctl status bios
 journalctl -f -u bios
+sudo systemctl daemon-reload
 ```
 
 Télécharger un fichier quant ssh est activé : utilisation de la commande scp.
