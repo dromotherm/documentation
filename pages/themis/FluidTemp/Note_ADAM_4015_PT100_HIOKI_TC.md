@@ -70,8 +70,8 @@ register number | description
 --|--
 99 | modbus address or unitId 
 100 | RTD Type 
-101 Line Frequency (50/60)
-102 Units Type (1=°C, 2=°F)
+101 | Line Frequency (50/60)
+102 | Units Type (1=°C, 2=°F)
 
 if DIP 10 is OFF, communication settings are 9600 bauds, no parity, 1 stop bit
 
@@ -79,10 +79,10 @@ if DIP 10 is ON, communication settings can be programmed :
 
 register number | description
 --|--
-120 Baud Rate (2400, 4800, 9600, 19200, 38400,57600,115200)
-121 Parity (0 = none, 1 = even, 2 = odd)
-122 Stop Bits (1 = 1 stop bit, 2 = 2 stop bits) 
-123 Reply Delay (0 = Disable, >0 = Enable)
+120 | Baud Rate (2400, 4800, 9600, 19200, 38400,57600,115200)
+121 | Parity (0 = none, 1 = even, 2 = odd)
+122 | Stop Bits (1 = 1 stop bit, 2 = 2 stop bits) 
+123 | Reply Delay (0 = Disable, >0 = Enable)
 
 ### PT100 wiring
 
