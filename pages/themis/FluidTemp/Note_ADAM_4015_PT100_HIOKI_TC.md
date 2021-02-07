@@ -56,6 +56,8 @@ Once the promux **PM6RTD** powered and connected via RTU or TCP, make a simple t
 
 ### configuration
 
+Various RTD types are supported :
+
 number | RTD Type
 --|--
 1 | PT100 
@@ -73,6 +75,12 @@ register number | description
 101 | Line Frequency (50/60)
 102 | Units Type (1=°C, 2=°F)
 
+**Please note register 99 is read only**
+
+Here is a screen capture for a PM6RTD configured with modbus address 2, PT100 and °C 
+
+![PT100 conf 1](PromuxPM6RTD_config_1.png)
+
 if DIP 10 is OFF, communication settings are 9600 bauds, no parity, 1 stop bit
 
 if DIP 10 is ON, communication settings can be programmed :
@@ -83,6 +91,8 @@ register number | description
 121 | Parity (0 = none, 1 = even, 2 = odd)
 122 | Stop Bits (1 = 1 stop bit, 2 = 2 stop bits) 
 123 | Reply Delay (0 = Disable, >0 = Enable)
+
+![PT100 conf 2](PromuxPM6RTD_config_2.png)
 
 ### PT100 wiring
 
