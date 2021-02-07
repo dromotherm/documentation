@@ -80,8 +80,8 @@ if DIP 10 is ON, communication settings can be programmed :
 register number | description
 --|--
 120 Baud Rate (2400, 4800, 9600, 19200, 38400,57600,115200)
-121 Parity 0 2 R/W 0 = none, 1 = even, 2 = odd 
-122 Stop Bits 1 2 R/W 1 = 1 stop bit, 2 = 2 stop bits 
+121 Parity (0 = none, 1 = even, 2 = odd)
+122 Stop Bits (1 = 1 stop bit, 2 = 2 stop bits) 
 123 Reply Delay (0 = Disable, >0 = Enable)
 
 ### PT100 wiring
