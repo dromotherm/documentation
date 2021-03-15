@@ -143,8 +143,6 @@ symlinked_emoncms_modules[postprocess]=themis
 git_repo[postprocess]=https://github.com/alexandrecuer/postprocess.git
 ....
 git_repo[emonhub]=https://github.com/alexandrecuer/emonhub.git
-# emonpi/rpi specific tools
-git_repo[emonpi]=https://github.com/dromotherm/emonpi.git
 ```
 to add the emoncms psychrographic tools :
 
