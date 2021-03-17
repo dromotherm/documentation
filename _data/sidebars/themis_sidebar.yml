@@ -29,6 +29,9 @@ entries:
     - title: declare a temperature/humidity node in emonhub
       url: /Themis_new_TRH_node.html
       output: web
+    - title: conf files
+      url: https://github.com/dromotherm/documentation/tree/master/pages/themis/download/
+      output: web
   
   - title: advanced use
     output: web
