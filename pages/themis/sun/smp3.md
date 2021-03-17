@@ -36,10 +36,10 @@ Install the Kipp and Zonen Smart Explorer software, and connect to the device
 
 As the Enless radio receiver is the slave number 1 on the Themis RS485 bus, we have to change the SMP3 modbus ID.
 We can use the following settings :
-- modbus ID : 2
-- baudrate : 19200
-- parity : None
-- stop bits : 2
+- **modbus ID : 3**
+- **baudrate : 9600**
+- **parity : None**
+- **stop bits : 1**
 
 Please note that that factory configuration is :
 - modbus ID : 1
