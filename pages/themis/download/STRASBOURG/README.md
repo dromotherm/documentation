@@ -6,7 +6,7 @@
 
 DHCP Client : disabled
 
-le raspberry (MAC b8:27:eb:de:87:48) a un bail fixe sur 192.168.2.2
+le raspberry `MAC b8:27:eb:de:87:48` a un bail fixe sur 192.168.2.2
 
 IP Pool de 192.168.2.3 à 192.168.2.254
 
