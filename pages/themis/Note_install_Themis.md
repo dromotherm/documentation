@@ -10,7 +10,7 @@ permalink: Themis_install.html
 
 burn the lastest version of rapsbian (buster) with Etcher
 
-[raspbian download page](https://www.raspberrypi.org/downloads/raspbian/)
+[raspbian download page](https://www.raspberrypi.org/software/operating-systems/#raspberry-pi-os-32-bit)
 
 Choose the [lite version](https://downloads.raspberrypi.org/raspbian_lite_latest) without desktop
 
@@ -143,8 +143,6 @@ symlinked_emoncms_modules[postprocess]=themis
 git_repo[postprocess]=https://github.com/alexandrecuer/postprocess.git
 ....
 git_repo[emonhub]=https://github.com/alexandrecuer/emonhub.git
-# emonpi/rpi specific tools
-git_repo[emonpi]=https://github.com/dromotherm/emonpi.git
 ```
 to add the emoncms psychrographic tools :
 
