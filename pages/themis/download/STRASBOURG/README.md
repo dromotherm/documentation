@@ -20,4 +20,12 @@ la case "Enable dynamic DHCP leases" n'est pas cochée
 
 **Cette configuration secondaire permet d'utiliser le second port éthernet à un réseau de type livebox, configuré en 192.168.1.1, ce qui est utile pour disposer d'un accès internet quant il n'y a pas de carte SIM dans le routeur** 
 
-Nota : quant on n'a pas de carte SIM dans le routeur, il faut aller dans Configuration > Mobile WAN, et décocher la case "create connection to mobile network"
+Nota : quant on n'a pas de carte SIM dans le routeur, il faut aller dans Configuration > Mobile WAN, et décocher la case "create connection to mobile network". Sinon le routeur va chercher à établir une connection en permanence.
+
+# dyndns (quant le routeur contient une SIM)
+
+Configuration > Service > DynDNS
+
+la case "Enable DynDNS Client" est cochée
+
+Hostname : dromotherm.ddns.net
