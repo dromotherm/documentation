@@ -20,7 +20,10 @@ la case "Enable dynamic DHCP leases" n'est pas cochée
 
 ## NAT
 
-Configuration > NAT : on coche les cases `Enable remote HTTP access on port 80` et surtout `Enable remote HTTPS access on port 443`
+Configuration > NAT : on coche les cases : 
+
+- `Enable remote HTTP access on port 80` 
+- et surtout `Enable remote HTTPS access on port 443`
 
 ## Synthèse
 
