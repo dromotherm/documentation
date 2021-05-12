@@ -190,3 +190,5 @@ node configuration
 ```
 
 There is no datacode to fix : the HIOKI is streaming ASCII and the decoding is integrated to the interfacer
+
+to understand how to interrogate the HIOKI opening a TCP socket : [python building block](hioki.py)
