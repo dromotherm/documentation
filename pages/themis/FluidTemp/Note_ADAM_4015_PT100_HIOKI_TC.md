@@ -151,7 +151,7 @@ in case of a demonstrator instrumentation, with a lot of data to record, the HIO
 
 Using the HIOKI 8402-20 datalogger with a universal analog input unit LR8501
 
-[Hioki 8402 product page](https://www.hioki.com/en/products/detail/?product_key=5613)
+[Hioki web site](https://www.hioki.com/)
 
 ![HIOKI_full_view](HIOKI8402.jpg)
 
