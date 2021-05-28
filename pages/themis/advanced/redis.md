@@ -17,6 +17,8 @@ if (!$this->redis->exists("user:feeds:$userid")) $this->load_to_redis($userid);
 
 ## application à THEMIS/BIOS
 
+**Ceci n'est plus vrai et a été complétement corrigé**
+
 Il peut-être assez essentiel sur le terrain de vérifier ce que la base redis a en mémoire.
 
 En effet, EmonCMS n'est pour l'instant pas tout à fait conçu pour parfaitement exploiter les flux redis temporaires que THEMIS/BIOS utise pour les prévisions météo. 
