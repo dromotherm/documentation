@@ -5,6 +5,11 @@ to check on which repo/branch your local folder is linked to :
 ```
 git config --list
 ```
+to delete a local branch only :
+```
+git branch -d <local-branch>
+git branch -D <local-branch>
+```
 
 # install github desktop on linux ubuntu
 
