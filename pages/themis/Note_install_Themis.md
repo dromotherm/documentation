@@ -176,7 +176,7 @@ bash <(curl -sL https://raw.githubusercontent.com/node-red/linux-installers/mast
 
 To start nodered as a service: `sudo systemctl enable nodered.service`
 
-to secure nodered : https://nodered.org/docs/user-guide/runtime/securing-node-red#usernamepassword-based-authentication
+[to secure nodered](https://nodered.org/docs/user-guide/runtime/securing-node-red#usernamepassword-based-authentication)
 
 
 ## Extra notes - to check in case of installation problems
