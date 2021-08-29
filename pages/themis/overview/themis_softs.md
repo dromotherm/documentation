@@ -10,7 +10,7 @@ They consist of :
 - a over the air service for **long range 169Mhz sensors**, with on the fly autodectection
 - a modbusTCP service to interact with modbus devices (eg promux) in order to easily operate thermocouple sensors and PT100
 
-- a vizualisation tool for creating **psychometric** diagrams 
+- a vizualisation tool for creating **psychrometric** diagrams, to appreciate the thermal comfort of a room
 ![psychro](psychrometric.png)
 - an algorithm dedicated to the calculation of **infiltration losses** on a building
 ![inf](INFLOSSES.png)
