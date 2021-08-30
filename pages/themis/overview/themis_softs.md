@@ -11,7 +11,6 @@ They consist of :
 - a modbusTCP service to interact with modbus devices (eg promux) in order to easily operate thermocouple sensors and PT100
 
 - a vizualisation tool for creating **psychrometric** diagrams, to appreciate the thermal comfort of a room
-![psychro](psychrometric.png)
 - an algorithm dedicated to the calculation of **infiltration losses** on a building
 ![inf](INFLOSSES.png)
 - a specific interfacer for emonhub managing an ethernet socket on a **HIOKI 8204-20** datalogger
