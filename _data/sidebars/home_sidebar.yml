@@ -11,6 +11,11 @@ entries:
     - title: Learn
       output: web
       url: /learn.html
-  - title: Themis
-    url: /Themis_overview.html
+  - title: Products
     output: web
+    - title: Themis
+      url: /Themis_overview.html
+      output: web
+    - title: downloads
+      url: /download
+      output: web
