@@ -13,6 +13,7 @@ entries:
       url: /learn.html
   - title: Products
     output: web
+    folderitems:
     - title: Themis
       url: /Themis_overview.html
       output: web
