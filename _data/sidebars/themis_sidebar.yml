@@ -17,6 +17,14 @@ entries:
     - title: the Themis softwares
       url: /Themis_softs.html
       output: web
+      
+    - title: download an image
+      url: /download.html
+      output: web
+      
+    - title: replacing the SD
+      url: /Themis_change_SD.html
+      output: web
 
     - title: SIM vs No SIM - date management
       url: /Themis_SIM.html
@@ -35,23 +43,15 @@ entries:
   
   - title: advanced use
     output: web
-    folderitems: 
-    
-    - title: replacing the SD
-      url: /Themis_change_SD.html
-      output: web
+    folderitems:
       
     - title: troubleshooting the OS
       url: /Themis_OS_troubleshooting.html
       output: web
         
-  - title: installation
+  - title: build the SD card
     output: web
     folderitems:
-    
-    - title: download an image
-      url: /download.html
-      output: web
     
     - title: scripted manner
       url: /Themis_install.html
