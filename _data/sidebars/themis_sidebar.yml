@@ -21,10 +21,6 @@ entries:
     - title: inserting the SIM
       url: /Themis_SIM.html
       output: web
-      
-  - title: download
-    url: /download.html
-    output: web
      
   - title: daily use
     output: web
@@ -52,6 +48,10 @@ entries:
   - title: installation
     output: web
     folderitems:
+    
+    - title: download
+      url: /download.html
+      output: web
     
     - title: scripted manner
       url: /Themis_install.html
