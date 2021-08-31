@@ -49,7 +49,7 @@ entries:
     output: web
     folderitems:
     
-    - title: download
+    - title: download an image
       url: /download.html
       output: web
     
