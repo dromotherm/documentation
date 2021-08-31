@@ -1,12 +1,10 @@
 ---
-title: Themis / declare a new 169 Mhz temperature/humidity node in emonhub and start recording datas
+title: Themis / from inputs to feeds !
 sidebar: themis_sidebar
 permalink: Themis_new_TRH_node.html
 ---
 
-for most operations related to connectivity with sensors and real world, Themis uses emonhub, a python service to handle socket, serial or radio connections
-
-Once logged to Themis, Emonhub user interface can be easily found.
+Themis uses different python services for most operations related to connectivity with sensors and real world. For modbusTCP and 169 Mhz radio, Themis has got its own intelligence. To monitor in realime electric consumption, Themis uses emonhub, which is maintained by a group of open source developers.
 
 ![go to emonhub UI](emonhub1.png)
 
