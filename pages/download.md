@@ -1,6 +1,6 @@
 ---
 title: downloads
-sidebar: home_sidebar
+sidebar: themis_sidebar
 permalink: download.html
 ---
 date | link, emoncms version, md5 hash
