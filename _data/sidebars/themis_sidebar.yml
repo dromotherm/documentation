@@ -21,6 +21,10 @@ entries:
     - title: inserting the SIM
       url: /Themis_SIM.html
       output: web
+      
+  - title: download
+    url: /download.html
+    output: web
      
   - title: daily use
     output: web
