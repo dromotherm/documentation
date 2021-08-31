@@ -1,6 +1,5 @@
 ---
-title: Themis : a connected system around a SIM card
-
+title: Themis, a connected system around a SIM card
 sidebar: themis_sidebar
 permalink: Themis_SIM.html
 ---
