@@ -4,9 +4,7 @@ sidebar: themis_sidebar
 permalink: Themis_new_TRH_node.html
 ---
 
-Themis uses different python services for most operations related to connectivity with sensors and real world. For modbusTCP and 169 Mhz radio, Themis has got its own intelligence. To monitor in realime electric consumption, Themis uses emonhub, which is maintained by a group of open source developers.
-
-![go to emonhub UI](emonhub1.png)
+Themis uses different python services for most operations related to connectivity with sensors and real world. For modbusTCP and 169 Mhz radio, Themis has got its own intelligence. To monitor in realime electric consumption, Themis uses [emonhub](http://github.com/openenergymonitor/emonhub), which is maintained by a group of open source developers.
 
 Emonhub's user interface permits :
 - to visualize in real time if data processing is correctly performed
