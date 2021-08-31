@@ -1,5 +1,5 @@
 ---
-title: downloads
+title: download a themis image
 sidebar: themis_sidebar
 permalink: download.html
 ---
