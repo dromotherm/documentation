@@ -1,8 +1,10 @@
 ---
-title: insert the SIM card
+title: Themis is a connected system around a SIM card
+
 sidebar: themis_sidebar
 permalink: Themis_SIM.html
 ---
+Themis basically needs a M2M (Machine2Machine) SIM card, in order to avoid date issues
 
 ## Install the SIM in the smartflex
 
