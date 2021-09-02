@@ -16,7 +16,7 @@ The recording step should be an integer multiple of the interval at which the se
 
 Data logged to feed is often a raw material, but please note that Emoncms offers a diversity of realtime processing which can be very practical, such as calibration, accumulation (usefull for energy feeds) or daily min and max values.
 
-# data quality
+# Quality management
 
 In radio technology, reception is considered good when more than 80% of the expected data is received. For example, the following illustration shows a reception quality of 90%. The field show `missing datas` is checked and the graph shows clearly the data gaps
 
