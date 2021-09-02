@@ -4,6 +4,8 @@ sidebar: themis_sidebar
 permalink: Themis_new_TRH_node.html
 ---
 
+Data from the sensors are displayed in real time in the inputs tab and can be historized into feeds.
+
 Themis uses different python services for most operations related to connectivity with sensors and real world. For modbusTCP and 169 Mhz radio, Themis has got its own intelligence, including devices autodiscovery. There is little configuration. Please note that for modbus/RS485, default configuration is the following :
 
 ```
