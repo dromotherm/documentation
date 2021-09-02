@@ -34,7 +34,7 @@ entries:
     output: web
     folderitems: 
     
-    - title: declare a temperature/humidity node in emonhub
+    - title: inputs historization in timeserie
       url: /Themis_new_TRH_node.html
       output: web
     - title: conf files
