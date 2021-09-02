@@ -1,5 +1,5 @@
 ---
-title: Themis/EmonCMS - using a SMP3 pyranometer
+title: using a SMP3 pyranometer
 sidebar: themis_sidebar
 permalink: Themis_smp3.html
 ---
