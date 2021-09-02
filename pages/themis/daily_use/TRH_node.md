@@ -1,5 +1,5 @@
 ---
-title: From inputs to feeds !
+title: From inputs to feeds
 sidebar: themis_sidebar
 permalink: Themis_new_TRH_node.html
 ---
