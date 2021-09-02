@@ -4,6 +4,8 @@ sidebar: themis_sidebar
 permalink: Themis_softs.html
 ---
 
+# real world connectivity
+
 The Themis tools are developped on the basis of the [emoncms](http://github.com/emoncms) ecosystem. 
 Themis has got its own intelligence, including devices autodiscovery. There is little or no configuration. 
 
@@ -16,19 +18,17 @@ To monitor in realime electric consumption, Themis uses [emonhub](http://github.
 
 Themis includes a specific interfacer for emonhub managing an ethernet socket on a **HIOKI 8204-20** datalogger
 
+*Please note that for modbus/RS485, default configuration is the following : `9600 bauds, 1 stop bit, 8 data bits, no parity`. You can change this but keep it simple*
+
+# data processing
+
 Datas recorded to feeds can be easily processed by well known python frameworks : numpy and tensorflow. A specific library named [PyFina](https://pypi.org/project/PyFina/) has been developped for that purpose. However, Themis embeds some algorithms on the field :
 
 - a vizualisation tool for creating **psychrometric** diagrams, to appreciate the thermal comfort of a room
 - an algorithm dedicated to the calculation of **infiltration losses** on a building
+
 ![inf](INFLOSSES.png) 
  
-Please note that for modbus/RS485, default configuration is the following :
 
-```
-bauds : 9600
-1 stop bit
-8 data bits
-no parity
-```
 
 
