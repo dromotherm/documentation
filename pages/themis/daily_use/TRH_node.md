@@ -1,5 +1,5 @@
 ---
-title: Themis / from inputs to feeds !
+title: from inputs to feeds !
 sidebar: themis_sidebar
 permalink: Themis_new_TRH_node.html
 ---
@@ -16,7 +16,7 @@ The recording step should be an integer multiple of the interval at which the se
 
 Data logged to feed is often a raw material, but please note that Emoncms offers a diversity of realtime processing which can be very practical, such as calibration, accumulation (usefull for energy feeds) or daily min and max values.
 
-# Quality management
+## Quality management
 
 In radio technology, reception is considered good when more than 80% of the expected data is received. The following illustration shows a reception quality of 90%. The field `show missing data` is checked and the graph shows clearly the data gaps
 
