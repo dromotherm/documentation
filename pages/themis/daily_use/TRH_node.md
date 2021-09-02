@@ -8,7 +8,7 @@ Datas from the sensors are displayed in real time in the inputs tab and can be e
 
 ![configure processing](inputs.png)
 
-To achieve this, you simply assign to the input a process named `log to feed`
+To achieve this, you simply assign to the input a process named `log to feed`, with a PHPFINA engine, which is our favorite binary timeserie, simple but fast, efficient and robust
 
 ![log to feed](process.png)
 
