@@ -18,6 +18,6 @@ Data logged to feed is often a raw material, but please note that Emoncms offers
 
 # Quality management
 
-In radio technology, reception is considered good when more than 80% of the expected data is received. For example, the following illustration shows a reception quality of 90%. The field show `missing datas` is checked and the graph shows clearly the data gaps
+In radio technology, reception is considered good when more than 80% of the expected data is received. The following illustration shows a reception quality of 90%. The field `show missing data` is checked and the graph shows clearly the data gaps
 
 ![missing datas](missing_datas.png)
