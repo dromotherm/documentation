@@ -4,7 +4,7 @@ sidebar: themis_sidebar
 permalink: Themis_softs.html
 ---
 
-# real world connectivity
+## real world connectivity
 
 The Themis tools are developped on the basis of the [emoncms](http://github.com/emoncms) ecosystem. 
 Themis has got its own intelligence, including devices autodiscovery. There is little or no configuration. 
@@ -20,7 +20,7 @@ Themis includes a specific interfacer for emonhub managing an ethernet socket on
 
 *Please note that for modbus/RS485, default configuration is the following : `9600 bauds, 1 stop bit, 8 data bits, no parity`. You can change this but keep it simple*
 
-# data processing
+## data processing
 
 Datas recorded to feeds can be easily processed by well known python frameworks : numpy and tensorflow. A specific library named [PyFina](https://pypi.org/project/PyFina/) has been developped for that purpose. However, Themis embeds some algorithms on the field :
 
