@@ -7,7 +7,7 @@ permalink: Themis_softs.html
 ## real world connectivity
 
 The Themis tools are developped on the basis of the [emoncms](http://github.com/emoncms) ecosystem. 
-Themis has got its own intelligence, including devices autodiscovery. There is little or no configuration. 
+Themis has got its own intelligence, including devices autodiscovery. **THERE IS LITTLE OR NO CONFGURATION** 
 
 Themis uses different python services for most operations related to connectivity with sensors and real world :
 
