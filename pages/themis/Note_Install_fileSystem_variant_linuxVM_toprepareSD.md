@@ -1,5 +1,5 @@
 ---
-title: Themis/EmonCMS - Install on raspbian stretch from scratch using the scripts
+title: using a VM
 sidebar: themis_sidebar
 permalink: Themis_scripted_variant.html
 summary: "This is a variant illustrating on a Windows workstation how to use a Linux VM (virtual machine) to prepare more completely the SD card"
