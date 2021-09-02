@@ -2,7 +2,7 @@
 title: Replacing the SD card
 sidebar: themis_sidebar
 permalink: Themis_change_SD.html
-summary: For some reasons, you may want to replace the SD card by a new one, eg to add more disk space for your feeds....
+summary: For some reasons, you may want to replace the SD card by a new one, eg to add more disk space for your feeds or to install a new version....
 ---
 
 {% include note.html content="You will need a Torx T20 screwdriver" %}
