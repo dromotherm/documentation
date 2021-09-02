@@ -37,9 +37,6 @@ entries:
     - title: inputs historization in timeseries
       url: /Themis_new_TRH_node.html
       output: web
-    - title: conf files
-      external_url: https://github.com/dromotherm/documentation/tree/master/pages/themis/download/
-      output: web
   
   - title: advanced use
     output: web
