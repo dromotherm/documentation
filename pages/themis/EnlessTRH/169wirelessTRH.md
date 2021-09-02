@@ -1,5 +1,5 @@
 ---
-organize a wireless ecosystem of 169 Mhz sensors for ambiant temperature and humidity monitoring
+title: organize a wireless ecosystem of 169 Mhz sensors for ambiant temperature and humidity monitoring
 sidebar: themis_sidebar
 permalink: TRH_recording.html
 ---
