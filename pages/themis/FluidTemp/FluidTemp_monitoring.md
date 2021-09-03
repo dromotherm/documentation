@@ -36,8 +36,6 @@ promux|4-|3+
 cable|white|green
 uport 1150|R-(D-)=4|R+(D+)=3
 
-**NOTA : THE WIRING IS EXACTLY THE SAME WITH THE ENLESS RECEIVER**
-
 ### modbusTCP wiring
 
 ![modbus TCP wiring](modbus_con.png)
@@ -111,7 +109,6 @@ Interfacer section :
     [[[runtimesettings]]]
         nodeIds = 21
         pubchannels = ToEmonCMS,
-        # time in seconds between checks, This is in addition to emonhub_interfacer.run() sleep time of .01
         interval = 60
 ```
 node :
