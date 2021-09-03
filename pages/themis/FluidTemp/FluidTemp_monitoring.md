@@ -109,6 +109,7 @@ Interfacer section :
     [[[runtimesettings]]]
         nodeIds = 21
         pubchannels = ToEmonCMS,
+        # in seconds
         interval = 60
 ```
 node :
@@ -167,12 +168,12 @@ use the specific Hioki socket interfacer for emonhub :
 [[HiokiTCP]]  
     Type = EmonHiokiTcpInterfacer
     [[[init_settings]]]
-	    IP = 192.168.2.3   # ip address of client to retrieve data from
-	    port = 8802          # Portclient listens on
+	    IP = 192.168.2.3
+	    port = 8802
     [[[runtimesettings]]]
            pubchannels = ToEmonCMS,
            nodeId = 1
-           # interrogation interval in seconds 
+           # in seconds
            interval = 10
 ```
 
