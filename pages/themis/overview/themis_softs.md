@@ -22,7 +22,11 @@ Themis includes a specific interfacer for emonhub managing an ethernet socket on
 
 ## data processing
 
-Datas recorded to feeds can be easily processed by well known python frameworks : numpy and tensorflow. A specific library named [PyFina](https://pypi.org/project/PyFina/) has been developped for that purpose. However, Themis embeds some algorithms on the field :
+Datas recorded to feeds can be easily processed by well known python frameworks : numpy and tensorflow.
+
+![logos](logos.png)
+
+A specific library named [PyFina](https://pypi.org/project/PyFina/) has been developped for that purpose. However, Themis embeds some algorithms on the field :
 
 - a vizualisation tool for creating **psychrometric** diagrams, to appreciate the thermal comfort of a room
 - an algorithm dedicated to the calculation of **infiltration losses** on a building
