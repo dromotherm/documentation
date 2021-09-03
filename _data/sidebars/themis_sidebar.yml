@@ -50,8 +50,8 @@ entries:
     output: web
     folderitems:
       
-    - title: troubleshooting the OS
-      url: /Themis_OS_troubleshooting.html
+    - title: understanding the architecture
+      url: /architecture.html
       output: web
       
   - title: hardware
