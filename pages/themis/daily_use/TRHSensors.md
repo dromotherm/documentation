@@ -21,7 +21,7 @@ manufactured by [Sensirion](https://www.sensirion.com/en/)
 - L1, L2 and L3 (on the transmitter) remain lit for 1 minute if radio communication quality is poor.
 - With a repeater, you can have L2 and L3 blinking on the transmitter, even though the data packet is correctly repeated
 
-## temperature, humidity and CO2 Sensors :
+## temperature, humidity and CO2 Sensors
 
 2 modes : calibration and communication
 
@@ -35,4 +35,3 @@ communication | L1,L2,L3 blink successively<br>L1 blink each 2 second<br>L3 rema
 If you are in calibration mode and want to enter communication mode (or vice versa), just power off the sensor for one-minute and power on.
 
 [more info](long_range/enless_CO2.pdf)
-
