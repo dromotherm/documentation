@@ -1,7 +1,7 @@
 ---
 title: From inputs to feeds
 sidebar: themis_sidebar
-permalink: Themis_new_TRH_node.html
+permalink: historization.html
 ---
 
 Datas from the sensors are displayed in real time in the inputs tab and can be easily historized into feeds.

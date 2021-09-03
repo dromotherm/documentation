@@ -35,7 +35,7 @@ entries:
     folderitems: 
     
     - title: inputs historization in timeseries
-      url: /Themis_new_TRH_node.html
+      url: /historization.html
       output: web
   
   - title: advanced use
