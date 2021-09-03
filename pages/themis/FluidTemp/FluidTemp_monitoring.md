@@ -127,7 +127,7 @@ node :
 ```
 **with the PM6RTD, sensors values can be found from register 2 to 7**
 
-## Using thermocouple (Seebeck effect)
+## thermocouple (Seebeck effect)
 
 Type T
 
