@@ -32,7 +32,11 @@ entries:
      
   - title: daily use
     output: web
-    folderitems: 
+    folderitems:
+    
+    - title: discover the long range sensors
+      url: long_range_sensors.html
+      output: web
     
     - title: inputs historization in timeseries
       url: /historization.html
@@ -66,8 +70,8 @@ entries:
     output: web
     folderitems:
     
-    - title: configure a wireless ecosystem of 169 Mhz sensors
-      url: /TRH_recording.html
+    - title: 169 Mhz radio to modbus
+      url: /radio2modbus.html
       output: web
       
     - title: measuring a fluid temperature
