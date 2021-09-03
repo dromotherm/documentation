@@ -10,8 +10,6 @@ The long range 169 Mhz standard toolkit consists of a set of transmitters plus a
 
 ## temperature and humidity sensors
 
-### description
-
 The temperature and humidity Enless sensors - TX TEMP HUM AMB 700-022 - embed a [SHT21](https://www.sensirion.com/en/environmental-sensors/humidity-sensors/humidity-temperature-sensor-sht2x-digital-i2c-accurate/)
 manufactured by [Sensirion](https://www.sensirion.com/en/)
 
@@ -19,13 +17,11 @@ manufactured by [Sensirion](https://www.sensirion.com/en/)
 
 [SHT21 datasheet](long_range/Sensirion_Humidity_Sensors_SHT21_Datasheet.pdf)
 
-### operation
-
 - L2 and L3 (on the transmitter) remain lit for 1 minute if radio quality is good
 - L1, L2 and L3 (on the transmitter) remain lit for 1 minute if radio communication quality is poor.
 - With a repeater, you can have L2 and L3 blinking on the transmitter, even though the data packet is correctly repeated
 
-### temperature, humidity and CO2 Sensors :
+## temperature, humidity and CO2 Sensors :
 
 2 modes : calibration and communication
 
