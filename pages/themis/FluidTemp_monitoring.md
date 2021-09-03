@@ -1,9 +1,10 @@
 ---
-title: Themis/EmonCMS - measuring a fluid temperature
+title: measuring a fluid temperature
 sidebar: themis_sidebar
 permalink: Themis_fluid_T_mes.html
 ---
-## Using PT 100 to measure fluid temperatures in a heating network
+
+## PT100 RTD
 
 A convenient solution is to use a [modbus](http://www.simplymodbus.ca/exceptions.htm) module, such as Promux [PM6RTD](https://www.proconel.com/product/pm6rtd-6-rtd-input-module/)
 
