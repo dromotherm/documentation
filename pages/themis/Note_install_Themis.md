@@ -116,50 +116,6 @@ cd openenergymonitor
 git clone -b master https://github.com/openenergymonitor/EmonScripts
 cd EmonScripts
 cd install
-```
-
-### option 1
-{% include note.html content="Option 1 should the simplest and preferred solution. But when things are not stabilized, use option 2" %}
-```
-rm emonsd.config.ini
-wget https://raw.githubusercontent.com/dromotherm/documentation/master/pages/themis/emonsd.config.ini
-```
-
-or 
-```
-wget -O config.ini https://raw.githubusercontent.com/dromotherm/documentation/master/pages/themis/emonsd.config.ini
-```
-
-### option 2
-
-manually change emonsd.config.ini ! or config.ini if you've lauched `./main.sh` once and answered yes.....
-
-repositories to use for a themis python3 config (without the Themis cosmetics tools included into the themis emoncms branch) = How to modify the emonsd.config.ini
-```
-emonhub_branch=themis_python3
-....
-symlinked_emoncms_modules[postprocess]=themis
-....
-git_repo[postprocess]=https://github.com/alexandrecuer/postprocess.git
-....
-git_repo[emonhub]=https://github.com/alexandrecuer/emonhub.git
-```
-to add the emoncms psychrographic tools :
-
-```
-emoncms_core_branch=themis
-....
-git_repo[emoncms_core]=https://github.com/alexandrecuer/emoncms.git
-```
-
-There is also a specific emonhub branch working with env variables - work in progress - dont know if this is going really to ship ???
-
-```
-emonhub_branch=modbusTCPinterfacer_multinodes_env_example
-```
-
-### launch the scripts
-```
 ./main.sh
 ```
 **finally, the process asks to change the sudoer pi password**
