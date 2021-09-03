@@ -53,22 +53,6 @@ entries:
     - title: troubleshooting the OS
       url: /Themis_OS_troubleshooting.html
       output: web
-        
-  - title: build the SD card
-    output: web
-    folderitems:
-    
-    - title: scripted manner
-      url: /Themis_install.html
-      output: web
-      
-    - title: scripted manner variant
-      url: /Themis_scripted_variant.html
-      output: web
-      
-    - title: OLD - using the OEMSD image 30/10/2018
-      url: /Themis_OEMSDimg_30_10_2018.html
-      output: web
       
   - title: hardware
     output: web
