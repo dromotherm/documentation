@@ -41,6 +41,10 @@ entries:
     - title: inputs historization in timeseries
       url: /historization.html
       output: web
+      
+    - title: psychrographic diagrams
+      url: /psy.html
+      output: web
   
   - title: advanced use
     output: web
