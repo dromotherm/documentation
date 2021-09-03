@@ -34,7 +34,7 @@ entries:
     output: web
     folderitems:
     
-    - title: discover the long range sensors
+    - title: discover the long range wireless sensors
       url: /long_range_sensors.html
       output: web
     
