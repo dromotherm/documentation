@@ -69,10 +69,6 @@ entries:
   - title: hardware
     output: web
     folderitems:
-    
-    - title: 169 Mhz radio to modbus
-      url: /radio2modbus.html
-      output: web
       
     - title: measuring a fluid temperature
       url: /Themis_fluid_T_mes.html
@@ -100,5 +96,12 @@ entries:
 
     - title: full instrumentation of Cerema Clermont boiler room
       url: /Themis_DLCF_boiler_room.html
-      output: web    
+      output: web
       
+  - misc: misc
+    output: web
+    folderitems:
+    
+    - title: 169 Mhz radio to modbus
+      url: /radio2modbus.html
+      output: web
