@@ -35,7 +35,7 @@ entries:
     folderitems:
     
     - title: discover the long range sensors
-      url: long_range_sensors.html
+      url: /long_range_sensors.html
       output: web
     
     - title: inputs historization in timeseries
