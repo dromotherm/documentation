@@ -34,11 +34,11 @@ toc: false
                        Assuming the raspberry is attributed the address 192.168.1.37<br>
                        <li>to access to Themis, browse http://192.168.1.37</li>
                        <li>to access to NodeRED, browse https://192.168.1.37:1880</li>
-                       <br><br>
+                       <br>
                        Even if you don't have any sensor, you can start monitoring : check <a href="OWMwithThemis.html">this</a>!
                    </ul>
                    <a href="https://alexjunk.pagesperso-orange.fr/Themis/Themis1.0.img.zip" class="btn btn-primary">Download</a>
-                   <a href="dowload" class="btn btn-primary">More images</a>
+                   <a href="download" class="btn btn-primary">More images</a>
                </div>
              </div>
          </div>
