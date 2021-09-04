@@ -3,7 +3,7 @@
 entries:
 - title: Themis
   product: Themis
-  version: 1.0
+  version: 2.0
   folders:
   - title: get started
     output: web
