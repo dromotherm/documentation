@@ -30,7 +30,7 @@ toc: false
                        <br><br>
                        <a href="download" class="btn btn-primary">Browse images</a>
                        <br><br>
-                       If you don't have any sensor, you can start collecting datas from an opensource network.
+                       If you don't have any sensor, you can configure Themis to collect datas from an opensource network.
                        <br><br>
                        <a href="OWMwithThemis.html" class="btn btn-primary">Monitor meteo with openweathermap</a>
                    </ul>
