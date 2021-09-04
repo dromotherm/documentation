@@ -29,7 +29,10 @@ toc: false
                        If you want to update your THEMIS machine or to test the Themis ecosystem without the Themis hardware, you can download a ready-to-use image.
                        <br><br>
                        <a href="download" class="btn btn-primary">Browse images</a>
-                       <a href="OWMwithThemis.html" class="btn btn-primary">Monitor meteo without any sensor</a>
+                       <br>
+                       If you don't have any sensor, you can start monitoring using datas from an opensource network.
+                       <br><br>
+                       <a href="OWMwithThemis.html" class="btn btn-primary">Monitor meteo with openweathermap</a>
                    </ul>
                </div>
              </div>
