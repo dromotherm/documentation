@@ -27,11 +27,9 @@ toc: false
                <div class="panel-body">
                    <ul>
                        If you want to update your THEMIS machine or to test the Themis ecosystem without the Themis hardware, you can download a ready-to-use image.
-                       <a href="https://alexjunk.pagesperso-orange.fr/Themis/Themis1.0.img.zip" class="btn btn-primary">Download</a>
-                       <br>
+                       <br><br>
                        <a href="download" class="btn btn-primary">Browse images</a>
-                       <br>
-                       <a href="OWMwithThemis.html">Monitor meteo without any sensor</a>!
+                       <a href="OWMwithThemis.html" class="btn btn-secondary">Monitor meteo without any sensor</a>!
                    </ul>
                </div>
              </div>
