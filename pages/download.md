@@ -3,8 +3,7 @@ title: themis images
 sidebar: themis_sidebar
 permalink: download.html
 ---
-
-Download, unzip and burn on a blank SD card using [Balena Etcher](https://www.balena.io/etcher)
+{% include tip.html content="Download, unzip and burn on a blank SD card using [Balena Etcher](https://www.balena.io/etcher)" %}
 
 If you have a Themis machine, checkout [how to replace the SD](Themis_change_SD) 
 
