@@ -97,33 +97,7 @@ register number | description
 
 ![wiring the PT100](PT_con.jpg)
 
-### emonhub configuration
-Interfacer section :
-```
-[[Enless]]
-    Type = EmonModbusTcpInterfacer2
-    [[[init_settings]]]
-        modbus_IP = 192.168.1.1
-        modbus_port = 503
-        fCode = 3
-    [[[runtimesettings]]]
-        nodeIds = 21
-        pubchannels = ToEmonCMS,
-        # in seconds
-        interval = 60
-```
-node :
-```
-[[21]]
-    nodename = circuits_PT100
-    [[[rx]]]
-        names = serial,PT100_1,PT100_2
-        registers = 1,2,3
-        unitId = 1
-        datacode = H
-        scales = 1,0.1,0.1
-```
-**with the PM6RTD, sensors values can be found from register 2 to 7**
+**with the PM6RTD, sensors values can be found from register 1 to 6**
 
 ## thermocouple (Seebeck effect)
 
@@ -142,7 +116,7 @@ CEI 584-3
 
 Use the [PM8TC isolated](https://www.proconel.com/product/pm8tc-iso-8-thermocouple-input-module-isolated/) module
 
-**with the PM8TC, sensors values can be found from register 2 to 9**
+**with the PM8TC, sensors values can be found from register 1 to 8**
 
 ## industrial approach
 
