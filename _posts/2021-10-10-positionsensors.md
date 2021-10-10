@@ -11,5 +11,4 @@ On the graph, the red curve represents the temperature near the window: when the
 
 The blue curve is measured with a thermocouple positioned on a table, in the middle of the room. The measurement of this thermocouple is much more representative. 
 
-Translated with www.DeepL.com/Translator (free version)
 ![](images/post2/Tsens_pos.png)
