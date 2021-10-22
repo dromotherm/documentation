@@ -14,11 +14,13 @@ Pour procéder à une historisation, cliquer sur la clé à droite de l’écran
 
 ![](images/post5/Clé_molette.PNG)
 
-Une nouvelle fenêtre apparait ; il suffit de modifier le pas de temps que l’on souhaite pour la réception des données. Le pas d'enregistrement doit être un multiple entier de l'intervalle auquel le capteur transmet ses données : si le capteur est configuré pour transmettre une mesure toutes les 5 minutes, le pas doit être fixé à 5 ou 10 minutes, mais en aucun cas à 60 secondes. 
-
-On clique sur « Add » et « Save ». 
+Une nouvelle fenêtre apparait ; il suffit de modifier le pas de temps que l’on souhaite pour la réception des données. 
 
 ![](images/post5/fréquence.PNG)
+
+Le pas d'enregistrement doit être un multiple entier de l'intervalle auquel le capteur transmet ses données : si le capteur est configuré pour transmettre une mesure toutes les 5 minutes, le pas doit être fixé à 5 ou 10 minutes, mais en aucun cas à 60 secondes. 
+
+Pour valider, on clique sur « Add » et « Save ». 
 
 L’enregistrement est alors actif (« log » apparait à côté de la donnée) et les flux apparaissent désormais dans l’onglet Feeds. Il est ici possible de modifier les flux, et notamment de les renommer : sélectionner les flux souhaités, aller dans « Edit » et renommer le flux. Cela peut être le n° de bureau ou de logement instrumenté par exemple. 
 
