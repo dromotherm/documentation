@@ -14,6 +14,14 @@ La plus directe est de passer par l’onglet Graphs, de cocher les données d’
 ![](images/post8/csv.PNG)
 
 ## Sauvegarde
-Autre méthode, qui sert également pour faire une sauvegarde des données enregistrées. Il faut cette fois aller sur l’onglet Bios, puis API Help > Backup > lancer un backup via le 2e lien (« générer un backup ») > « vérifier le backup » via le 3e lien (permet de « vérifier l’avancement, faire actualiser ce chemin ; un backup fini se termine par ===Emoncms export complete ! ===) > « télécharger le dernier backup » via le 1er lien
+Autre méthode, qui sert également pour faire une sauvegarde des données enregistrées. 
+
+Il faut cette fois aller sur l’onglet Bios, puis API Help > Backup
+
+1) on lance un backup via le lien 2 (« générer un backup »)
+
+2) on utilise le lien 3 « vérifier le backup » pour contrôler l'avancement (actualiser de temps en temps le chemin). La fin du backup fini est indiquée par `===Emoncms export complete ! ===`
+
+3) On utilise le lien 1 « télécharger le dernier backup » pour récupérer l'archive
 
 ![](images/post8/backup.PNG)
