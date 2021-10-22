@@ -13,7 +13,7 @@ Pour cela, il suffit de rejoindre l'onglet visualisations, sélectionner `edit r
 
 Ensuite, il faut cliquer sur <span class="label label-info">full screen</span>. Dans la nouvelle fenêtre qui s'ouvre, il faut alors localiser la période de bug et zoomer dessus avec la souris de façon à n'avoir dans la fenêtre plus que cette erreur. 
 
-Enfin, il suffit de saisir NAN dans l'input `multiply data in the window by a float` or a fraction" puis valider par <span class="label label-info">save</span>. La capture ci-dessous illustre ces étapes. 
+Enfin, il suffit de saisir NAN dans l'input `multiply data in the window by a float or a fraction` puis valider par <span class="label label-info">save</span>. La capture ci-dessous illustre ces étapes. 
 
 ![](images/post3/correction.png)
 
