@@ -25,7 +25,7 @@ L’approche retenue ici est celle de Fauconnier, plutôt adaptée aux bureaux c
 - Sommet haut gauche 17°C, humidité absolue correspondant à 17°C 80%HR
 - Sommet haut droite 26°C, humidité absolue correspondant à 26°C, 50%HR
 
-Pour le construire, il suffit de sélectionner 'Psychrometric diagram' dans l’onglet Visualisation, de sélectionner le multigraph préalablement préparé, et afficher. 
+Pour le construire, il suffit de sélectionner `Psychrometric diagram` dans l’onglet Visualisation, de sélectionner le multigraph préalablement préparé, et afficher. 
 Dans le cas d’un multigraph avec plusieurs zones, plusieurs nuages de points de différentes couleurs apparaitront.
 
 ![](images/post7/diag_confort.PNG)
