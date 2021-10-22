@@ -7,7 +7,7 @@ tags: [learn, get_started, themis]
 ---
 Dans certains cas (problème de transmission, batterie faible...), les mesures enregistrées par les capteurs peuvent prendre des valeurs incohérentes. L'interface Themis permet de les corriger directement. 
 
-Pour cela, il suffit de suivre la procédure suivante : rejoindre l'onglet visualisations, sélectionner edit real time et choisir le flux de valeur correspondant au capteur en cause, comme présenté dans la capture ci-dessous. 
+Pour cela, il suffit de rejoindre l'onglet visualisations, sélectionner `edit real time` et choisir le flux de valeur correspondant au capteur en cause, comme présenté dans la capture ci-dessous. 
 
 ![](images/post3/visualisation.png)
 
