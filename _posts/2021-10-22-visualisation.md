@@ -14,4 +14,4 @@ Pour une utilisation classique, il suffit de cocher les flux de données intére
 
 Il est possible de connaitre, dans cet onglet, la qualité des signaux. En technologie radio, la réception est considérée comme bonne lorsque plus de 80 % des données attendues sont reçues. L'illustration suivante montre une qualité de réception de 92 %. Le champ show missing dataest coché et le graphique montre clairement les lacunes dans les données.
 
-![](images/post6/onglet_graph.png)
+![](images/post6/onglet_graph.PNG)
