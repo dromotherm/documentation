@@ -29,6 +29,7 @@ Pour le construire, il suffit :
 - de sélectionner `Psychrometric diagram` dans l’onglet Visualisation,
 - de sélectionner le multigraph préalablement préparé,
 - et d'afficher. 
+
 Dans le cas d’un multigraph avec plusieurs zones, plusieurs nuages de points de différentes couleurs apparaitront.
 
 ![](images/post7/diag_confort.PNG)
