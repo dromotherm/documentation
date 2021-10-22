@@ -20,7 +20,7 @@ Il faut cette fois aller sur l’onglet Bios, puis API Help > Backup
 
 1) on lance un backup via le lien 2 (« générer un backup »)
 
-2) on utilise le lien 3 « vérifier le backup » pour contrôler l'avancement (actualiser de temps en temps le chemin). La fin du backup fini est indiquée par `===Emoncms export complete ! ===`
+2) on utilise le lien 3 « vérifier le backup » pour contrôler l'avancement (actualiser de temps en temps le chemin). La fin du backup est indiquée par `===Emoncms export complete ! ===`
 
 3) On utilise le lien 1 « télécharger le dernier backup » pour récupérer l'archive
 
