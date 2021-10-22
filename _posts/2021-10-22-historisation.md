@@ -12,7 +12,7 @@ Après l’installation des capteurs et l’établissement de la connexion avec 
 
 Pour cela, cliquer sur la clé à droite de l’écran (1). Une nouvelle fenêtre apparait ; il suffit de modifier le pas de temps que l’on souhaite pour la réception des données (2). Le pas d'enregistrement doit être un multiple entier de l'intervalle auquel le capteur transmet ses données : si le capteur est configuré pour transmettre une mesure toutes les 5 minutes, le pas doit être fixé à 5 ou 10 minutes, mais en aucun cas à 60 secondes. Puis « Add » and « Save ». 
 
-![](images/post5/clé_molette.PNG)
+![](images/post5/Clé_molette.PNG)
 
 ![](images/post5/fréquence.PNG)
 
