@@ -2,6 +2,7 @@
 title:  "Visualiser les données enregistrées"
 published: true
 permalink: visualisation.html
+image: images/post6/graph.png
 summary: "L'interface THEMIS permet de visualiser les données directement, ainsi que leur qualité."
 tags: [learn, get_started, themis]
 ---
