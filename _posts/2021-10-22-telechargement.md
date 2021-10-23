@@ -6,7 +6,7 @@ summary: "Les données enregistrées peuvent être téléchargées pour des trai
 tags: [learn, get_started, themis]
 ---
 
-Pour télécharger des données, 2 méthodes sont possibles.
+Pour télécharger des données, plusieurs méthodes sont possibles.
 
 ## Onglet Graphs
 La plus directe est de passer par l’onglet Graphs, de cocher les données d’intérêt et les périodes souhaitées et de télécharger ensuite les données au format .csv. Il est ici possible aussi de choisir la précision de la mesure que l’on veut, en sélectionnant dans DP le nombre souhaité de chiffre après la virgule.  
