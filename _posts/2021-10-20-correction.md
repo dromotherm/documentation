@@ -18,7 +18,9 @@ Enfin, il suffit de saisir NAN dans l'input `multiply data in the window by a fl
 
 ![](images/post3/correction.png)
 
-Comme mesure de prévention afin d'éviter ces corrections fastidieuses, on peut mettre en place un process à l'historisation.
+## mise en place d'un process à l'historisation
+
+La mise en place d'un process `skip next` qui permet de sauter l'enregistrement d'une valeur dès lors qu'elle dépasse un certain seuil est une mesure de prévention afin d'éviter ces corrections fastidieuses.
 
 ![](images/post3/prevention_aberrations_1.png)
 ![](images/post3/prevention_aberrations_2.png)
