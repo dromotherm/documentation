@@ -1,5 +1,5 @@
 ---
-title:  "Télécharger et sauvegarde des jeux de données "
+title:  "Télécharger et sauvegarder les jeux de données "
 published: true
 permalink: telechargement.html
 summary: "Les données enregistrées peuvent être téléchargées pour des traitement via d'autres logiciels. Il faut aussi penser à effectuer des sauvegardes."
