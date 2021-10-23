@@ -22,7 +22,7 @@ Il suffit de modifier le pas de temps que l’on souhaite pour la réception des
 
 Le pas d'enregistrement doit être un multiple entier de l'intervalle auquel le capteur transmet ses données : si le capteur est configuré pour transmettre une mesure toutes les 5 minutes, le pas doit être fixé à 5 ou 10 minutes, mais en aucun cas à 60 secondes. 
 
-Pour valider, on clique sur <span class="label label-info">Add</span> pour ajouter le process blog top feed` puis sur <span class="label label-info">Save</span>
+Pour valider, on clique sur <span class="label label-info">Add</span> pour ajouter le process `log to feed` puis sur <span class="label label-info">Save</span>
 
 L’enregistrement est alors actif : <span class="label label-info">log</span> apparait à côté de la donnée) et les flux sont visibles dans l’onglet Feeds. 
 
