@@ -2,13 +2,13 @@
 title:  "Lancer et arrêter l’historisation des données "
 published: true
 permalink: historisation.html
-summary: "Pour lancer l'enregistrement des données mesurées par les capteurs, il suffit de suivre cette procédure"
+summary: "pour l'enregistrement des données mesurées par les capteurs, THEMIS propose un dispositif très flexible basé sur des processus"
 tags: [learn, get_started, themis]
 ---
 
 ## Enregistrement
 
-Après l’installation des capteurs et l’établissement de la connexion avec THEMIS, il est nécessaire de configurer l'enregistrement dans les flux pouf les données qud l'on souhaite suivre; sans cela, il sera simplement possible de voir les données en temps réel. 
+Après l’installation des capteurs et l’établissement de la connexion avec THEMIS, il est nécessaire de configurer l'enregistrement dans les flux pouf les données que l'on souhaite suivre; sans cela, il sera simplement possible de voir les données en temps réel. 
 
 Pour procéder à une historisation, cliquer sur la clé à droite de l’écran. 
 
