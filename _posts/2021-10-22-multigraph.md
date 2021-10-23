@@ -18,7 +18,7 @@ Pour cela, il faut injecter Tzone1, puis RHzone1, puis Tzone2 puis RHzone2, etc 
 ![](images/post7/Multigraph.PNG)
 
 ## Diagramme psychrométrique 
-La visualisation psychrométrique permet d’afficher un diagramme de confort, de façon directe, qui consiste à l’affichage de l’humidité relative en fonction de la température. 
+La visualisation psychrométrique permet d’afficher un diagramme de confort, de façon directe, qui consiste à l’affichage de l’humidité absolue en fonction de la température. 
 L’approche retenue ici est celle de Fauconnier, plutôt adaptée aux bureaux climatisés, dont les limites sont les suivantes : 
 
 - Sommet bas/gauche 17°C, humidité absolue correspondant à 17°C 40%HR
