@@ -2,10 +2,10 @@
 title:  "Installation par auto découverte des capteurs"
 published: true
 permalink: installation.html
-summary: "L'installation des capteurs sans fils ne nécessite pas de configuration"
+summary: "L'installation des capteurs sans fil ne nécessite pas de configuration"
 tags: [learn, get_started, themis]
 ---
-Themis peut se connecter aux capteurs par auto découverte (pour les capteurs sans fil), de façon simple et rapide. 
+Themis peut se connecter aux capteurs sans fil par auto découverte, de façon simple et rapide. 
 
 Après avoir installé et mis en route THEMIS, il suffit de brancher la batterie de chaque capteur (de préférence dans le bureau à instrumenter) et de repérer le n° de série du capteur ; c’est sous ce nom qu’il apparaitra dans l’interface.
 
