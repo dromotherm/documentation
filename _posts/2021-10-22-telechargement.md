@@ -13,6 +13,11 @@ La plus directe est de passer par l’onglet Graphs, de cocher les données d’
 
 ![](images/post8/csv.PNG)
 
+## Onglet Feeds
+
+![](images/post6/export_feed_1.png)
+![](images/post6/export_feed_2.png)
+
 ## Sauvegarde
 Autre méthode, qui sert également pour faire une sauvegarde des données enregistrées. 
 
