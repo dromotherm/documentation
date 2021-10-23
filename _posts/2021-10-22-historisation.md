@@ -24,7 +24,7 @@ Le pas d'enregistrement doit être un multiple entier de l'intervalle auquel le 
 
 Pour valider, on clique sur <span class="label label-info">Add</span> pour ajouter le process `log to feed` puis sur <span class="label label-info">Save</span>
 
-L’enregistrement est alors actif : <span class="label label-info">log</span> apparait à côté de la donnée) et les flux sont visibles dans l’onglet Feeds. 
+L’enregistrement est alors actif : <span class="label label-info">log</span> apparait à côté de la donnée et les flux sont visibles dans l’onglet Feeds. 
 
 Dans l'onglet Feeds, il est possible de renommer les flux : sélectionner les flux souhaités, aller dans « Edit » et renommer le flux. Cela peut être le n° de bureau ou de logement instrumenté par exemple. 
 
