@@ -18,7 +18,7 @@ folder: learn
             {% endfor %}</span>
         <p>
           {% if post.image %}
-            <img class="docimage" src="{{post.image}}">
+            <img class="docimage" src="{{post.image}}"><br>
           {% endif %}
           {% if post.summary %} 
             {{ post.summary | strip_html | strip_newlines | truncate: 160 }} {% else %} {{ post.content | truncatewords: 50 | strip_html }} 
