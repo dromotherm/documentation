@@ -11,7 +11,7 @@ Après avoir installé et mis en route THEMIS, il suffit de brancher la batterie
 
 Après quelques instants, il faut vérifier l’arrivée des informations sur l’interface dans l’onglet Inputs. 
 
-Il est possible de suivre les échanges de données entre le capteur et le récepteur : onglet BIOS > ota2 (Over the air service)
+Il est possible de suivre les échanges de données entre le récepteur et ses capteurs : onglet BIOS > ota2 (Over the air service)
 
 ![](images/post4/ota2.png)
 
