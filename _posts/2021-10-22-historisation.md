@@ -8,7 +8,7 @@ tags: [learn, get_started, themis]
 
 ## Enregistrement
 
-Après l’installation des capteurs et l’établissement de la connexion avec THEMIS, il est nécessaire de configurer l'enregistrement dans les flux pouf les données que l'on souhaite suivre; sans cela, il sera simplement possible de voir les données en temps réel. 
+Après l’installation des capteurs et l’établissement de la connexion avec THEMIS, il est nécessaire de configurer l'enregistrement dans les flux pour les données que l'on souhaite suivre; sans cela, il sera simplement possible de voir les données en temps réel. 
 
 Pour procéder à une historisation, cliquer sur la clé à droite de l’écran. 
 
