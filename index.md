@@ -28,7 +28,9 @@ toc: false
                  <div class="panel-heading">News</div>
                  <div class="panel-body">
                      <ul>
-                     <a href=https://twitter.com/CarnotClimAdapt/status/1463420286506786819>THEMIS aux rendez-vous Carnot 2021 - cité des congrès de Lyon</a>
+                     <a href="https://twitter.com/CarnotClimAdapt/status/1463420286506786819" class="btn btn-primary">
+                         THEMIS aux rendez-vous Carnot 2021 - cité des congrès de Lyon
+                     </a>
                      </ul>
                  </div>
                  <div class="panel-heading">THEMIS latest image</div>
