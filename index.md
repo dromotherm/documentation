@@ -29,7 +29,7 @@ toc: false
                  <div class="panel-body">
                      <ul>
                      <a href="https://twitter.com/CarnotClimAdapt/status/1463420286506786819" class="btn btn-primary">
-                         THEMIS aux rendez-vous Carnot 2021 - cité des congrès de Lyon
+                         THEMIS aux rendez-vous Carnot 2021<br>cité des congrès de Lyon
                      </a>
                      </ul>
                  </div>
