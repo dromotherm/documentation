@@ -71,7 +71,7 @@ The cell circuit (in green on the following map) is the most difficult to regula
 
 The circuits regulation was traditionally achieved with night and weekend "reductions", which is a very common practise in the world of heating engineers....This requires to connect indoor temperature sensors to the controllers operating the "reductions". Thus, a setpoint for the indoor temperature can be defined and during nigths or weekends, the "reduction" mode is activated as long as the indoor temperature is above this setpoint...
 
-For a building with no inertia, very little insulation and not fitted with any indoor temperature sensor connected to the controllers, this method is not effective and the comfort in the building is absolutely zero. With a well-insulated building, these so called "reductions" can be OK but they are not the best way to save energy.
+For a building with no inertia, very little insulation and not fitted with any indoor temperature sensor connected to the controllers, this method is not effective and the comfort in the building is absolutely zero.
 
 In order to improve things, we decided in 2018 to test the Batisense solution, a prediction solution developed by the Probayes company, that schematizes the building as a set of electrical/thermal circuits in order to model its behavior.
 
