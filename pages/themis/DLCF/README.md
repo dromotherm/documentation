@@ -16,7 +16,7 @@ The room supplies 6 hot water circuits, each using a a 3-way valve and a pump fo
 
 ![schema](sch_BR_DLCF.svg)
 
-The building heated by this boiler room dates from the 1970/80s, with no insulation, a large number of metal doors and a roof seal to be reworked. The refurbishment of the boiler room is therefore far from being a priority.
+The building heated by this boiler room dates from the 1970/80s, with no insulation, a large number of metal doors and a roof seal to be reworked.
 
 Around 2005, a Sofrel s500 PLC had been installed as a modbus master for the 3 Sauter EQJ controllers, each one managing 2 hot water circuits.
 
@@ -34,9 +34,9 @@ During the year 2017, a Davis vantage weather station was connected to the Sofre
 
 At that time, the Themis project was still very young and had not yet adopted the 169 mhz Enless sensors to measure outdoor and indoor temperatures.
 
-In retrospect, it would have been easiest and cheaper to install a single sensor than a complete weather station.
+Nota : the outdoor temperature monitored by a sensor fixed on the wall of the building is different from the outdoor temperature that can be monitored by an "open field" sensor. The sensor on the building benefits from the heat of the building.
 
-Anyway, we had a Davis vantage weather station, a 868Mhz radio device coming with a [modbus RS485 bridge](manuel_6537_F_ver10ct.pdf) which we decide to translate 
+The Davis vantage weather station is a 868Mhz radio device coming with a [modbus RS485 bridge](manuel_6537_F_ver10ct.pdf) which we decide to translate 
 in modbus IP via a [HMS AB7007 Anybus gateway](https://www.anybus.com/fr/support/file-doc-downloads/communicator-specific/?ordercode=AB7007), for easy integration into the Sofrel S500. The Davis vantage was defined as a slave device (or external PLC) within the S500.
 
 As the Sofrel was powerful enough to also regulate the hot water production within the primary collector, a software cascade was implemented at the beginning of the 2017/2018 winter season.
