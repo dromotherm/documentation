@@ -32,9 +32,8 @@ During the year 2017, a Davis vantage weather station was connected to the Sofre
 
 ![DAVIS weather station](vantage_DAVIS.jpg)
 
-At that time, the Themis project was still very young and had not yet adopted the 169 mhz Enless sensors to measure outdoor and indoor temperatures.
-
-Nota : the outdoor temperature monitored by a sensor fixed on the wall of the building is different from the outdoor temperature that can be monitored by an "open field" sensor. The sensor on the building benefits from the heat of the building.
+Nota : the outdoor temperature monitored by a sensor fixed on the wall of the building is different from the outdoor temperature that can be monitored by the "open field" sensor of a meteostation. The sensor on the building benefits from the heat of the building. In a meteostation, the sensor is protected and should represent the real outdoor temperature, not a temporary "heat" feeling. 
+It can make sense to control a circuit serving a south wing with an outdoor temperature sensor positioned on the south wall, and to control a circuit serving a north wing with an outdoor temperature sensor positioned on the north wall. Same with east and west...
 
 The Davis vantage weather station is a 868Mhz radio device coming with a [modbus RS485 bridge](manuel_6537_F_ver10ct.pdf) which we decide to translate 
 in modbus IP via a [HMS AB7007 Anybus gateway](https://www.anybus.com/fr/support/file-doc-downloads/communicator-specific/?ordercode=AB7007), for easy integration into the Sofrel S500. The Davis vantage was defined as a slave device (or external PLC) within the S500.
