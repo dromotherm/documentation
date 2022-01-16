@@ -6,6 +6,8 @@ permalink: Themis_DLCF_boiler_room.html
 
 ![DLCF boiler room](DLCF_boiler_room.jpg)
 
+The setup below can be frightening, but this is usually what happens in practice when you deploy different brands of equipment with gateways in all directions to allow data exchange.
+
 ![Ecosystem map](ecosysteme_DLCF_boiler_room.jpg)
 
 ## History and organisation
@@ -68,9 +70,9 @@ The cell circuit (in green on the following map) is the most difficult to regula
 
 The circuits regulation was traditionally achieved with night and weekend "reductions", which is a very common practise in the world of heating engineers....This requires to connect indoor temperature sensors to the controllers operating the "reductions". Thus, a setpoint for the indoor temperature can be defined and during nigths or weekends, the "reduction" mode is activated as long as the indoor temperature is above this setpoint...
 
-For a building with no inertia, very little insulation and not fitted with any indoor temperature sensor connected to the controllers, this method is not effective and the comfort in the building is absolutely zero.
+But most of the time, indoor temperature sensors are not implemented !
 
-In order to improve things, we decided in 2018 to test the Batisense solution, a prediction solution developed by the Probayes company, that schematizes the building as a set of electrical/thermal circuits in order to model its behavior.
+We decided in 2018 to test the Batisense solution, a prediction solution developed by the Probayes company, that schematizes the building as a set of electrical/thermal circuits in order to model its behavior.
 
 ![R3C2](R3C2_modelb.svg)
 
@@ -79,7 +81,7 @@ Patents registered on this subject can be found on epo.org :
  and 
 [EP2781976A1](https://worldwide.espacenet.com/patent/search/family/048656084/publication/EP2781976A1)
 
-The implementation of Batisense with its long-range indoor comfort sensors (169 Mhz) was a very exciting experience. As far as the cell cicuit was concerned, we suspected it was very necessary to keep a "full" heating during the night when it was cold outside, because we had the intuition that the building was losing too much warm and that the energy distribution system was not enough powerful to make up for it. But we couldn't put this into practice. Batisense allowed us to carry things dynamically, optimizing the cut-off periods and taking into account the building's capacities.
+The implementation of Batisense with its long-range indoor comfort sensors (169 Mhz) was a very exciting experience, even if, from an operational point of view, using a model from the cloud to manage distribution on the field is not that pragmatic: it has to be recalibrated constantly.
 
 ### Collecting datasets...
 
