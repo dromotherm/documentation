@@ -93,7 +93,7 @@ Themis is basically a TCPIP network organized around a nanocomputer, using a 4G 
 
 ![themis DLCF](Themis_DLCF_small.png)
 
-{% include note.html content="A python modbus TCP interfacer is available within Themis to query a Modbus TCP hardware such as the sofrel PLC." %}
+{% include note.html content="It's not really up to standards electrically speaking but it works :-)" %}
 
 For indoor temperature monitoring, Themis is using the same kind of sensors as Batisense, i.e. [Enless 169 Mhz wireless Mbus sensors](TRH_recording.html)
 
