@@ -49,13 +49,11 @@ promux|4-|3+
 cable|white|green
 smartflex|2|3
 
-### basic testing
+### basic testing and discover how to configure
 
 Once the promux module powered and connected via RTU or TCP, make a simple test with [modbus doctor](http://www.kscada.com/modbusdoctor.html). Even without any sensor, you can check the serial on register 0. It should be something like 96D (upper byte = software version, here 9, lower byte always = 109 ie 6D) 
 
-### configuration
-
-Various RTD types are supported :
+The PM6RTD supports various RTD types :
 
 number | RTD Type
 --|--
