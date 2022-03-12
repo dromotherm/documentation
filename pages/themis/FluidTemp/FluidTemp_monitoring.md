@@ -4,7 +4,7 @@ sidebar: themis_sidebar
 permalink: Themis_fluid_T_mes.html
 ---
 
-## PT100 RTD
+## using modbus devices
 
 A convenient solution is to use a [modbus](http://www.simplymodbus.ca/exceptions.htm) module, such as Promux [PM6RTD](https://www.proconel.com/product/pm6rtd-6-rtd-input-module/)
 
@@ -99,9 +99,7 @@ register number | description
 
 **with the PM6RTD, sensors values can be found from register 1 to 6**
 
-## thermocouple (Seebeck effect)
-
-Type T
+### thermocouple wiring 
 
 Composition : copper / Constantan (copper + nickel)
 
@@ -118,7 +116,7 @@ Use the [PM8TC isolated](https://www.proconel.com/product/pm8tc-iso-8-thermocoup
 
 **with the PM8TC, sensors values can be found from register 1 to 8**
 
-## industrial approach
+## using TCP datalogger
 
 in case of a demonstrator instrumentation, with a lot of data to record, the HIOKI 8402-20 is a good choice
 
