@@ -25,9 +25,9 @@ modbus address|S1|S2|S3
 
 ### RTU mode
 
-To check the module, use a USB to serial adapter, eg the moxa uport 1150 - [download MOXA uport drivers](https://www.moxa.com/en/products/industrial-edge-connectivity/usb-to-serial-converters-usb-hubs/usb-to-serial-converters/uport-1100-series/uport-1150)
+Use a USB to serial adapter, eg the moxa uport 1150 - [download MOXA uport drivers](https://www.moxa.com/en/products/industrial-edge-connectivity/usb-to-serial-converters-usb-hubs/usb-to-serial-converters/uport-1100-series/uport-1150)
 
-On a window desktop, go to the device manager and fit the Moxa so it works in RS485(2W). Here the Moxa appears to be on COM1
+If using a window desktop, go to the device manager and fit the Moxa so it works in RS485(2W). Here the Moxa appears to be on COM1
 
 ![moxa uport conf](uport_conf.png)
 
