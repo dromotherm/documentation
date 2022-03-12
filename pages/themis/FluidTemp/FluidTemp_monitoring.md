@@ -23,9 +23,9 @@ modbus address|S1|S2|S3
 3|ON|ON|OFF
 
 
-### RTU wiring
+### RTU mode
 
-To check the module without any integration into Themis, we will use a USB to serial adapter : the moxa uport 1150 - [download MOXA uport drivers](https://www.moxa.com/en/products/industrial-edge-connectivity/usb-to-serial-converters-usb-hubs/usb-to-serial-converters/uport-1100-series/uport-1150)
+To check the module, use a USB to serial adapter, eg the moxa uport 1150 - [download MOXA uport drivers](https://www.moxa.com/en/products/industrial-edge-connectivity/usb-to-serial-converters-usb-hubs/usb-to-serial-converters/uport-1100-series/uport-1150)
 
 On a window desktop, go to the device manager and fit the Moxa so it works in RS485(2W). Here the Moxa appears to be on COM1
 
@@ -36,7 +36,7 @@ promux|4-|3+
 cable|white|green
 uport 1150|R-(D-)=4|R+(D+)=3
 
-### modbusTCP wiring
+### TCP mode
 
 ![modbus TCP wiring](modbus_con.png)
 
@@ -51,7 +51,7 @@ smartflex|2|3
 
 ### basic testing
 
-Once the promux **PM6RTD** powered and connected via RTU or TCP, make a simple test with [modbus doctor](http://www.kscada.com/modbusdoctor.html). Even without any sensor, you can check the serial on register 0. It should be something like 96D (upper byte = software version, here 9, lower byte always = 109 ie 6D) 
+Once the promux module powered and connected via RTU or TCP, make a simple test with [modbus doctor](http://www.kscada.com/modbusdoctor.html). Even without any sensor, you can check the serial on register 0. It should be something like 96D (upper byte = software version, here 9, lower byte always = 109 ie 6D) 
 
 ### configuration
 
@@ -116,7 +116,7 @@ Use the [PM8TC isolated](https://www.proconel.com/product/pm8tc-iso-8-thermocoup
 
 **with the PM8TC, sensors values can be found from register 1 to 8**
 
-## using TCP datalogger
+## using a TCP datalogger
 
 in case of a demonstrator instrumentation, with a lot of data to record, the HIOKI 8402-20 is a good choice
 
