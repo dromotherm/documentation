@@ -19,7 +19,6 @@ Check [release notes](release_notes.txt) - to check versioning and SHA256
 
 To install on a 32 Gb card, use gparted to extend filesystem
 
-date | link, emoncms version, md5 hash
+date | link
 --|--
-23/06/2022 | [Themis Bios - 16 Gb cards - linux kernel 5.15.32](https://drive.google.com/u/0/uc?id=1874vnJTrYKGkXykJvVuVlcXoWIYOKLQI&export=download) 
-29/08/2021 | [Themis - 16 Gb cards - pi version](https://drive.google.com/uc?id=1SM9nP_75u8EXGqZST3VIVUsi-6czyYox&export=download) <br> **emoncms version : 10.8.1** <br> (zip) b2a2ea2d8b040bffa1026f8964787a3c <br> (img) 6470a1c94e1476ea6a96ca5c55adf35b
+23/06/2022 | [Themis Bios - 16 Gb cards - linux kernel 5.15.32](https://drive.google.com/u/0/uc?id=1874vnJTrYKGkXykJvVuVlcXoWIYOKLQI&export=download)
