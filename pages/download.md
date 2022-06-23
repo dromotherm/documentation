@@ -17,6 +17,12 @@ Assuming the raspberry is attributed the address 192.168.1.37 :
 
 Check [release notes](release_notes.txt) - to check versioning and SHA256
 
+use xz to extract :
+
+```
+xz -d -v file_name.img.xz
+```
+
 To install on a 32 Gb card, use gparted to extend filesystem
 
 date | link
