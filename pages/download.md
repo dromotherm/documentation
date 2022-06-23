@@ -15,7 +15,7 @@ Assuming the raspberry is attributed the address 192.168.1.37 :
 
 {% include note.html content="Please note these are big files, so be patient :-)" %}
 
-Check [release notes](release_notes.txt)
+Check [release notes](release_notes.txt) - to check versioning and SHA256
 
 To install on a 32 Gb card, use gparted to extend filesystem
 
