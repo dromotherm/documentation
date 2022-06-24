@@ -24,7 +24,7 @@ xz -d -v file_name.img.xz
 ```
 Run `sudo apt install xz-utils` to install xz on debian/ubuntu
 
-To install on a 32 Gb card, use gparted to extend filesystem
+If using a 32 Gb card, use gparted to extend filesystem
 
 date | link
 --|--
