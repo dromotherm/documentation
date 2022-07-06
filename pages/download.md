@@ -24,8 +24,12 @@ xz -d -v file_name.img.xz
 ```
 Run `sudo apt install xz-utils` to install xz on debian/ubuntu
 
-If using a 32 Gb card, use gparted to extend filesystem
-
 date | link
 --|--
 23/06/2022 | [Themis Bios - 16 Gb cards - linux kernel 5.15.32](https://drive.google.com/u/0/uc?id=1874vnJTrYKGkXykJvVuVlcXoWIYOKLQI&export=download)
+
+## resizing partitions
+
+**If using a 32 Gb card, use [gparted](https://gparted.org/) to extend filesystem**
+
+The process is quite straightforward, and gparted will make all moving and resizing operations easy
