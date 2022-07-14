@@ -31,5 +31,5 @@
   * Mosquitto-PHP 0.4.0
   * phpredis 6.0.0-dev (php -i | grep 'Redis Version =>')
 
-  support for promux Uport 1150
+  support for MOXA Uport 1150
   + use of basic reichelt RS485 adapter (search for raspberrypi+USB+RS485)
