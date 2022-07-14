@@ -13,7 +13,7 @@ Assuming the raspberry is attributed the address 192.168.1.37 :
 - to access to Themis, browse `http://192.168.1.37`
 - to access to NodeRED (if preinstalled on the image), browse `https://192.168.1.37:1880`
 
-{% include note.html content="Please note these are big files, so be patient :-)" %}
+{% include note.html content="these are big files, so be patient :-)" %}
 
 Use xz to extract :
 
@@ -24,7 +24,7 @@ Run `sudo apt install xz-utils` to install xz on debian/ubuntu
 
 date | link
 --|--
-23/06/2022 | [Themis Bios - 16 Gb cards - linux kernel 5.15.32](https://drive.google.com/u/0/uc?id=1874vnJTrYKGkXykJvVuVlcXoWIYOKLQI&export=download)<br>[release notes](release_notes.txt)
+23/06/2022 | [Themis Bios - 16 Gb cards - linux kernel 5.15.32](https://drive.google.com/u/0/uc?id=1874vnJTrYKGkXykJvVuVlcXoWIYOKLQI&export=download)<br><br>[release notes](release_notes.txt)
 
 check the release notes for all details about versioning and SHA256
 
