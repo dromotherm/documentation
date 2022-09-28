@@ -4,6 +4,8 @@ sidebar: themis_sidebar
 permalink: radio2modbus.html
 ---
 
+**DEPRECATED**
+
 Themis now autodiscovers the temperature and humidity sensors operating on the 169 Mhz range and using the wireless Mbus protocol. Nevertheless, at the beginnings, we had to pair the receiver with the sensors. Once the pairing has been successfully completed, the datas from the various transmitters are available in real time, via a query of the receiver in Modbus RTU format. This guide covers the pairing process, which is now deprecated. This is just for general knowledge.
 
 ## Create the ecosystem
