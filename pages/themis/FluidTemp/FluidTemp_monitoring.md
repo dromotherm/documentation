@@ -27,7 +27,7 @@ modbus address|S1|S2|S3
 
 Use a USB to serial adapter :
 - a very cheap dongle can be found on [reichelt](https://secure.reichelt.com/fr/fr/raspberry-pi-interface-usb-rs485-ch340c-rpi-usb-rs485-p242783.html?search=USB+RS485&&r=1) - no driver required on linux, plug and play
-- moxa uport 1150 - drivers are required but everything is included in the latest BIOS image [download MOXA uport drivers for linux/windows](https://www.moxa.com/en/products/industrial-edge-connectivity/usb-to-serial-converters-usb-hubs/usb-to-serial-converters/uport-1100-series/uport-1150).
+- moxa uport 1150 - [drivers](https://www.moxa.com/en/products/industrial-edge-connectivity/usb-to-serial-converters-usb-hubs/usb-to-serial-converters/uport-1100-series/uport-1150) are required but everything is included in the latest BIOS image.
 
 If making tests using a window desktop, go to the device manager and fit the Moxa so it works in RS485(2W). Here the Moxa appears to be on COM1
 
