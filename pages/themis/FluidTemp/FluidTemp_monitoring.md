@@ -4,6 +4,8 @@ sidebar: themis_sidebar
 permalink: Themis_fluid_T_mes.html
 ---
 
+Everything is plug and play on Themis/BIOS but it is smart to share some basic knowledge.
+
 ## using modbus devices
 
 A convenient solution is to use a [modbus](http://www.simplymodbus.ca/exceptions.htm) module, such as Promux [PM6RTD](https://www.proconel.com/product/pm6rtd-6-rtd-input-module/)
@@ -38,18 +40,14 @@ promux|4-|3+
 cable|white|green
 uport 1150|R-(D-)=4|R+(D+)=3
 
+![promux wiring](modbus_con.png)
+
 ### TCP mode
 
-![modbus TCP wiring](modbus_con.png)
+BIOS can act as a TCP server for a RTU bus connected via USB (serial forwarding mode) but you can also use the RS485 port if using a smartflex or ICR Advantech router.
 
-smartflex RS485 terminal block|1|2|3
---|--|--|--
-connector|GND|TxRx+|TxRx-
+![TCP wiring](smartflex_RS485_conns.png)
 
-promux|4-|3+
---|--|--
-cable|white|green
-smartflex|2|3
 
 ### basic testing and discover how to configure
 
