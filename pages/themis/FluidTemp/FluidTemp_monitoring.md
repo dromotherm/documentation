@@ -67,10 +67,10 @@ number | RTD Type
 
 register number | description
 --|--
-99 | modbus address or unitId 
-100 | RTD Type 
-101 | Line Frequency (50/60)
-102 | Units Type (1=°C, 2=°F)
+30001 + 99 | modbus address or unitId 
+30001 + 100 | RTD Type 
+30001 + 101 | Line Frequency (50/60)
+30001 + 102 | Units Type (1=°C, 2=°F)
 
 **Please note register 99 is read only**
 
@@ -84,10 +84,10 @@ if DIP 10 is ON, communication settings can be programmed :
 
 register number | description
 --|--
-120 | Baud Rate (2400, 4800, 9600, 19200, 38400,57600,115200)
-121 | Parity (0 = none, 1 = even, 2 = odd)
-122 | Stop Bits (1 = 1 stop bit, 2 = 2 stop bits) 
-123 | Reply Delay (0 = Disable, >0 = Enable)
+40001 + 120 | Baud Rate (2400, 4800, 9600, 19200, 38400,57600,115200)
+40001 + 121 | Parity (0 = none, 1 = even, 2 = odd)
+40001 + 122 | Stop Bits (1 = 1 stop bit, 2 = 2 stop bits) 
+40001 + 123 | Reply Delay (0 = Disable, >0 = Enable)
 
 ![PT100 conf 2](PromuxPM6RTD_config_2.png)
 
@@ -95,7 +95,7 @@ register number | description
 
 ![wiring the PT100](PT_con.jpg)
 
-**with the PM6RTD, sensors values can be found from register 1 to 6**
+**with the PM6RTD, sensors values can be found from register 1 to 6 (30002 to 30007) **
 
 ### thermocouple wiring 
 
@@ -112,7 +112,7 @@ CEI 584-3
 
 Use the [PM8TC isolated](https://www.proconel.com/product/pm8tc-iso-8-thermocouple-input-module-isolated/) module
 
-**with the PM8TC, sensors values can be found from register 1 to 8**
+**with the PM8TC, sensors values can be found from register 1 to 8 (30002 to 30009) **
 
 ## using a TCP datalogger
 
