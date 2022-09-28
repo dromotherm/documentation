@@ -4,7 +4,7 @@ sidebar: themis_sidebar
 permalink: Themis_fluid_T_mes.html
 ---
 
-Everything is plug and play on Themis/BIOS but it is smart to share some basic knowledge.
+Everything is plug and play on Themis/BIOS but it is smart to share some basic knowledge as far as recording the temperature of a fluide is concerned.
 
 ## using modbus devices
 
@@ -68,9 +68,9 @@ number | RTD Type
 register number | description
 --|--
 30001 + 99 | modbus address or unitId 
-30001 + 100 | RTD Type 
-30001 + 101 | Line Frequency (50/60)
-30001 + 102 | Units Type (1=°C, 2=°F)
+40001 + 100 | RTD Type 
+40001 + 101 | Line Frequency (50/60)
+40001 + 102 | Units Type (1=°C, 2=°F)
 
 **Please note register 99 is read only**
 
