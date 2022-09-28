@@ -72,7 +72,9 @@ register number | description
 40001 + 101 | Line Frequency (50/60)
 40001 + 102 | Units Type (1=°C, 2=°F)
 
-**Please note register 99 is read only**
+**register 99 is read only : it's an input register with an offset equal to 30001**
+
+**registers 100, 101 and 102 are read and write : they are called holding registers, with an offset of 40001**
 
 Here is a screen capture for a PM6RTD configured with modbus address 2, PT100 and °C 
 
