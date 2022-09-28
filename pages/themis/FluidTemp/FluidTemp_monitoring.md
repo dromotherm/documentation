@@ -4,7 +4,7 @@ sidebar: themis_sidebar
 permalink: Themis_fluid_T_mes.html
 ---
 
-Everything is plug and play on Themis/BIOS but it is smart to share some basic knowledge as far as recording the temperature of a fluide is concerned.
+Everything is plug and play on Themis/BIOS but it is smart to share some basic knowledge as far as recording the temperature of a fluid is concerned.
 
 ## using modbus devices
 
@@ -44,7 +44,9 @@ uport 1150|R-(D-)=4|R+(D+)=3
 
 ### TCP mode
 
-BIOS can act as a TCP server for a RTU bus connected via USB (serial forwarding mode) but you can also use the RS485 port if using a smartflex or ICR Advantech router.
+The use of a TCP mode may be necessary to exchange with other PLCs. 
+
+To do this, BIOS can act as a TCP server for a RTU bus connected via USB (serial forwarding mode) BUT you can also use the RS485 port if using a smartflex or ICR Advantech router.
 
 ![TCP wiring](smartflex_RS485_conns.png)
 
