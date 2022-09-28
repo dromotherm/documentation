@@ -46,7 +46,7 @@ uport 1150|R-(D-)=4|R+(D+)=3
 
 The use of a TCP mode may be necessary to exchange with other PLCs. 
 
-To do this, BIOS can act as a TCP server for a RTU bus connected via USB (serial forwarding mode) BUT you can also use the RS485 port if using a smartflex or ICR Advantech router.
+To do this, BIOS can act as a TCP server for a RTU bus connected via USB (serial forwarding mode) BUT you can also use the RS485 port of the smartflex or ICR Advantech router.
 
 ![TCP wiring](smartflex_RS485_conns.png)
 
