@@ -21,6 +21,6 @@ From a practical point of view, you just have to build multigraphs in emoncms an
 
 ![using the psychrograph](psy/psychrograph.png)
 
-More details on [1](https://sustainabilityworkshop.venturewell.org/node/1195.html) and [2](https://sustainabilityworkshop.venturewell.org/node/1195.html)
+More details on [1](https://sustainabilityworkshop.venturewell.org/node/1195.html)
 
 
