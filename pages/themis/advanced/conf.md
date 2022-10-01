@@ -1,5 +1,5 @@
 ---
-title: managing the modbus sniffer configuration files
+title: managing the modbus sniffer configuration file
 sidebar: themis_sidebar
 permalink: conf.html
 ---
