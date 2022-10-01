@@ -50,8 +50,16 @@ entries:
     output: web
     folderitems:
       
-    - title: architecture and services
+    - title: architecture
       url: /architecture.html
+      output: web
+    
+    - title: 169 Mhz radio service
+      url: /radio.html
+      output: web
+    
+    - title: modbus services
+      url: /modbus.html
       output: web
       
   - title: hardware
