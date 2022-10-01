@@ -55,7 +55,7 @@ PM6RTD | 1=PT100, 3=PT1000
 PM8TC | type of thermocouple <br> 1=type J, 2=type K, 3=type E, 4=type T
 PM16DI | 32 bits counters <br> 0=Disable, 1=Up Counting, 2=Up/Down Count
 
-A more complex configuration can be achieved and the slaves section purpose is to describe for each unitid on the bus :
+A more complex configuration can be achieved in order to describe for each unitid on the bus :
 - which registers to read
 - how to format payloads for the MQTT broker
 
