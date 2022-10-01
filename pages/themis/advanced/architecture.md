@@ -5,7 +5,6 @@ toc: false
 permalink: architecture.html
 ---
 
-## emoncms_mqtt and feewriter processes
 
 THEMIS collects datas from various hardware services. Once collected from a sensor, data is processed by THEMIS/emoncms through a MQTT broker called mosquitto and a key value in memory database called Redis. At the end of this processing cycle, data is stored in binary feeds on a flash memory. 
 
