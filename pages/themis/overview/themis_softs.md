@@ -14,13 +14,14 @@ Themis has got its own intelligence, including devices autodiscovery.
 Themis uses different python services for most operations related to connectivity with sensors and real world :
 
 - a over the air service for **long range 169Mhz sensors**, with on the fly autodectection
-- a modbusTCP service to interact with modbus devices (eg promux) in order to easily operate thermocouple sensors and PT100
+- a modbus service to interact with modbus devices (eg promux) in order to easily operate thermocouple sensors and PT100
+
+*Please note that for modbus/RS485, default configuration is the following : `9600 bauds, 1 stop bit, 8 data bits, no parity`. You can change this but keep it simple*
 
 To monitor in realime electric consumption, Themis uses [emonhub](http://github.com/openenergymonitor/emonhub), which is maintained by the emoncms developers
 
-Themis includes a specific interfacer for emonhub managing an ethernet socket on a **HIOKI 8204-20** datalogger
+We maintain a specific version of emonhub including a specific interfacer to manage ethernet sockets on a **HIOKI 8204-20** datalogger
 
-*Please note that for modbus/RS485, default configuration is the following : `9600 bauds, 1 stop bit, 8 data bits, no parity`. You can change this but keep it simple*
 
 ## data processing
 
