@@ -4,13 +4,11 @@ sidebar: themis_sidebar
 permalink: conf.html
 ---
 
-All THEMIS/BIOS specific conf files are stored in `/etc/conf/bios`
+As a reminder, all THEMIS/BIOS specific conf files are stored in `/etc/conf/bios`
 
 The edition can be done using the emoncms web interface, through the emoncms BIOS module, which is preinstalled on the SD card
 
-## modbus
-
-THEMIS/BIOS is using promux modbus modules :
+THEMIS/BIOS is using **PROMUX** modbus modules :
 - PM6RTD for PT100,
 - PM8TC for thermocouples
 - PM16DI to collect digital boolean signals (high/low, open/closed, on/off)
@@ -24,7 +22,7 @@ python3 promuxDiscovery.py
 
 The modbus.conf file is structured in 3 sections : common, bus and slaves
 
-### common section
+## common section
 
 The common section gathers the connexion parameters :
 
@@ -36,7 +34,7 @@ The common section gathers the connexion parameters :
 }
 ```
 
-### slaves section
+## slaves section
 
 For most common situations, minimalistic configurations are possible :
 
@@ -59,6 +57,9 @@ For most common situations, minimalistic configurations are possible :
     }
 }
 ```
+It is possible to have 2 equipments of the same model on the bus, as long as you take care to give them each a unique modbus identifier. 
+It is enough to use different names: PM6RTD-1 and PM6RTD-2 for example, but the model **MUST** appear in the hardware name.
+
 The promux key permits to autoconfigure the target module.
 
 module type | value of the promux field
@@ -93,3 +94,11 @@ Below is transcripted what could be a complete configuration for a PM8TC :
     "scales":[1,0.1,0.1]}
 }
 ```
+## bus section
+
+The bus section is a table listing the names of the equipments in activity on the bus. 
+
+```
+bus = [ "PM6RTD", "PM8TC" ]
+```
+With such a bus section, the modbus service will only retrieve datas coming from the PM6RTD and from the PM8TC. 
