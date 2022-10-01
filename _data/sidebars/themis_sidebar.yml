@@ -30,22 +30,6 @@ entries:
       url: /Themis_SIM.html
       output: web
      
-  - title: daily use
-    output: web
-    folderitems:
-    
-    - title: discover the long range wireless sensors
-      url: /long_range_sensors.html
-      output: web
-    
-    - title: inputs historization in timeseries
-      url: /historization.html
-      output: web
-      
-    - title: psychrographic diagrams
-      url: /psy.html
-      output: web
-  
   - title: configuration
     output: web
     folderitems:
@@ -61,7 +45,23 @@ entries:
     - title: managing conf files
       url: /conf.html
       output: web
+
+  - title: daily use
+    output: web
+    folderitems:
+    
+    - title: discover the long range wireless sensors
+      url: /long_range_sensors.html
+      output: web
+    
+    - title: inputs historization in timeseries
+      url: /historization.html
+      output: web
       
+    - title: psychrographic diagrams
+      url: /psy.html
+      output: web
+       
   - title: hardware
     output: web
     folderitems:
