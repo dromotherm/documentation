@@ -1,5 +1,5 @@
 ---
-title: software architecture and core services
+title: software architecture
 sidebar: themis_sidebar
 toc: false
 permalink: architecture.html
