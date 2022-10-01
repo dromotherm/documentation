@@ -55,8 +55,10 @@ To remove the service :
 make uninstall name=modbus
 ```
 
-Supposing you already operate a RTU bus on your THEMIS machine and you want to interrogate a PLC using the modbus TCP protocol. systemd will not permit you to create a second service named modbus, so you have to give a `label` argument to modbus.py.
+Supposing you already operate a RTU bus on your THEMIS machine and you want to interrogate a PLC using the modbus TCP protocol. 
+Systemd will not permit you to create a second service named modbus, so you have to give a `label` argument to the makefile.
 
+Create a conf file mixing the word modbus and the target label :
 ```
 ./modbus.py --conf=modbustcp.conf --mode=tcp
 ```
