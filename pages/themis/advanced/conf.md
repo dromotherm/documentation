@@ -13,7 +13,7 @@ THEMIS/BIOS is using **PROMUX** modbus modules :
 - PM8TC for thermocouples
 - PM16DI to collect digital boolean signals (high/low, open/closed, on/off)
 
-To autodiscover which devices are on which bus, a tool is available.
+To autodiscover which devices are on a bus, a tool is available.
 
 ```
 cd /opt/openenergymonitor/BIOS/hardware
