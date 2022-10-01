@@ -71,3 +71,25 @@ A more complex configuration can be achieved in order to describe for each uniti
 - which registers to read
 - how to format payloads for the MQTT broker
 
+To refine the configuration of a module/node, you can add :
+
+- a unique datacode ("datacode" key) or an array of datacodes ("datacodes" key) with as many elements as we have registers to read
+- an array of names to be used in the MQTT publication process ("names" key)
+- a multiplier coefficient ("scale" key) or a table of multiplier coefficients ("scales" key)
+
+Please note :
+- the default datacode is h, ie 16 bits signed integer
+- the default multiplier coefficient is 1
+
+Below is transcripted what could be a complete configuration for a PM8TC :
+
+```
+"PM8TC": {
+    "id":1,
+    "promux": 4,
+    "registers": [0,1,2],
+    "names": ["serial","TC_1","TC_2"],
+    "datacode":"h",
+    "scales":[1,0.1,0.1]}
+}
+```
