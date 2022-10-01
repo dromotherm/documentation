@@ -36,7 +36,7 @@ The common section gathers the connexion parameters :
 
 ## slaves section
 
-For most common situations, minimalistic configurations are possible :
+For most common situations, a minimalistic configuration is possible :
 
 ```
 "slaves": {
