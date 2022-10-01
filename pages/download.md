@@ -3,7 +3,7 @@ title: themis images
 sidebar: themis_sidebar
 permalink: download.html
 ---
-## download
+## download and burn on SD
 
 {% include note.html content="these are big files, so be patient :-)" %}
 
@@ -20,6 +20,7 @@ xz -d -v file_name.img.xz
 ```
 Run `sudo apt install xz-utils` to install xz on debian/ubuntu
 
+{% include tip.html content="To burn on a SD card, use [Balena Etcher](https://www.balena.io/etcher)" %}
 
 ## resizing partitions
 
@@ -27,16 +28,14 @@ Run `sudo apt install xz-utils` to install xz on debian/ubuntu
 
 The process is quite straightforward, and gparted will make all moving and resizing operations easy
 
-## web interface
-
-{% include tip.html content="Download, unzip and burn on a blank SD card using [Balena Etcher](https://www.balena.io/etcher)" %}
+## first step
 
 If you have a Themis machine, checkout [how to replace the SD](Themis_change_SD) 
 
 If you don't have a Themis machine, insert the SD in a raspberry PI3 (or 4), connect to your box and boot, that's all...
 
-Assuming the raspberry is attributed the address 192.168.1.37 :
-- to access to Themis, browse `http://192.168.1.37`
-- to access to NodeRED (if preinstalled on the image), browse `https://192.168.1.37:1880`
+Assuming the raspberry is attributed the address 192.168.1.37, browse `http://192.168.1.37` tpo access to THEMIS
 
 ![](BIOS_welcome_screen.png)
+
+To access to NodeRED (if preinstalled on the image), browse `https://192.168.1.37:1880`
