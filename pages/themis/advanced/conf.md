@@ -42,9 +42,21 @@ For most common situations, minimalistic configurations are possible :
 
 ```
 "slaves": {
-    "PM6RTD": {"id": 0, "promux": 1, "mode": "input"},
-    "PM8TC": {"id": 1, "promux": 4, "mode": "input"},
-    "PM16DI": {"id":2, "promux": 1, "mode": "discrete"}
+    "PM6RTD": {
+        "id": 0,
+        "promux": 1,
+        "mode": "input"
+    },
+    "PM8TC": {
+        "id": 1,
+        "promux": 4,
+        "mode": "input"
+    },
+    "PM16DI": {
+        "id":2,
+        "promux": 1,
+        "mode": "discrete"
+    }
 }
 ```
 The promux key permits to autoconfigure the target module.
