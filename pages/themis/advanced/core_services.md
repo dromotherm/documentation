@@ -68,4 +68,4 @@ make install name=modbus label=tcp mode=tcp
 
 To remove : `make uninstall name=modbus label=tcp` or simply `make uninstall name=modbustcp`
 
-**As far as TCP mode is concerned, please not you have to adjust the IP address and the port number in the common section of the conf file.**
+**As far as TCP mode is concerned, please note you have to adjust the IP address and the port number in the common section of the conf file.**
