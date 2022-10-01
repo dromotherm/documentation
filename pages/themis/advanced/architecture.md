@@ -22,4 +22,4 @@ At a regular time step (300s by default), the feedwriter service reads the redis
 
 As already mentionned, please note that injecting last values monitored into the redis database is part of the whole cycle processing.
 
-[FOR MORE DETAILS](https://github.com/dromotherm/sandbox/blob/master/bios/servicesEN.md)
+[FOR MORE **TECHNICAL** DETAILS](https://github.com/dromotherm/sandbox/blob/master/bios/servicesEN.md)
