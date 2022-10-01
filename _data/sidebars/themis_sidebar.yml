@@ -54,12 +54,12 @@ entries:
       url: /architecture.html
       output: web
     
-    - title: 169 Mhz radio service
-      url: /radio.html
+    - title: 169 Mhz radio and modbus services
+      url: /core_services.html
       output: web
     
-    - title: modbus services
-      url: /modbus.html
+    - title: managing conf files
+      url: /conf.html
       output: web
       
   - title: hardware
