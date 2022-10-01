@@ -12,7 +12,7 @@ When receiving new datas from sensors, the hardware service (ota2, modbus, emonh
 
 When a json payload is received from the broker, the emoncms_mqtt service updates the `lastvalue` hash and the `buffer` sorted set in redis.
 
-At a regular time step (300s by default), the feedwriter service read the redis buffer and updates the binary feeds. 
+At a regular time step (300s by default), the feedwriter service reads the redis buffer and updates the binary feeds. 
 
 ![architecture](schema.svg)
 
@@ -31,6 +31,13 @@ cd /opt/openenergymonitor/BIOS2/hardware
 ```
 
 ### over the air (ota) radio service
+
+On the enless radio receiver, adjust the position of the DIP switches as follow :
+
+- DIP1 : 1,2,3,4 OFF **5,6 ON**
+- DIP2 : 1,2,3 OFF
+
+Connect the receiver to the emonpi/BIOS machine via USB and install the service :
 
 ```
 make install name=ota2
