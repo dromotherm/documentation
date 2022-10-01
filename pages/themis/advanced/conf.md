@@ -11,9 +11,9 @@ The edition can be done using the emoncms web interface, through the emoncms BIO
 # modbus
 
 THEMIS/BIOS is using promux modbus modules :
-- the PM6RTD for PT100,
-- the PM8TC for thermocouples
-- the PM16DI to collect digital boolean signals (high/low, open/closed, on/off)
+- PM6RTD for PT100,
+- PM8TC for thermocouples
+- PM16DI to collect digital boolean signals (high/low, open/closed, on/off)
 
 To autodiscover which devices are on which bus, a tool is available.
 
