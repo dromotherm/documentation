@@ -4,7 +4,6 @@ sidebar: themis_sidebar
 permalink: core_services.html
 ---
 
-## installing and removing hardware services
 
 All the sofware you need is preinstalled on the SD card but by default, THEMIS is in standby mode.
 
@@ -16,7 +15,7 @@ To achieve this, just establish a SSH connection and move to the hardware folder
 cd /opt/openenergymonitor/BIOS2/hardware
 ```
 
-### over the air (ota) radio service
+## over the air (ota) radio service
 
 On the enless radio receiver, adjust the position of the DIP switches as follow :
 
@@ -38,7 +37,7 @@ To remove the radio service :
 ```
 make uninstall name=ota2
 ```
-### modbus RTU and TCP sniffer
+## modbus RTU and TCP sniffer
 
 Just launch modbus.py to create a sample conf file : 
 
