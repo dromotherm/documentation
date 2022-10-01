@@ -46,11 +46,11 @@ entries:
       url: /psy.html
       output: web
   
-  - title: advanced use
+  - title: configuration
     output: web
     folderitems:
       
-    - title: understanding the architecture
+    - title: architecture and services
       url: /architecture.html
       output: web
       
