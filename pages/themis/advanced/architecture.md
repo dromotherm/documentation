@@ -1,5 +1,5 @@
 ---
-title: software architecture
+title: software architecture and services
 sidebar: themis_sidebar
 permalink: architecture.html
 ---
