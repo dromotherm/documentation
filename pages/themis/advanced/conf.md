@@ -8,7 +8,7 @@ All THEMIS/BIOS specific conf files are stored in `/etc/conf/bios`
 
 The edition can be done using the emoncms web interface, through the emoncms BIOS module, which is preinstalled on the SD card
 
-# modbus
+## modbus
 
 THEMIS/BIOS is using promux modbus modules :
 - PM6RTD for PT100,
@@ -24,7 +24,7 @@ python3 promuxDiscovery.py
 
 The modbus.conf file is structured in 3 sections : common, bus and slaves
 
-## common section
+### common section
 
 The common section gathers the connexion parameters :
 
@@ -36,7 +36,7 @@ The common section gathers the connexion parameters :
 }
 ```
 
-## slaves section
+### slaves section
 
 For most common situations, minimalistic configurations are possible :
 
