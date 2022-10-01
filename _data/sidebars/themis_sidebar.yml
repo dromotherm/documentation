@@ -42,7 +42,7 @@ entries:
       url: /core_services.html
       output: web
     
-    - title: managing conf files
+    - title: modbus conf file
       url: /conf.html
       output: web
 
