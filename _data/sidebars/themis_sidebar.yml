@@ -98,10 +98,6 @@ entries:
       url: /Themis_DLCF_boiler_room.html
       output: web
       
-  - title: misc
-    output: web
-    folderitems:
-    
-    - title: 169 Mhz radio to modbus
-      url: /radio2modbus.html
+    - title: the dromotherm research demonstrator
+      url: https://www.dromotherm.com/2022/07/instru1/
       output: web
