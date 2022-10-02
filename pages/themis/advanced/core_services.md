@@ -42,7 +42,7 @@ make uninstall name=ota2
 Just launch modbus.py to create a sample conf file : 
 
 - `./modbus.py --mode=tcp` in TCP mode
-- simply `./modbus.py` or `./modbus.py --mode=rtu` in RTU mode
+- `./modbus.py --mode=rtu` or simply `./modbus.py` in RTU mode
 
 To install the service :
 
