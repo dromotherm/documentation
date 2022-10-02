@@ -58,6 +58,14 @@ In this example, you can command **five** 3-way valves plus **one** pump, all co
 - mod stands for modbus/TS485 protocol
 - gpio stands for direct gpio connexion using wiringpi or gpiozero libraries 
 
+## check the connection of the internal relay module on the gpio
+
+```
+cd /opt/openenergymonitor/BIOS2/tests
+python3 relayzero.py
+```
+Switches the first 8 relays ON and OFF
+
 ## how to connect a 3-way valve
 
 It is quite easy to command a ON/OFF actuator such as a pump with a relay but the case of 3 way valves is a little more delicate.
