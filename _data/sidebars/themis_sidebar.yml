@@ -45,6 +45,10 @@ entries:
     - title: modbus conf file
       url: /conf.html
       output: web
+      
+    - title: man machine interface
+      url: /ihm.html
+      output: web
 
   - title: daily use
     output: web
