@@ -101,4 +101,4 @@ The bus section is a table listing the names of the equipments in activity on th
 ```
 bus = [ "PM6RTD", "PM8TC" ]
 ```
-With such a bus section, the modbus service will only retrieve datas coming from the PM6RTD and from the PM8TC. 
+With such a bus section, the modbus service will only retrieve datas coming from the (PM6RTD, id=0) and from the (PM8TC, id=1). 
