@@ -99,5 +99,5 @@ entries:
       output: web
       
     - title: the dromotherm research demonstrator
-      url: https://www.dromotherm.com/2022/07/instru1/
+      external_url: https://www.dromotherm.com/2022/07/instru1/
       output: web
