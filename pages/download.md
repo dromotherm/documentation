@@ -28,11 +28,11 @@ Run `sudo apt install xz-utils` to install xz on debian/ubuntu
 
 The process is quite straightforward, and gparted will make all moving and resizing operations easy
 
-## first step
+## first steps
 
 If you have a Themis machine, checkout [how to replace the SD](Themis_change_SD) 
 
-If you don't have a Themis machine, insert the SD in a raspberry PI3 (or 4), connect to your box and boot, that's all...
+If you don't have a Themis machine, insert the SD in a raspberry PI3 (or 4), connect to your internet box and boot, that's all...
 
 Assuming the raspberry is attributed the address 192.168.1.37, browse `http://192.168.1.37` tpo access to THEMIS
 
