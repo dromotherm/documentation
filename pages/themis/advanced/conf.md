@@ -76,7 +76,7 @@ To refine the configuration of a module/node, you can add :
 
 - a unique datacode ("datacode" key) or an array of datacodes ("datacodes" key) with as many elements as we have registers to read
 - an array of names to be used in the MQTT publication process ("names" key)
-- a multiplier coefficient ("scale" key) or a table of multiplier coefficients ("scales" key)
+- a multiplier coefficient ("scale" key) or an array of multiplier coefficients ("scales" key)
 
 Please note :
 - the default datacode is h, ie 16 bits signed integer
