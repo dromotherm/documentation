@@ -30,7 +30,7 @@ make uninstall name=ihm
 
 ## configuration file
 
-The following configuration has got the classic gpio/pinout parameters and the ability to command two relays via a DO module. Please note the ihm service search automatically for the first DO module connected on the RTU bus so you do not have to fix an id.
+The following configuration has got the classic gpio/pinout parameters and the ability to command two relays via a DO module. Please note the ihm service searches automatically for the first DO module connected on the RTU bus so you do not have to fix any id.
 
 The `nb*` keys permit to define how many actuators are available through the man machine interface. 
 
