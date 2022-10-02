@@ -3,12 +3,12 @@ title: Overview - what is Themis ?
 sidebar: themis_sidebar
 permalink: Themis_overview.html
 toc: false
-summary: Themis is dedicated to the monitoring of large tertiary buildings. Themis is short for THermic and Energetic MonItoring System.
+summary: Themis is dedicated to the management of energy in large tertiary buildings. Themis is short for THermic and Energetic MonItoring System as it started as a monitoring system only. It can now act as a full Building Management System (BMS) and the system is now referred to as THEMIS/BIOS, the BIOS acronym standing for Building Intelligent Operating System .
 ---
 
 ![the basic kit](basic_kit.jpg)
 
-## the Themis basic kit
+## the Themis basic monitoring kit
 ### indoor temperature and humidity sensors (x10) plus outside temperature sensor (x1)
 
 ![TRH sensors](TRH_indoor_outside.jpg)
