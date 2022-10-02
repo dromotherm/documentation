@@ -32,7 +32,7 @@ make uninstall name=ihm
 
 The following configuration has got the classic gpio/pinout parameters and the ability to command two relays via a DO module. Please note the ihm service search automatically for the first DO module connected on the RTU bus so you do not have to fix an id.
 
-The `nb*`keys permit to define how many actuators are available through the man machine interface. 
+The `nb*` keys permit to define how many actuators are available through the man machine interface. 
 
 In this example, you can command **five** 3-way valves plus **one** pump, all connected to the gpio, and no actuator will be available through the modbus/RS485 protocol. 
 
@@ -58,18 +58,18 @@ In this example, you can command **five** 3-way valves plus **one** pump, all co
 - mod stands for modbus/TS485 protocol
 - gpio stands for direct gpio connexion using wiringpi or gpiozero libraries 
 
-## how to connect a 3 way valve
+## how to connect a 3-way valve
 
-It is quite easy to manage a ON/OFF actuator such as a pump with a relay but the case of 3 way valves is more delicate.
+It is quite easy to command a ON/OFF actuator such as a pump with a relay but the case of 3 way valves is a little more delicate.
 
-### with BIOS gpio integrated relay module
+3 use cases are covered in the following schematics :
+
+- via BIOS gpio integrated relay module
+- via a promux PM4RO external module
+- via a digital output external module (promux PM16DO or PM8DIO)
 
 ![](bios_relay.svg)
 
-### on a promux PM4RO external module
-
 ![](promux_finder.svg)
-
-### on a digital output external module (PM16DO or PM8DIO)
 
 ![](promuxDO2finder.svg)
