@@ -55,7 +55,7 @@ In this example, you can command **five** 3-way valves plus **one** pump, all co
 **Legend :**
 - res stands for on/off equipment
 - v3v stands for 3-way valve
-- mod stands for modbus/TS485 protocol
+- mod stands for modbus/RS485 protocol
 - gpio stands for direct gpio connexion using wiringpi or gpiozero libraries 
 
 ## check the connection of the internal relay module on the gpio
