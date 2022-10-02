@@ -37,7 +37,7 @@ To remove the radio service :
 ```
 make uninstall name=ota2
 ```
-## modbus RTU and TCP sniffer
+## modbus RTU/TCP sniffer
 
 Just launch modbus.py to create a sample conf file : 
 
