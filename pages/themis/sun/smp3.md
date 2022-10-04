@@ -32,7 +32,7 @@ Install the Kipp and Zonen Smart Explorer software, and connect to the device
 
 ![KZSE](smart_explorer_1.png)
 
-### configuration for connection to the Themis RS485 bus
+### configuration
 
 As the Enless radio receiver is the slave number 1 on the Themis RS485 bus, we have to change the SMP3 modbus ID.
 We can use the following settings :
@@ -58,7 +58,7 @@ To fix the configuration in the SMP :
 
 ![fix3](smart_explorer_update.png)
 
-### Connection to the Themis RS485 bus
+### Connection to a RS485 bus
 
 ![fix1](connect_to_SR303.jpg)
 
