@@ -1,9 +1,8 @@
 ---
-title: using a SMP3 pyranometer
+title: using a SMP3 pyranometer to monitor infrared radiation
 sidebar: themis_sidebar
 permalink: Themis_smp3.html
 ---
-## Using a SMP3 pyranometer to monitor infrared radiation
 
 The Kipp and Zonen [SMP3-V](https://www.kippzonen.com/Product/201/SMP3-Pyranometer#.XncyLCODM2w) measures the infrared radiation 
 (from 300 to 3000 nm). It is a full modbus device.
