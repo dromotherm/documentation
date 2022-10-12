@@ -5,6 +5,9 @@
   * Linux Kernel 5.15.32-v8+ / aarch64
 
   * 16 Gb cards SANDISK
+  
+  * python 3.9.2
+  * gcc version 10.2.1
 
   * apache 2.4.53-1~deb11u1 (apt show apache2)
   * PHP 7.4.28 (php --version)
