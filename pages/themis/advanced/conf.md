@@ -53,6 +53,7 @@ For most common situations, a minimalistic configuration is possible :
     "PM16DI": {
         "id":2,
         "promux": 1,
+        "register": 0,
         "mode": "discrete"
     }
 }
@@ -60,7 +61,13 @@ For most common situations, a minimalistic configuration is possible :
 It is possible to have 2 equipments of the same model on the bus, as long as you take care to give them each a unique modbus identifier. 
 It is enough to use different names: PM6RTD-1 and PM6RTD-2 for example, but the model **MUST** appear in the hardware name.
 
-The promux key permits to autoconfigure the target module.
+The `promux` key permits to autoconfigure the target module.
+
+You can add a `register` key to specify at which address to start reading. 
+
+Default value for the `register` key is 1 : 
+- when reading input registers, like PM6RTD or PM8TC, with an offset of 30001, reading will start at register 30002. 
+- when reading discrete registers with a PM6DI, with `"register": 0`, reading will start at address 10001  
 
 module type | value of the promux field
 --|--
