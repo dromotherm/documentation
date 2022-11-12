@@ -136,7 +136,7 @@ Define a static DHCP lease for the HIOKI, using its MAC address :
 
 ![smartflex LAN conf](HIOKI_smartflex_LAN_conf.jpg)
 
-use the specific Hioki socket interfacer for emonhub :
+use the specific Hioki socket interfacer for emonhub, https://github.com/alexandrecuer/emonhub/blob/themis_python3/src/interfacers/EmonHiokiTcpInterfacer.py :
 
 ```
 [[HiokiTCP]]  
