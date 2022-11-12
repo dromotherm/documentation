@@ -29,13 +29,4 @@ Datas recorded to feeds can be easily processed by well known python frameworks 
 
 ![logos](logos.png)
 
-A specific library named [PyFina](https://pypi.org/project/PyFina/) has been developped for that purpose. However, Themis embeds some algorithms on the field :
-
-- a vizualisation tool for creating **psychrometric** diagrams, to appreciate the thermal comfort of a room
-- an algorithm dedicated to the calculation of **infiltration losses** on a building
-
-![inf](INFLOSSES.png) 
- 
-
-
-
+A specific library named [PyFina](https://pypi.org/project/PyFina/) has been developped for that purpose.
