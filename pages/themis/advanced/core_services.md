@@ -30,12 +30,12 @@ During the installation process, this conf file will be copied by the makefile t
 Install the service with the makefile :
 
 ```
-make install name=ota2
+make install ota2
 ```
 To remove the radio service :
 
 ```
-make uninstall name=ota2
+make uninstall ota2
 ```
 ## modbus RTU/TCP sniffer
 
@@ -46,13 +46,13 @@ Just launch modbus.py to create a sample conf file :
 
 To install the service :
 
-- `make install name=modbus` in RTU mode
-- `make install name=modbus mode=tcp` in TCP mode
+- `make install modbus` in RTU mode
+- `make install modbus mode=tcp` in TCP mode
 
 To remove the service :
 
 ```
-make uninstall name=modbus
+make uninstall modbus
 ```
 
 Supposing you already operate a RTU bus on your THEMIS machine and you want to interrogate a PLC using the modbus TCP protocol. 
@@ -66,10 +66,10 @@ Create a conf file with a name mixing the word `modbus` and the target label, he
 To install, A SINGLE INSTRUCTION :
 
 ```
-make install name=modbus label=tcp mode=tcp
+make install modbus label=tcp mode=tcp
 ```
 
-To remove : `make uninstall name=modbus label=tcp` or simply `make uninstall name=modbustcp`
+To remove : `make uninstall modbus label=tcp` or simply `make uninstall name=modbustcp`
 
 {% include note.html content="**As far as TCP mode is concerned, please note you have to adjust the IP address and the port number in the common section of the conf file.**" %}
 
