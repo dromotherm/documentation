@@ -20,9 +20,6 @@ Themis uses different python services for most operations related to connectivit
 
 To monitor in realime electric consumption, Themis uses [emonhub](http://github.com/openenergymonitor/emonhub), which is maintained by the emoncms developers
 
-We maintain a specific version of emonhub including a specific interfacer to manage ethernet sockets on a **HIOKI 8204-20** datalogger
-
-
 ## data processing
 
 Datas recorded to feeds can be easily processed by well known python frameworks : numpy and tensorflow.
