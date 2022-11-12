@@ -19,13 +19,13 @@ cd /opt/openenergymonitor/BIOS2/hardware
 ```
 Then install with the makefile :
 ```
-make install name=ihm
+make install ihm
 ```
 
 To uninstall :
 
 ```
-make uninstall name=ihm
+make uninstall ihm
 ```
 
 ## configuration file
