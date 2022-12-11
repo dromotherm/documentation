@@ -20,7 +20,7 @@ The room supplies 6 hot water circuits, each using a a 3-way valve and a pump fo
 
 The building heated by this boiler room dates from the 1970/80s, with no insulation, a large number of metal doors and a roof seal to be reworked.
 
-Around 2005, a Sofrel s500 PLC had been installed as a modbus master for the 3 Sauter EQJ controllers, each one managing 2 hot water circuits.
+Around 2010, a Sofrel s500 PLC had been installed to control the boilers, but its configuration has not been properly achieved.
 
 PLC : {{site.data.glossary.PLC}}
 
@@ -28,19 +28,21 @@ Even though there is a specific software named Softools to control the PLC, it c
 The Softools software is only necessary to program the device from scratch, and once programming is done, you can network it freely, which is essential for interoperability. 
 This is valid with all modbus TCP hardware.
 
-### Production optimization
+## outdoor temperature
 
 During the year 2017, a Davis vantage weather station was connected to the Sofrel, as the temperature sensors associated with the Sauter controllers seemed overly optimistic during intense cold spells.
 
 ![DAVIS weather station](vantage_DAVIS.jpg)
 
-Nota : the outdoor temperature monitored by a sensor fixed on the wall of the building is different from the outdoor temperature that can be monitored by the "open field" sensor of a meteostation. The sensor on the building benefits from the heat of the building. In a meteostation, the sensor is protected and should represent the real outdoor temperature, not a temporary "heat" feeling. 
-It can make sense to control a circuit serving a south wing with an outdoor temperature sensor positioned on the south wall, and to control a circuit serving a north wing with an outdoor temperature sensor positioned on the north wall. Same with east and west...
+The outdoor temperature monitored by a sensor fixed on the wall of the building is different from the outdoor temperature that can be monitored by the "open field" sensor of a meteostation. The sensor on the building benefits from the heat of the building. In a meteostation, the sensor is protected and should represent the real outdoor temperature, not a temporary "heat" feeling. 
+Anyway, it can make sense to control a circuit serving a south wing with an outdoor temperature sensor positioned on the south wall, and to control a circuit serving a north wing with an outdoor temperature sensor positioned on the north wall. Same with east and west...
 
-The Davis vantage weather station is a 868Mhz radio device coming with a [modbus RS485 bridge](manuel_6537_F_ver10ct.pdf) which we decide to translate 
-in modbus IP via a [HMS AB7007 Anybus gateway](https://www.anybus.com/fr/support/file-doc-downloads/communicator-specific/?ordercode=AB7007), for easy integration into the Sofrel S500. The Davis vantage was defined as a slave device (or external PLC) within the S500.
+The Davis vantage weather station is a 868Mhz radio device coming with a [modbus RS485 bridge](manuel_6537_F_ver10ct.pdf) which we connected to the RS485 bus of Themis/BIOS. As Themis/BIOS can act as a modbus forwarding server, thanks to pymodbus3, all datas coming from the weather station can be easily routed to the Sofrel S500. You just need to define Themis/BIOS as an external PLC within the S500 and to specify the registers to query.
 
-As the Sofrel was powerful enough to also regulate the hot water production within the primary collector, a software cascade was implemented at the beginning of the 2017/2018 winter season.
+
+## Production optimization
+
+A software cascade was implemented on the Sofrel at the beginning of the 2017/2018 winter season.
 In order to achieve this, new modulating burners were installed on the boilers, that can be controlled by a 0/10V or 4/20 mA analog signal.
 
 ![SOFREL configuration](SOFREL_confc.svg)
@@ -53,7 +55,7 @@ With a new PID onboard, the Sofrel was now able to supervise the production of h
 Anyway, the functioning of the circuits was far from optimal and it is still very hard to heat the building properly...
 
 
-### Circuits supply optimization
+## Circuits supply optimization
 
 Tipically, the water temperature in each circuit is defined by the Sauter controllers using a linear function of the outdoor temperature, measured by wired sensors.
 
@@ -83,7 +85,7 @@ Patents registered on this subject can be found on epo.org :
 
 The implementation of Batisense with its long-range indoor comfort sensors (169 Mhz) was a very exciting experience, even if, from an operational point of view, using a model from the cloud to manage distribution on the field is not that pragmatic: it has to be recalibrated constantly.
 
-### Collecting datasets...
+## Collecting datasets...
 
 By the end of 2019, we decided to install a complete monitoring separate from Batisense, which is patented and not really designed to exchange data in a 'opensource' manner. The purpose of this second monitoring is to collect a full dataset to train a neural network in a reinforcement-learning manner.
 
@@ -118,57 +120,10 @@ Cellules|Nord|Sous-sol|Sud|Est|Ouest
 5.19|6.5|4.2|2.6|1.38|1.1
 
 
-## Anybus AB7007
-
-[Anybus Communicator Manager (ACM)](hms-scm-1204-169.zip)
-
-in order to get the mac address of the module, once connected to a network with 192.168.4.3 as IP address, open a telnet session `telnet 192.169.4.3` and issue the command `version`
-
-```
-HMS AnyBus-S Ethernet module
-Admin mode, no login required
-
-\> version
-HMS AnyBus-S Ethernet module
-
-Software version:   3.03.01
-Bootloader version: 2.00.02
-Serial number:      0xA0340CD9
-MAC address:        00-30-11-1D-C9-2E
-FB type:            0x0083
-
-\>
-
-```
-
-9600 bit/s
-, 8 databits
-, Parity : none
-, stopbits : 1
-, RS232
-
-### Anybus IPconf for operation with smartflex
-
-![Anybus IPconf for operation with smartflex](Anybus_IPconfig_on_smartflex.png)
-
-### Anybus node configuration for VANTAGE interrogation
-
-![Anybus node configuration for VANTAGE interrogation](Anybus_subnetwork_details_configuration.png)
-
-### Anybus configuration files
-
-[cfg+cfx files for Anybus 7007 - operation on themis machine DLCF boiler room - 10/12/2019](VANTAGE_HMS_10_12_2019.zip)
-
-![Anybus download upload conf files](Anybus_download_upload.png)
-
 ## Sofrel S500
 
 ![SOFREL planning chauffe](planning_non_chauffage.png)
 
-[switching SAUTER controllers to autopilot from SOFREL](SAUTER_auto_mode.pdf)
-
 [SOFREL backup file to recreate the configuration](S500_10_12_2019.ica)
 
 [SOFREL registers list](registres_modbus_afterEICwork.ods)
-
-
