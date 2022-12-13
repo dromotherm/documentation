@@ -18,7 +18,7 @@ The room supplies 6 hot water circuits, each using a a 3-way valve and a pump fo
 
 ![schema](sch_BR_DLCF.svg)
 
-The building heated by this boiler room dates from the 1970/80s, with no insulation, a large number of metal doors and a roof seal to be reworked.
+The building heated by this boiler room dates from the 1970/80s, with little insulation, a large number of metal doors and a roof seal to be reworked.
 
 Around 2010, a Sofrel s500 PLC had been installed to control the boilers, but its configuration has not been properly achieved.
 
@@ -73,11 +73,15 @@ Therefore, if you want to maintain an indoor temperature of 20°C, the theory is
 water_t = 1.5 * (20 - t_ext) + 20
 ```
 
-The cell circuit (in green on the following map) is the most difficult to regulate, being too long, not insulated and supplying prefabricated offices from the 80s that were quickly added to the laboratory building : tin walls, no crawl space, inproperly sized heaters.
+The cell circuit (in green on the following map) is the most difficult to regulate, being too long, not insulated and supplying prefabricated offices from the 80s that were quickly added to the laboratory building : tin walls, no crawl space, improperly sized heaters.
 
 ![heating network view](heating_network_DLCFd.png)
 
-The circuits regulation was traditionally achieved with night and weekend "reductions", which is a very common practise in the world of heating engineers....This requires to connect indoor temperature sensors to the controllers operating the "reductions". Thus, a setpoint for the indoor temperature can be defined and during nigths or weekends, the "reduction" mode is activated as long as the indoor temperature is above this setpoint...
+The regulation was traditionally achieved with night and weekend "reductions", which is a very common practise in the world of heating engineers....
+
+The reduction acts as a layer of insulation, which you decide to activate when outdoor temperature is below a specific threshold.
+
+This requires to connect indoor temperature sensors to the controllers operating the "reductions". Thus, a setpoint for the indoor temperature can be defined and during nigths or weekends, the "reduction" mode is activated as long as the indoor temperature is above this setpoint...
 
 But most of the time, indoor temperature sensors are not implemented !
 
