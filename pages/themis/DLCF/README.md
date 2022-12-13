@@ -77,9 +77,11 @@ The cell circuit (in green on the following map) is the most difficult to regula
 
 ![heating network view](heating_network_DLCFd.png)
 
-The regulation was traditionally achieved with night and weekend "reductions", which is a very common practise in the world of heating engineers....
+In poorly isolated buildings, the regulation is traditionally achieved with night and weekend "reductions", which is a very common practise in the world of heating engineers....
 
 The reduction acts as a layer of insulation, which you decide to activate when outdoor temperature is below a specific threshold.
+
+All of this involves setting the set point temperature for reduced operation, e.g. 15 or 10 °C, and the value of the outdoor temperature below which the process is triggered, e.g. 8 °C
 
 This requires to connect indoor temperature sensors to the controllers operating the "reductions". Thus, a setpoint for the indoor temperature can be defined and during nigths or weekends, the "reduction" mode is activated as long as the indoor temperature is above this setpoint...
 
