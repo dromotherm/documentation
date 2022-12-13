@@ -83,14 +83,18 @@ The reduction acts as a layer of insulation, which you decide to activate when o
 
 All of this involves setting a set point temperature for reduced operation, e.g. 15 or 10 °C, and the value of the outdoor temperature below which the process is triggered, e.g. 8 °C
 
-When the building is empty, when the measured outdoor temperature or when the predicted outdoor temperature for the next 24 hours goes down under 8°C, the system starts to distribute water :
+When the building is empty and when the measured outdoor temperature or when the predicted outdoor temperature for the next 24 hours goes down under 8°C, the system starts to distribute water :
 ```
 water_t = 1.5 * (10- t_ext) + 10
 ```
 
-If you want to control the efficiency of the settings implemented in the water laws, you need to deploy indoor temperature sensors. Thus, a setpoint for the indoor temperature can be defined and during nigths or weekends, the "reduction" mode is activated as long as the indoor temperature is above this setpoint...
+If you want to control the efficiency of the settings implemented in the water laws, you need to deploy indoor temperature sensors. 
+When you start such an instrumentation, you notice that a particular circuit has significant hydraulic imbalances, 
+that there is a 3 degree difference between the side of the circuit closest to the boiler room and the one furthest away, 
+that some heaters are not working properly and that the valves of the thermostatic heads are seized. 
+In short, you start to re-adjust everything, but all this is long and laborious. 
+Digital technology does not solve anything, it only provides a means to point out certain problems. 
 
-But most of the time, indoor temperature sensors are not implemented !
 
 We decided in 2018 to test the Batisense solution, a prediction solution developed by the Probayes company, that schematizes the building as a set of electrical/thermal circuits in order to model its behavior.
 
