@@ -89,8 +89,10 @@ water_t = 1.5 * (10- t_ext) + 10
 ```
 
 If you want to control the efficiency of the settings implemented in the water laws, you need to deploy indoor temperature sensors. 
+A convenient solution is to use the long-range indoor comfort sensors (169 Mhz) associated to Themis.
+
 When you engage such an instrumentation, you start to notice that a particular circuit has significant hydraulic imbalances, 
-that there is a 3 degree difference between the side of the circuit closest to the boiler room and the one furthest away, 
+that there is a 3 degrees difference between the side of the circuit closest to the boiler room and the one furthest away, 
 that some heaters are not working properly and that the valves of the thermostatic heads are seized. 
 In short, you start to re-adjust everything, but all this is long and laborious. 
 Digital technology does not solve anything, it only provides a means to point out certain problems. 
