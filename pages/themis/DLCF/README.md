@@ -57,14 +57,21 @@ Anyway, the functioning of the circuits was far from optimal and it is still ver
 
 ## Circuits supply optimization
 
-Tipically, the water temperature in each circuit is defined by the Sauter controllers using a linear function of the outdoor temperature, measured by wired sensors.
+Tipically, the temperature of hot water injected in each circuit follows a linear function of the outdoor temperature, measured by wired sensors.
 
-Ext T	|Start Tcell|	Start Tnord	|Start Tsud|	Start Tsshall|Start Test|Start Touest
---|--|--|--|--|--|--
-20|30|30|30|20|25|25
--10|85|75|85|55|72|72
+```
+water_t : injected water temperature in °C
+t_c : indoor setpoint temperature in °C
+t_ext : outdoor measured temperature in °C
+pente : slope of the linear function - 1.5 is a common value
 
-All temperature are expressed in °C.
+water_t = pente * (t_c - t_ext) + t_c
+```
+
+Therefore, if you want to maintain an indoor temperature of 20°C, the theory is that the circuit temperature follows the above water law :
+```
+water_t = 1.5 * (20 - t_ext) + 20
+```
 
 The cell circuit (in green on the following map) is the most difficult to regulate, being too long, not insulated and supplying prefabricated offices from the 80s that were quickly added to the laboratory building.
 
