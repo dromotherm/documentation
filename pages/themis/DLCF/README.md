@@ -68,7 +68,7 @@ pente : slope of the linear function - 1.5 is a common value
 water_t = pente * (t_c - t_ext) + t_c
 ```
 
-Therefore, if you want to maintain an indoor temperature of 20°C, the theory is that the circuit temperature follows the above water law :
+Therefore, if you want to maintain an indoor temperature of 20°C, the theory is that the circuit temperature has to follow the above water law :
 ```
 water_t = 1.5 * (20 - t_ext) + 20
 ```
@@ -81,9 +81,14 @@ In poorly isolated buildings, the regulation is traditionally achieved with nigh
 
 The reduction acts as a layer of insulation, which you decide to activate when outdoor temperature is below a specific threshold.
 
-All of this involves setting the set point temperature for reduced operation, e.g. 15 or 10 °C, and the value of the outdoor temperature below which the process is triggered, e.g. 8 °C
+All of this involves setting a set point temperature for reduced operation, e.g. 15 or 10 °C, and the value of the outdoor temperature below which the process is triggered, e.g. 8 °C
 
-This requires to connect indoor temperature sensors to the controllers operating the "reductions". Thus, a setpoint for the indoor temperature can be defined and during nigths or weekends, the "reduction" mode is activated as long as the indoor temperature is above this setpoint...
+When the building is empty, when the measured outdoor temperature or when the predicted outdoor temperature for the next 24 hours goes down under 8°C, the system starts to distribute water :
+```
+water_t = 1.5 * (10- t_ext) + 10
+```
+
+If you want to control the efficiency of the settings implemented in the water laws, you need to deploy indoor temperature sensors. Thus, a setpoint for the indoor temperature can be defined and during nigths or weekends, the "reduction" mode is activated as long as the indoor temperature is above this setpoint...
 
 But most of the time, indoor temperature sensors are not implemented !
 
