@@ -28,9 +28,9 @@ Even though there is a specific software named Softools to control the PLC, it c
 The Softools software is only necessary to program the device from scratch, and once programming is done, you can network it freely, which is essential for interoperability. 
 This is valid with all modbus TCP hardware.
 
-## outdoor temperature
+## Outdoor temperature monitoring
 
-During the year 2017, a Davis vantage weather station was connected to the Sofrel, as the temperature sensors associated with the Sauter controllers seemed overly optimistic during intense cold spells.
+During the year 2017, a Davis vantage weather station was connected to the Sofrel, as the original temperature sensors of the boiler room seemed overly optimistic during intense cold spells.
 
 ![DAVIS weather station](vantage_DAVIS.jpg)
 
@@ -73,7 +73,7 @@ Therefore, if you want to maintain an indoor temperature of 20°C, the theory is
 water_t = 1.5 * (20 - t_ext) + 20
 ```
 
-The cell circuit (in green on the following map) is the most difficult to regulate, being too long, not insulated and supplying prefabricated offices from the 80s that were quickly added to the laboratory building.
+The cell circuit (in green on the following map) is the most difficult to regulate, being too long, not insulated and supplying prefabricated offices from the 80s that were quickly added to the laboratory building : tin walls, no crawl space, inproperly sized heaters.
 
 ![heating network view](heating_network_DLCFd.png)
 
