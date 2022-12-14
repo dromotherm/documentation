@@ -1,5 +1,5 @@
 ---
-title: config/tools DLCF boiler room
+title: DLCF boiler room
 sidebar: themis_sidebar
 permalink: Themis_DLCF_boiler_room.html
 ---
@@ -97,17 +97,6 @@ that some heaters are not working properly and that the valves of the thermostat
 In short, you start to re-adjust everything, but all this is long and laborious. 
 Digital technology does not solve anything, it only helps to identify the problems and to prioritize the concrete actions to be carried out. 
 
-
-We decided in 2018 to test the Batisense solution, a prediction solution developed by the Probayes company, that schematizes the building as a set of electrical/thermal circuits in order to model its behavior.
-
-![R3C2](R3C2_modelb.svg)
-
-Patents registered on this subject can be found on epo.org :
-[EP3291033A1](https://worldwide.espacenet.com/patent/search/family/057209577/publication/EP3291033A1)
- and 
-[EP2781976A1](https://worldwide.espacenet.com/patent/search/family/048656084/publication/EP2781976A1)
-
-The implementation of Batisense with its long-range indoor comfort sensors (169 Mhz) was a very exciting experience, even if, from an operational point of view, using a model from the cloud to manage distribution on the field is not that pragmatic: it has to be recalibrated constantly.
 
 ## Collecting datasets...
 
