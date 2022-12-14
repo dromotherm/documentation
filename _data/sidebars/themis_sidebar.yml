@@ -90,12 +90,16 @@ entries:
       url: /Themis_door_sensor.html
       output: web
 
-  - title: usecases
+  - title: on the field
     output: web
     folderitems:
 
     - title: full instrumentation of Cerema Clermont boiler room
       url: /Themis_DLCF_boiler_room.html
+      output: web
+      
+    - title: RC models for thermal modelisation of buildings
+      url: /RCmodels.html
       output: web
       
     - title: the dromotherm research demonstrator (in french:-)
