@@ -95,7 +95,7 @@ When you engage such an instrumentation, you start to notice that a particular c
 that there is a 3 degrees difference between the side of the circuit closest to the boiler room and the one furthest away, 
 that some heaters are not working properly and that the valves of the thermostatic heads are seized. 
 In short, you start to re-adjust everything, but all this is long and laborious. 
-Digital technology does not solve anything, it only helps us to identify the problems, which is important but be sure concrete actions have to be engaged next. 
+Digital technology does not solve anything, it only helps to identify the problems and to prioritize the concrete actions to be carried out. 
 
 
 We decided in 2018 to test the Batisense solution, a prediction solution developed by the Probayes company, that schematizes the building as a set of electrical/thermal circuits in order to model its behavior.
