@@ -90,7 +90,7 @@ entries:
       url: /Themis_door_sensor.html
       output: web
 
-  - title: on the field
+  - title: usecases
     output: web
     folderitems:
 
