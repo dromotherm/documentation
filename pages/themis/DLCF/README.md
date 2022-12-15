@@ -89,7 +89,11 @@ water_t = 1.5 * (10- t_ext) + 10
 ```
 
 If you want to control the efficiency of the settings implemented in the water laws, you need to deploy indoor temperature sensors. 
-A convenient solution is to use the long-range indoor comfort sensors (169 Mhz) associated to Themis.
+A convenient solution is to use the long-range indoor comfort sensors (169 Mhz) associated to Themis, i.e. [Enless 169 Mhz wireless Mbus sensors](TRH_recording.html)
+
+The structure of the building being very unfavourable to the propagation of radio waves (many walls and metal beams), a repeater was installed in order to guarantee a correct quality (RSSI close to -70 dBm almost everywhere).
+
+![RSSI](RSSI_Cerema.png)
 
 When you engage such an instrumentation, you start to notice that a particular circuit has significant hydraulic imbalances, 
 that there is a 3 degrees difference between the side of the circuit closest to the boiler room and the one furthest away, 
@@ -109,12 +113,6 @@ Themis is basically a TCPIP network organized around a nanocomputer, using a 4G 
 ![themis DLCF](Themis_DLCF_small.png)
 
 {% include note.html content="It's not really up to standards electrically speaking but it works :-)" %}
-
-For indoor temperature monitoring, Themis is using the same kind of sensors as Batisense, i.e. [Enless 169 Mhz wireless Mbus sensors](TRH_recording.html)
-
-The structure of the building being very unfavourable to the propagation of radio waves (many walls and metal beams), a repeater was installed in order to guarantee a correct quality (RSSI close to -70 dBm almost everywhere).
-
-![RSSI](RSSI_Cerema.png)
 
 For each circuit, the monitoring provides the following data :
 - water temperature at injection point
