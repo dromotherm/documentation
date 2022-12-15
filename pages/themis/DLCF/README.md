@@ -91,7 +91,7 @@ water_t = 1.5 * (10- t_ext) + 10
 If you want to control the efficiency of the settings implemented in the water laws, you need to deploy indoor temperature sensors. 
 A convenient solution is to use the long-range indoor comfort sensors (169 Mhz) associated to Themis, i.e. [Enless 169 Mhz wireless Mbus sensors](TRH_recording.html)
 
-In pour case, the structure of the building being very unfavourable to the propagation of radio waves (many walls and metal beams), a repeater was installed in order to guarantee a correct quality (RSSI close to -70 dBm almost everywhere).
+In our case, the structure of the building being very unfavourable to the propagation of radio waves (many walls and metal beams), a repeater was installed in order to guarantee a correct quality (RSSI close to -70 dBm almost everywhere).
 
 ![RSSI](RSSI_Cerema.png)
 
