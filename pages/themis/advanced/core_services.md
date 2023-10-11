@@ -19,12 +19,12 @@ cd /opt/openenergymonitor/BIOS2/hardware
 
 {% include note.html content="
 On the enless radio receiver, adjust the position of the DIP switches as follow :
-
-- DIP1 : 1,2,3,4 OFF **5,6 ON**
+<br><br>
+- DIP1 : 1,2,3,4 OFF **5,6 ON**<br>
 - DIP2 : 1,2,3 OFF
-
+<br>
 Connect the receiver to the emonpi/BIOS machine via USB.
-
+<br><br>
 Launch `./ota2.py` to create a `ota2.conf` file in the hardware folder."
 %}
 
