@@ -4,12 +4,11 @@ sidebar: themis_sidebar
 permalink: core_services.html
 ---
 
+A factory THEMIS machine is generally in standby mode.
 
-All the sofware you need is preinstalled on the SD card but by default, THEMIS is in standby mode.
+Once the THEMIS machine booted, you have to choose and activate the services you need.
 
-Once the THEMIS machine booted with a freshly burned SD card, you can choose and activate the services you need.
-
-To achieve this, just establish a SSH connection and move to the hardware folder service :
+Standalone python sniffers are in the hardware folder service, they can be run through docker containers :
 
 ```
 cd /opt/openenergymonitor/BIOS2/hardware
@@ -22,35 +21,34 @@ On the enless radio receiver, adjust the position of the DIP switches as follow 
 <br><br>
 - DIP1 : 1,2,3,4 OFF **5,6 ON**<br>
 - DIP2 : 1,2,3 OFF
-<br>
+<br><br>
 Power the receiver with the green power connector using a 12 or 24V power supply. If receiver is only powered through USB connector, it can be damaged.<br><br>
 Connect the receiver to the emonpi/BIOS machine via USB.
 <br><br>
-Launch `./ota2.py` to create a `ota2.conf` file in the hardware folder."
+Launch `python3 ota2.py` to create a `ota2.conf` file in the hardware folder."
 %}
-
-### using the makefile and systemd
-
-If you you want to manage the services through systemd, install the service with the makefile : `make install ota2`, and remove with : `make uninstall ota2`. Please note that during the installation process, the conf file is copied by the makefile to the `/etc/conf/bios` folder
 
 ## modbus RTU/TCP sniffer
 
 {% include tip.html content="
 Just launch modbus.py, it will create a sample conf file if it does not exist : 
 <br><br>
-- `./modbus.py --mode=tcp` in TCP mode<br>
-- `./modbus.py --mode=multitcp` if you plan to target multiple modbus TCP servers<br>
-- `./modbus.py --mode=rtu` or simply `./modbus.py` in RTU mode
+- `python3 modbus.py --mode=tcp` in TCP mode<br>
+- `python3 modbus.py --mode=multitcp` if you plan to target multiple modbus TCP servers<br>
+- `python3 modbus.py --mode=rtu` or simply `python3 modbus.py` in RTU mode
 <br><br>
-**As far as TCP mode is concerned, please note you have to adjust the IP address and the port number in the common section of the conf file.**" %}
+**As far as TCP mode is concerned, please note you have to adjust the IP address (field modbus_IP) and the port number (field tcp_port) in the conf file.**" %}
 
-### using the makefile and systemd
-If you want to manage your services through systemd, install the service with `make install modbus` in RTU mode or `make install modbus mode=tcp` in TCP mode. To remove the service : `make uninstall modbus`
+## using the makefile and systemd
 
-Supposing you already operate a RTU bus on your THEMIS machine and you want to interrogate a PLC using the modbus TCP protocol. Systemd will not permit you to create a second service named modbus, so you have to give a `label` argument to the makefile. Create a conf file with a name mixing the word `modbus` and the target label, here `tcp`:
+If you you want to manage the services through systemd, install the service with the makefile : `make install ota2`, and remove with : `make uninstall ota2`. Please note that during the installation process, the conf file is copied by the makefile to the `/etc/conf/bios` folder
+
+Same for modbus, install with `make install modbus` in RTU mode or `make install modbus mode=tcp` in TCP mode. To remove : `make uninstall modbus`
+
+Supposing you already operate a RTU bus on your THEMIS machine and want to interrogate a PLC using the modbus TCP protocol. Systemd will not permit you to create a second service named modbus, so you have to give a `label` argument to the makefile. Create a conf file with a name mixing the word `modbus` and the target label, here `tcp`:
 
 ```
-./modbus.py --conf=modbustcp.conf --mode=tcp
+python3 modbus.py --conf=modbustcp.conf --mode=tcp
 ```
 To install, A SINGLE INSTRUCTION : `make install modbus label=tcp mode=tcp`
 
