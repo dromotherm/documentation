@@ -30,7 +30,7 @@ Launch `python3 ota2.py` to create a `ota2.conf` file in the hardware folder."
 
 ## modbus RTU/TCP sniffer
 
-{% include tip.html content="
+{% include tip.html content="<br>
 Just launch modbus.py, it will create a sample conf file if it does not exist : 
 <br><br>
 - `python3 modbus.py --mode=tcp` in TCP mode<br>
