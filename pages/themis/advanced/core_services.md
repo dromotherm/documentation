@@ -8,11 +8,12 @@ A factory THEMIS machine is generally in standby mode.
 
 Once the THEMIS machine booted, you have to choose and activate the services you need.
 
-Standalone python sniffers are in the hardware folder service, they can be run through docker containers :
+Standalone python sniffers are in the hardware folder service :
 
 ```
 cd /opt/openenergymonitor/BIOS2/hardware
 ```
+A convenient way to run them is to use docker containers.
 
 ## over the air (ota) radio service
 
