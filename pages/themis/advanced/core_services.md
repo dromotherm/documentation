@@ -17,6 +17,7 @@ cd /opt/openenergymonitor/BIOS2/hardware
 
 ## over the air (ota) radio service
 
+{% include note.html content="
 On the enless radio receiver, adjust the position of the DIP switches as follow :
 
 - DIP1 : 1,2,3,4 OFF **5,6 ON**
@@ -24,50 +25,27 @@ On the enless radio receiver, adjust the position of the DIP switches as follow 
 
 Connect the receiver to the emonpi/BIOS machine via USB.
 
-Launch `./ota2.py` to create a `ota2.conf` file in the hardware folder.
-During the installation process, this conf file will be copied by the makefile to the `/etc/conf/bios` folder
+Launch `./ota2.py` to create a `ota2.conf` file in the hardware folder."
+%}
 
-Install the service with the makefile :
+If you you want to manage the services through systemd, install the service with the makefile : `make install ota2`, and remove the radio service with : `make uninstall ota2`. Please note that during the installation process, the conf file is copied by the makefile to the `/etc/conf/bios` folder
 
-```
-make install ota2
-```
-To remove the radio service :
-
-```
-make uninstall ota2
-```
 ## modbus RTU/TCP sniffer
 
 Just launch modbus.py to create a sample conf file : 
 
 - `./modbus.py --mode=tcp` in TCP mode
+- `./modbus.py --mode=multitcp` if you plan to target multiple modbus TCP servers 
 - `./modbus.py --mode=rtu` or simply `./modbus.py` in RTU mode
 
-To install the service :
+If you want to manage your services through systemd, install the service with `make install modbus` in RTU mode or `make install modbus mode=tcp` in TCP mode. To remove the service : `make uninstall modbus`
 
-- `make install modbus` in RTU mode
-- `make install modbus mode=tcp` in TCP mode
-
-To remove the service :
-
-```
-make uninstall modbus
-```
-
-Supposing you already operate a RTU bus on your THEMIS machine and you want to interrogate a PLC using the modbus TCP protocol. 
-Systemd will not permit you to create a second service named modbus, so you have to give a `label` argument to the makefile.
-
-Create a conf file with a name mixing the word `modbus` and the target label, here `tcp`:
+Supposing you already operate a RTU bus on your THEMIS machine and you want to interrogate a PLC using the modbus TCP protocol. Systemd will not permit you to create a second service named modbus, so you have to give a `label` argument to the makefile. Create a conf file with a name mixing the word `modbus` and the target label, here `tcp`:
 
 ```
 ./modbus.py --conf=modbustcp.conf --mode=tcp
 ```
-To install, A SINGLE INSTRUCTION :
-
-```
-make install modbus label=tcp mode=tcp
-```
+To install, A SINGLE INSTRUCTION : `make install modbus label=tcp mode=tcp`
 
 To remove : `make uninstall modbus label=tcp` or simply `make uninstall name=modbustcp`
 
