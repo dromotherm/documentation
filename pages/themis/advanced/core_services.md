@@ -17,12 +17,13 @@ cd /opt/openenergymonitor/BIOS2/hardware
 
 ## over the air (ota) radio service
 
-{% include tip.html content="
+{% include tip.html content="<br>
 On the enless radio receiver, adjust the position of the DIP switches as follow :
 <br><br>
 - DIP1 : 1,2,3,4 OFF **5,6 ON**<br>
 - DIP2 : 1,2,3 OFF
 <br>
+Power the receiver with the green power connector using a 12 or 24V power supply. If receiver is only powered through USB connector, it can be damaged.<br><br>
 Connect the receiver to the emonpi/BIOS machine via USB.
 <br><br>
 Launch `./ota2.py` to create a `ota2.conf` file in the hardware folder."
@@ -39,7 +40,7 @@ Just launch modbus.py, it will create a sample conf file if it does not exist :
 <br><br>
 - `./modbus.py --mode=tcp` in TCP mode<br>
 - `./modbus.py --mode=multitcp` if you plan to target multiple modbus TCP servers<br>
-- `./modbus.py --mode=rtu` or simply `./modbus.py` in RTU mode"
+- `./modbus.py --mode=rtu` or simply `./modbus.py` in RTU mode
 <br><br>
 **As far as TCP mode is concerned, please note you have to adjust the IP address and the port number in the common section of the conf file.**" %}
 
