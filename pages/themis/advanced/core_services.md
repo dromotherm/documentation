@@ -4,10 +4,6 @@ sidebar: themis_sidebar
 permalink: core_services.html
 ---
 
-A factory THEMIS machine is generally in standby mode.
-
-Once the THEMIS machine booted, you have to choose and activate the services you need.
-
 Standalone python sniffers are in the hardware folder service :
 
 ```
