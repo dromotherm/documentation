@@ -4,10 +4,6 @@ sidebar: themis_sidebar
 permalink: conf.html
 ---
 
-As a reminder, all THEMIS/BIOS specific conf files are stored in `/etc/conf/bios`
-
-The edition can be done using the emoncms web interface, through the emoncms BIOS module, which is preinstalled on the SD card
-
 THEMIS/BIOS is using **PROMUX** modbus modules :
 - PM6RTD for PT100,
 - PM8TC for thermocouples
