@@ -1,8 +1,12 @@
 ---
-title: themis images
+title: Try themis
 sidebar: themis_sidebar
 permalink: download.html
 ---
+
+## CLOUD APPLICATION SERVER
+
+Use the [application server](https://emoncms.ddns.net/try) to launch a container
 
 ## DOCKER
 
@@ -19,8 +23,8 @@ docker pull alexjunk/emoncms
 ```
 
 More on :
-- https://hub.docker.com/r/alexjunk/emoncms
-- https://emoncms-docker.github.io
+- [docker hub](https://hub.docker.com/r/alexjunk/emoncms)
+- [https://emoncms-docker.github.io](https://emoncms-docker.github.io)
 
 ## LEGACY : download and burn on SD
 
@@ -39,13 +43,13 @@ Run `sudo apt install xz-utils` to install xz on debian/ubuntu
 
 {% include tip.html content="To burn on a SD card, use [Balena Etcher](https://www.balena.io/etcher)" %}
 
-## resizing partitions
+### resizing partitions
 
 **If using a 32 Gb card, use [gparted](https://gparted.org/) to extend filesystem**
 
 The process is quite straightforward, and gparted will make all moving and resizing operations easy
 
-## first steps
+### first steps
 
 If you have a Themis machine, checkout [how to replace the SD](Themis_change_SD) 
 
