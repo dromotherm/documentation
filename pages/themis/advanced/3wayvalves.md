@@ -24,7 +24,7 @@ This is not an industrial solution but if you search for relay + arduino on amaz
 A small python code will help you to check the connections of the relay module on the GPIO.
 
 - in the `tests` folder of the BIOS2 directory,
-- run : `python3 relayzero.py` to switches the first 8 relays ON and OFF
+- run : `python3 relayzero.py` to switch the first 8 relays ON and OFF
 
 The next step is to connect a 3-way valve as following :
 
