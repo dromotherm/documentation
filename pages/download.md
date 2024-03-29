@@ -3,9 +3,26 @@ title: themis images
 sidebar: themis_sidebar
 permalink: download.html
 ---
-## download and burn on SD
 
-{% include note.html content="these are big files, so be patient :-)" %}
+## DOCKER
+
+**The recommanded way for Themis is to run as a set of docker containers.**
+
+Please get in touch if you want a full system !
+
+You can test the monitoring container on 3 architectures : `amd64`, `armv7` and `arm64`/`aarch64`
+
+You can run it on windows with WSL (Windows Subsystem for Linux) installed and [docker desktop](https://www.docker.com/products/docker-desktop/)
+
+```
+docker pull alexjunk/emoncms
+```
+
+More on :
+- https://hub.docker.com/r/alexjunk/emoncms
+- https://emoncms-docker.github.io
+
+## LEGACY : download and burn on SD
 
 date | link
 --|--
@@ -34,7 +51,7 @@ If you have a Themis machine, checkout [how to replace the SD](Themis_change_SD)
 
 If you don't have a Themis machine, insert the SD in a raspberry PI3 (or 4), connect to your internet box and boot, that's all...
 
-Assuming the raspberry is attributed the address 192.168.1.37, browse `http://192.168.1.37` to access to THEMIS
+Assuming the raspberry is attributed the address 192.168.1.37, browse `http://192.168.1.37` to access to THEMIS with this legacy version
 
 ![](BIOS_welcome_screen.png)
 
