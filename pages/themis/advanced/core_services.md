@@ -36,7 +36,7 @@ Just launch modbus.py, it will create a sample conf file if it does not exist :
 <br><br>
 **As far as TCP mode is concerned, please note you have to adjust the IP address (field modbus_IP) and the port number (field tcp_port) in the conf file.**" %}
 
-## using the makefile and systemd
+## LEGACY : using the makefile and systemd
 
 If you you want to manage the services through systemd, install the service with the makefile : `make install ota2`, and remove with : `make uninstall ota2`. Please note that during the installation process, the conf file is copied by the makefile to the `/etc/conf/bios` folder
 
