@@ -45,10 +45,6 @@ entries:
     - title: modbus conf file
       url: /conf.html
       output: web
-      
-    - title: man machine interface
-      url: /ihm.html
-      output: web
 
   - title: daily use
     output: web
@@ -72,6 +68,10 @@ entries:
       
     - title: measuring a fluid temperature
       url: /Themis_fluid_T_mes.html
+      output: web
+
+    - title: how to connect a 3-way valve
+      url: /3wayvalves.html
       output: web
       
     - title: add a self-made 1wire temperature sensor to the emonPI
