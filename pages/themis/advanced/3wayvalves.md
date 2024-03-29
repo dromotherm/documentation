@@ -4,7 +4,7 @@ sidebar: themis_sidebar
 permalink: 3wayvalves.html
 ---
 
-## how to connect a 3-way valve
+## Modbus
 
 It is quite easy to command a ON/OFF actuator such as a pump with a relay but the case of 3 way valves is a little more delicate.
 
@@ -17,6 +17,14 @@ It is quite easy to command a ON/OFF actuator such as a pump with a relay but th
 
 ![](promuxDO2finder.svg)
 
-## using a relay module connected to the GPIO
+## Using a relay module connected to the GPIO
 
 ![](bios_relay.svg)
+
+A small python code will help you to check the connections :
+
+```
+cd /opt/openenergymonitor/BIOS2/tests
+python3 relayzero.py
+```
+Switches the first 8 relays ON and OFF
