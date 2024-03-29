@@ -4,6 +4,8 @@ sidebar: themis_sidebar
 permalink: ihm.html
 ---
 
+**ALL THIS IS LEGACY :-)**
+
 The THEMIS/BIOS softwares can be installed on an [emonpi](https://shop.openenergymonitor.com/emonpi/) or on a specific BIOS hardware. 
 
 On both of these hardwares, the man machine interface is very basic and consists of a 2 lines LCD screen plus a push button.
@@ -56,28 +58,4 @@ In this example, you can command **five** 3-way valves plus **one** pump, all co
 - res stands for on/off equipment
 - v3v stands for 3-way valve
 - mod stands for modbus/RS485 protocol
-- gpio stands for direct gpio connexion using wiringpi or gpiozero libraries 
-
-## internal relay module - autocheck gpio connection
-
-```
-cd /opt/openenergymonitor/BIOS2/tests
-python3 relayzero.py
-```
-Switches the first 8 relays ON and OFF
-
-## how to connect a 3-way valve
-
-It is quite easy to command a ON/OFF actuator such as a pump with a relay but the case of 3 way valves is a little more delicate.
-
-3 use cases are covered in the following schematics :
-
-- via BIOS gpio integrated relay module
-- via a promux PM4RO external module
-- via a digital output external module (promux PM16DO or PM8DIO)
-
-![](bios_relay.svg)
-
-![](promux_finder.svg)
-
-![](promuxDO2finder.svg)
+- gpio stands for direct gpio connexion using wiringpi or gpiozero libraries
