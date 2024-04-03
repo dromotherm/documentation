@@ -21,7 +21,7 @@ folder: learn
             {% endfor %}</span>
         <p>  
           {% if post.summary %} 
-            {{ post.summary | strip_html | strip_newlines | truncate: 160 }} {% else %} {{ post.content | truncatewords: 50 | strip_html }} 
+            {{ post.summary | strip_html | strip_newlines | truncate: 160 }}
           {% endif %}
         </p>
 
