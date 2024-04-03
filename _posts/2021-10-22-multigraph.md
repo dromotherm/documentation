@@ -2,9 +2,6 @@
 title:  "Construire un multigraphe puis un diagramme psychrométrique"
 published: true
 permalink: multigraph.html
-image: images/post7/psychro.png
-summary: "L'interface THEMIS permet de réaliser des analyses de données, en particulier des diagrammes psychrométriques."
-tags: [learn, get_started, themis]
 ---
 
 ## Le multigraphe
