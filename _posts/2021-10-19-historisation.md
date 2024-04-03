@@ -32,10 +32,12 @@ Cela peut être le n° de bureau ou de logement instrumenté par exemple.
 
 ## Arrêt de l’enregistrement 
 
+L’arrêt de l’historisation se fait dans l'onglet inputs. 
+
 Il suffit de de cliquer sur la clé à molette au niveau de l'input, puis on jette le process à la poubelle. 
 
 Si on veut poursuivre la récupération des données de ce capteur sous la forme d’un autre flux (changement de localisation du capteur par exemple), on en recrée un nouveau dans la foulée en suivant la procédure ci-dessus.
 
-A noter : on ne perd les données enregistrées que quand on supprime un flux, ce qui se fait dans l'onglet feeds. 
+On ne perd les données enregistrées que quand on supprime un flux, ce qui se fait dans l'onglet feeds. 
 
-L’arrêt de l’historisation se fait dans l'onglet inputs. 
+
