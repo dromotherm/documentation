@@ -1,5 +1,5 @@
 ---
-title:  "Comment effacer des valeurs aberrantes"
+title:  "Effacer des valeurs aberrantes"
 published: true
 permalink: correct_feeds.html
 ---
