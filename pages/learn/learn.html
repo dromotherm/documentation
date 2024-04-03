@@ -15,12 +15,13 @@ folder: learn
         {% if post.image %}
             <img class="docimage" src="{{post.image}}"><br>
         {% endif %}
-        <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }} /
+        <p>  
+          {% if post.summary %}
+            <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }} /
             {% for tag in post.tags %}
                 <a href="{{ "tag_" | append: tag | append: ".html"}}">{{tag}}</a>{% unless forloop.last %}, {% endunless%}
-            {% endfor %}</span>
-        <p>  
-          {% if post.summary %} 
+            {% endfor %}
+            </span>
             {{ post.summary | strip_html | strip_newlines | truncate: 160 }}
           {% endif %}
         </p>
