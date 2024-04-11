@@ -27,23 +27,10 @@ toc: false
              <div class="panel panel-default">
                  <div class="panel-heading">News</div>
                  <div class="panel-body">
-                     <ul>
-                     <a href="https://twitter.com/CarnotClimAdapt/status/1463420286506786819" class="btn btn-primary">
-                         THEMIS aux rendez-vous Carnot 2021<br>cité des congrès de Lyon
-                     </a>
-                     </ul>
-                 </div>
-                 <div class="panel-heading">THEMIS latest image</div>
-                 <div class="panel-body">
-                     <ul>
-                     If you want to update your THEMIS machine or to test the Themis ecosystem without the Themis hardware, you can download a ready-to-use image.
-                     <br><br>
-                     <a href="download" class="btn btn-primary">Browse images</a>
                      <br><br>
                      If you don't have any sensor, you can configure Themis to collect datas from an opensource network.
                      <br><br>
                      <a href="OWMwithThemis.html" class="btn btn-primary">Monitor meteo with openweathermap</a>
-                     </ul>
                  </div>
              </div>
          </div>
