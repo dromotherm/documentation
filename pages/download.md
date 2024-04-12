@@ -6,7 +6,7 @@ permalink: download.html
 
 ## CLOUD APPLICATION SERVER
 
-Use the [application server](https://emoncms.ddns.net/try) to launch a container
+Use the [application server](https://emoncms.dromotherm.com/try) to launch a container
 
 ## DOCKER
 
