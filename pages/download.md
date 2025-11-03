@@ -4,10 +4,6 @@ sidebar: themis_sidebar
 permalink: download.html
 ---
 
-## CLOUD APPLICATION SERVER
-
-Use the [application server](https://emoncms.dromotherm.com/try) to launch a container
-
 ## DOCKER
 
 **The recommanded way for Themis is to run as a set of docker containers.**
